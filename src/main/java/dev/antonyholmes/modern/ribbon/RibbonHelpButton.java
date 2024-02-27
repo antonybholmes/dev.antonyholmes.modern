@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.ribbon;
 import java.io.IOException;
 import java.net.URISyntaxException;
 
-import dev.antonyholmes.modern.ribbon.QuickAccessButton;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButton;
 import dev.antonyholmes.modern.event.ModernClickEvent;

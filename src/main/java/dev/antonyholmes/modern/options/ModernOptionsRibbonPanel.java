@@ -37,7 +37,6 @@ import org.jebtk.core.settings.SettingsService;
 import org.jebtk.core.text.TextUtils;
 import org.jebtk.core.tree.TreeNode;
 import org.jebtk.core.tree.TreePath;
-import dev.antonyholmes.modern.options.ModernSettingsTableModel;
 
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.event.ModernSelectionListener;

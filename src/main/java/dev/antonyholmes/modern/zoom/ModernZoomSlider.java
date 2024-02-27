@@ -36,11 +36,6 @@ import javax.swing.Timer;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
-import dev.antonyholmes.modern.zoom.Zoom;
-import dev.antonyholmes.modern.zoom.ZoomEvents;
-import dev.antonyholmes.modern.zoom.ZoomInEvents;
-import dev.antonyholmes.modern.zoom.ZoomModel;
-import dev.antonyholmes.modern.zoom.ZoomOutEvents;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;

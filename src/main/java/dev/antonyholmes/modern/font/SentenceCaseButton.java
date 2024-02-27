@@ -31,7 +31,6 @@ import java.awt.Dimension;
 
 import org.jebtk.core.text.SentenceCase;
 import org.jebtk.core.text.SentenceCaseType;
-import dev.antonyholmes.modern.font.ModernClickEvents;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;

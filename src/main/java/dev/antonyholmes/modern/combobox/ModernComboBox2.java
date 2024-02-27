@@ -49,11 +49,6 @@ import javax.swing.event.DocumentListener;
 import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.event.ChangeListeners;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.combobox.ComboBoxDrawUI;
-import dev.antonyholmes.modern.combobox.ComponentEvents;
-import dev.antonyholmes.modern.combobox.MouseEvents;
-import dev.antonyholmes.modern.combobox.MouseMotionEvents;
-import dev.antonyholmes.modern.combobox.PopupClickActions;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernWidget;

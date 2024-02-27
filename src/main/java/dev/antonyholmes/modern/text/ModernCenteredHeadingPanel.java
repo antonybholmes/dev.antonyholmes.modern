@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.text;
 
 import java.awt.Color;
 
-import dev.antonyholmes.modern.text.ModernCenteredLabelPanel;
-
 import dev.antonyholmes.modern.ModernWidget;
 
 /**

@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.tooltip;
 
-import dev.antonyholmes.modern.tooltip.ToolTipLevel;
-import dev.antonyholmes.modern.tooltip.ToolTipService;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButton;
 import dev.antonyholmes.modern.dialog.ModernDialogButton;

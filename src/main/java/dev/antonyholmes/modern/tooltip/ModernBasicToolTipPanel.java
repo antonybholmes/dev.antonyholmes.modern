@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.tooltip;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 
-import dev.antonyholmes.modern.tooltip.ModernToolTip;
-import dev.antonyholmes.modern.tooltip.ModernToolTipPanel;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.text.ModernLabel;
 import dev.antonyholmes.modern.text.ModernLabelBold;

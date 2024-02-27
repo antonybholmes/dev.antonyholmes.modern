@@ -29,10 +29,6 @@ package dev.antonyholmes.modern.tree;
 
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.tree.ModernBranchClosedVectorIcon;
-import dev.antonyholmes.modern.tree.ModernBranchOpenVectorIcon;
-import dev.antonyholmes.modern.tree.ModernTreeNodeRenderer;
-
 import dev.antonyholmes.modern.graphics.ImageUtils;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 import dev.antonyholmes.modern.graphics.icons.RasterIcon;

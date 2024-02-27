@@ -3,7 +3,6 @@ package dev.antonyholmes.modern.button;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.button.ModernButton;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.HoverFadeAnimation;

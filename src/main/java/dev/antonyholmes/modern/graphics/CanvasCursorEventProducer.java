@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.graphics;
 
-import dev.antonyholmes.modern.graphics.CanvasCursorEvent;
-import dev.antonyholmes.modern.graphics.CanvasCursorListener;
-
 /**
  * For classes that generate ModernClickEvents.
  *

@@ -11,9 +11,6 @@ import javax.swing.border.Border;
 
 import org.jebtk.core.ColorUtils;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.theme.DrawUIService;
-import dev.antonyholmes.modern.theme.MaterialService;
-import dev.antonyholmes.modern.theme.MaterialUtils;
 
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.ModernComponent;

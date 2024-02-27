@@ -27,8 +27,6 @@ ColorSwatchButton.java * Copyright (C) 2016, Antony Holmes
  */
 package dev.antonyholmes.modern.ribbon;
 
-import dev.antonyholmes.modern.ribbon.RibbonCheckButton;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 // TODO: Auto-generated Javadoc

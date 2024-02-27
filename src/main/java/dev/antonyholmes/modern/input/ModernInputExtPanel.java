@@ -35,8 +35,6 @@ import java.util.Collection;
 import javax.swing.Box;
 
 import org.jebtk.core.text.Join;
-import dev.antonyholmes.modern.input.InputExtDialog;
-import dev.antonyholmes.modern.input.ModernInputPanel;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.BorderService;

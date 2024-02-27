@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern;
 
-import dev.antonyholmes.modern.SelectionRangeModel;
-
 // TODO: Auto-generated Javadoc
 /**
  * The component contains an accessible selection model.

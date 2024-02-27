@@ -31,8 +31,6 @@ import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JComponent;
 
-import dev.antonyholmes.modern.text.ModernSubHeadingLabel;
-
 import dev.antonyholmes.modern.panel.ModernPanel;
 
 /**

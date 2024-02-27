@@ -29,10 +29,6 @@ package dev.antonyholmes.modern.status;
 
 import javax.swing.SwingUtilities;
 
-import dev.antonyholmes.modern.status.StatusEvent;
-import dev.antonyholmes.modern.status.StatusEventListener;
-import dev.antonyholmes.modern.status.StatusService;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.text.ModernAutoSizeLabel;

@@ -67,8 +67,6 @@ import org.jebtk.core.io.PathUtils;
 import org.jebtk.core.settings.SettingsService;
 import org.jebtk.core.sys.OpSys;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.AssetService;
-import dev.antonyholmes.modern.DeviceConfig;
 
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 import dev.antonyholmes.modern.window.ModernWindowTitleBarStyle;

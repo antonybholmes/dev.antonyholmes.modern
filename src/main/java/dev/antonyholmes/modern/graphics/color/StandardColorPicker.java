@@ -32,7 +32,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.jebtk.core.collections.CollectionUtils;
-import dev.antonyholmes.modern.graphics.color.ColorPicker;
 
 /**
  * The class StandardColorPicker.

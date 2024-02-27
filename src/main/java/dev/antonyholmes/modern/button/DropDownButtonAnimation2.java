@@ -1,7 +1,5 @@
 package dev.antonyholmes.modern.button;
 
-import dev.antonyholmes.modern.button.ButtonFillAnimation;
-
 import dev.antonyholmes.modern.ModernWidget;
 
 public class DropDownButtonAnimation2 extends ButtonFillAnimation {

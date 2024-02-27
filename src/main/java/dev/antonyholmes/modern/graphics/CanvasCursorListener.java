@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.graphics;
 
 import java.util.EventListener;
 
-import dev.antonyholmes.modern.graphics.CanvasCursorEvent;
-
 // TODO: Auto-generated Javadoc
 /**
  * Adapted mouse listener for the canvas.

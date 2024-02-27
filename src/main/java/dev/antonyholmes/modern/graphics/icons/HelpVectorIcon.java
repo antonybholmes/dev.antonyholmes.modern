@@ -32,7 +32,6 @@ import java.awt.GradientPaint;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.ModernMessageIcon;
 
 import dev.antonyholmes.modern.graphics.ImageUtils;
 import dev.antonyholmes.modern.theme.ThemeService;

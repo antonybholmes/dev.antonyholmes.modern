@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.history;
 
-import dev.antonyholmes.modern.history.ModernHistoryListBasicCellRenderer;
-import dev.antonyholmes.modern.history.ModernHistoryListCellRenderer;
-
 import dev.antonyholmes.modern.event.ModernSelectionEventProducer;
 import dev.antonyholmes.modern.list.ModernList;
 import dev.antonyholmes.modern.list.ModernListModel;

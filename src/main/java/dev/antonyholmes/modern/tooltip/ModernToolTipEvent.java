@@ -31,8 +31,6 @@ import java.awt.Component;
 import java.awt.Point;
 
 import org.jebtk.core.event.Event;
-import dev.antonyholmes.modern.tooltip.ModernToolTipListener;
-import dev.antonyholmes.modern.tooltip.ToolTipLevel;
 
 /**
  * The class ModernToolTipEvent.

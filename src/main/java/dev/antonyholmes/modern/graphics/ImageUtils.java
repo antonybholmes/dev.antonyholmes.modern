@@ -44,8 +44,6 @@ import org.jebtk.core.collections.CollectionUtils;
 import org.jebtk.core.geom.DoubleDim;
 import org.jebtk.core.geom.IntDim;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.graphics.AAMode;
-import dev.antonyholmes.modern.graphics.AAModes;
 
 /**
  * ImageUtils provides methods for dealing with graphics and image objects.

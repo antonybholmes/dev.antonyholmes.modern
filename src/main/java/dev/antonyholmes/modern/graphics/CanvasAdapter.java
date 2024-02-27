@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.graphics;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.graphics.CanvasListener;
 
 /**
  * The class ModernCanvasAdapter.

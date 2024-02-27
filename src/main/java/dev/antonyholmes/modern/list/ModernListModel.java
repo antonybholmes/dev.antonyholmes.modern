@@ -40,7 +40,6 @@ import org.jebtk.core.collections.CollectionUtils;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.io.Io;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.list.ModernListModel;
 
 import dev.antonyholmes.modern.dataview.ModernDataViewEventProducer;
 import dev.antonyholmes.modern.dataview.ModernDataViewListener;

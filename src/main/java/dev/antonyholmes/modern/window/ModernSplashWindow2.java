@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.window;
 
 import java.awt.Color;
 
-import dev.antonyholmes.modern.window.ModernWindow;
-
 import dev.antonyholmes.modern.help.GuiAppInfo;
 
 /**

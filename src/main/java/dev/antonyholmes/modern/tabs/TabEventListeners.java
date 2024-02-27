@@ -28,9 +28,6 @@
 package dev.antonyholmes.modern.tabs;
 
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabEventListener;
-import dev.antonyholmes.modern.tabs.TabEventProducer;
 
 /**
  * The basis for model controls in a model view controller setup.

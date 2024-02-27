@@ -42,8 +42,6 @@ import org.jebtk.core.json.JsonObject;
 import org.jebtk.core.json.JsonRepresentation;
 import org.jebtk.core.sys.SysUtils;
 import org.jebtk.core.xml.XmlRepresentation;
-import dev.antonyholmes.modern.graphics.colormap.AnchorColors;
-import dev.antonyholmes.modern.graphics.colormap.ColorMap;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

@@ -6,8 +6,6 @@ import org.jebtk.core.Props;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.combobox.ModernComboBox;
-import dev.antonyholmes.modern.combobox.ModernComboBox2;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.button.ButtonAltFillAnimation;

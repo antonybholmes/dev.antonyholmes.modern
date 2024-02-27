@@ -15,8 +15,6 @@
  */
 package dev.antonyholmes.modern.scrollpane;
 
-import dev.antonyholmes.modern.scrollpane.ScrollWidget;
-
 /**
  * The Class ModernVertWidget is designed for scrollable widgets showing
  * vertical content.

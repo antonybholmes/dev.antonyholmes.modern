@@ -28,9 +28,6 @@
 package dev.antonyholmes.modern.status;
 
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.status.StatusEvent;
-import dev.antonyholmes.modern.status.StatusEventListener;
-import dev.antonyholmes.modern.status.StatusEventProducer;
 
 /**
  * The basis for model controls in a model view controller setup.

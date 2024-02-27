@@ -7,9 +7,6 @@ package dev.antonyholmes.modern.graphics;
 import java.awt.image.BufferedImage;
 import java.awt.image.Kernel;
 
-import dev.antonyholmes.modern.graphics.ConvolveFilter;
-import dev.antonyholmes.modern.graphics.ImageUtils;
-
 /**
  * A filter which applies Gaussian blur to an image. This is a subclass of
  * ConvolveFilter which simply creates a kernel with a Gaussian distribution for

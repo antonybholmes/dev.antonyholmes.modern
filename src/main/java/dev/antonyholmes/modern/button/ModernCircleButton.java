@@ -1,8 +1,5 @@
 package dev.antonyholmes.modern.button;
 
-import dev.antonyholmes.modern.button.ButtonStyle;
-import dev.antonyholmes.modern.button.ModernButton;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 public class ModernCircleButton extends ModernButton {

@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.window;
 
 import javax.swing.SwingUtilities;
 
-import dev.antonyholmes.modern.window.ModernWindow;
-
 import dev.antonyholmes.modern.event.ModernClickEvent;
 import dev.antonyholmes.modern.event.ModernClickListener;
 

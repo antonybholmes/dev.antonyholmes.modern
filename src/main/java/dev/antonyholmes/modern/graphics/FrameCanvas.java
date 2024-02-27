@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.graphics;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.graphics.ContainerCanvas;
-import dev.antonyholmes.modern.graphics.ModernCanvas;
-
 import dev.antonyholmes.modern.ModernWidget;
 
 /**

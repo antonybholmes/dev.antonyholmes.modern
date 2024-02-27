@@ -32,11 +32,6 @@ import java.util.Map;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.ribbon.Ribbon;
-import dev.antonyholmes.modern.ribbon.RibbonModeProperty;
-import dev.antonyholmes.modern.ribbon.RibbonSection;
-import dev.antonyholmes.modern.ribbon.RibbonSize;
-
 import dev.antonyholmes.modern.panel.HBox;
 
 // TODO: Auto-generated Javadoc

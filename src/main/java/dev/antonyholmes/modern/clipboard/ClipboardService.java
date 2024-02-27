@@ -39,11 +39,6 @@ import javax.swing.JTable;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.text.Join;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.clipboard.Clipboard;
-import dev.antonyholmes.modern.clipboard.ClipboardEventListeners;
-import dev.antonyholmes.modern.clipboard.ClipboardService;
-import dev.antonyholmes.modern.clipboard.ClipboardServiceLoader;
-import dev.antonyholmes.modern.clipboard.ClipboardUI;
 
 /**
  * Provides a centralised mechanism for registering controls to send and receive

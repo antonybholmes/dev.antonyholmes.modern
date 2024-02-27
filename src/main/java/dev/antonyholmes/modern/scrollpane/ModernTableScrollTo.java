@@ -28,8 +28,6 @@
 package dev.antonyholmes.modern.scrollpane;
 
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.scrollpane.ModernScrollBar;
-import dev.antonyholmes.modern.scrollpane.ModernScrollPane;
 
 /**
  * Determines what happens when the component requests a scrollto action.

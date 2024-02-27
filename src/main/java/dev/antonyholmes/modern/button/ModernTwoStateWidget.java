@@ -35,10 +35,6 @@ import java.awt.event.MouseEvent;
 import javax.swing.AbstractAction;
 import javax.swing.KeyStroke;
 
-import dev.antonyholmes.modern.button.ActionEvents;
-import dev.antonyholmes.modern.button.ModernButtonWidget;
-import dev.antonyholmes.modern.button.MouseEvents;
-
 /**
  * For widgets that can toggle between a selected and unselected state.
  * 

@@ -17,8 +17,6 @@ package dev.antonyholmes.modern.panel;
 
 import java.awt.Component;
 
-import dev.antonyholmes.modern.panel.HBox;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 

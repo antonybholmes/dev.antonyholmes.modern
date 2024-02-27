@@ -35,8 +35,6 @@ import javax.swing.SwingUtilities;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
-import dev.antonyholmes.modern.help.HelpAutoCompleteBox;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.menu.ModernMenuItem;

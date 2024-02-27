@@ -18,8 +18,6 @@ package dev.antonyholmes.modern.ribbon;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.ribbon.Ribbon;
-import dev.antonyholmes.modern.ribbon.RibbonSegmentVertTabs;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.WidgetAnimation;

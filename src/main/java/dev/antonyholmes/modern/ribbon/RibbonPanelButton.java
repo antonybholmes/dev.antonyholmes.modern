@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.ribbon;
 import java.awt.Font;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.ribbon.RibbonButton;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;

@@ -30,10 +30,6 @@ package dev.antonyholmes.modern.graphics;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.graphics.ContainerCanvas;
-import dev.antonyholmes.modern.graphics.DrawingContext;
-import dev.antonyholmes.modern.graphics.ModernCanvas;
-
 /**
  * Draws the canvas over a colored background.
  * 

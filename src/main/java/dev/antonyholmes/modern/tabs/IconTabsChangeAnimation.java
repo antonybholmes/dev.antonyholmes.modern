@@ -20,10 +20,6 @@ import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.tabs.IconTabs;
-import dev.antonyholmes.modern.tabs.IconTabsIconAnimation;
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabEventAdapter;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.FadeAnimation;

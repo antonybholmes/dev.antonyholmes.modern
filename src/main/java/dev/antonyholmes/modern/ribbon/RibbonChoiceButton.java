@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.ribbon;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.ribbon.Ribbon;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernRadioButton;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;

@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.dialog;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.dialog.ModernDialogTaskWindow;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButtonGroup;
 import dev.antonyholmes.modern.button.ModernRadioButton;

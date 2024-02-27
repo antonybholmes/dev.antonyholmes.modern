@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.status;
 
-import dev.antonyholmes.modern.status.StatusEvent;
-import dev.antonyholmes.modern.status.StatusEventListeners;
-
 import dev.antonyholmes.modern.UI;
 
 /**

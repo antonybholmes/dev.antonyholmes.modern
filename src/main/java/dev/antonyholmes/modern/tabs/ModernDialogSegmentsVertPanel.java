@@ -17,11 +17,6 @@ package dev.antonyholmes.modern.tabs;
 
 import java.awt.Dimension;
 
-import dev.antonyholmes.modern.tabs.SegmentTabs;
-import dev.antonyholmes.modern.tabs.SegmentVertTabs;
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.TabsViewPanel;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.UI;
 

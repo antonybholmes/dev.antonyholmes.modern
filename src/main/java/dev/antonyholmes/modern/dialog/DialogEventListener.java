@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.dialog;
 
 import java.util.EventListener;
 
-import dev.antonyholmes.modern.dialog.DialogEvent;
-
 // TODO: Auto-generated Javadoc
 /**
  * The listener interface for receiving dialogEvent events. The class that is

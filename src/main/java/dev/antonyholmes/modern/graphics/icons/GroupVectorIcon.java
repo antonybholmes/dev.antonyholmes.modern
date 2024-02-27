@@ -32,7 +32,6 @@ import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.graphics.icons.ModernVectorIcon;
 
 /**
  * Group vector icon showing 3 colored balls spaced equally around a circle.

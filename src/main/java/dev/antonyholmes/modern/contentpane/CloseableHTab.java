@@ -31,10 +31,6 @@ import java.awt.Component;
 
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.contentpane.ClickEvents;
-import dev.antonyholmes.modern.contentpane.HTab;
-import dev.antonyholmes.modern.contentpane.ModernHContentPane;
-
 import dev.antonyholmes.modern.button.ModernButton;
 import dev.antonyholmes.modern.event.ModernClickEvent;
 import dev.antonyholmes.modern.event.ModernClickListener;

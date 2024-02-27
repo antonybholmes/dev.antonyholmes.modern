@@ -33,12 +33,6 @@ import java.net.URISyntaxException;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.window.CloseEvents;
-import dev.antonyholmes.modern.window.HelpEvents;
-import dev.antonyholmes.modern.window.ModernSplashHelpButton;
-import dev.antonyholmes.modern.window.ModernSplashTitleButton;
-import dev.antonyholmes.modern.window.ModernWindow;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButton;
 import dev.antonyholmes.modern.dialog.ModernDialogWindow;

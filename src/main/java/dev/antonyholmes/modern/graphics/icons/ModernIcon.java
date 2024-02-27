@@ -38,8 +38,6 @@ import java.net.URL;
 import org.jebtk.core.Props;
 import org.jebtk.core.geom.IntDim;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.graphics.icons.GrayScaleIcon;
-import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 import dev.antonyholmes.modern.graphics.ImageUtils;
 

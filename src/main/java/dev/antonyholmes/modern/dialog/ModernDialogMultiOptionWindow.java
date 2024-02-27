@@ -17,9 +17,6 @@ package dev.antonyholmes.modern.dialog;
 
 import javax.swing.JComponent;
 
-import dev.antonyholmes.modern.dialog.ModernDialogHelpWindow;
-import dev.antonyholmes.modern.dialog.ModernDialogTaskType;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

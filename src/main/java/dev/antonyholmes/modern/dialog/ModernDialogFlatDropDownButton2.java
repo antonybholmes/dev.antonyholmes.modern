@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.dialog;
 
-import dev.antonyholmes.modern.dialog.ModernOutlinedDialogButton2;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 import dev.antonyholmes.modern.menu.ModernPopupMenu2;
 

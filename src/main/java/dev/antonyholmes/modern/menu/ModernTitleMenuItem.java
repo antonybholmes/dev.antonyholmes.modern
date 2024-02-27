@@ -31,8 +31,6 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.menu.ModernMenuItem;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.theme.ThemeService;
 

@@ -15,8 +15,6 @@
  */
 package dev.antonyholmes.modern.scrollpane;
 
-import dev.antonyholmes.modern.scrollpane.ScrollComponent;
-
 /**
  * Should be subclassed by components that have vertically scrolling content.
  * 

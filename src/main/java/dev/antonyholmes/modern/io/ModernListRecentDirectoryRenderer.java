@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.io;
 
-import dev.antonyholmes.modern.io.ModernListRecentFileRenderer;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.graphics.icons.OpenFolderVectorIcon;
 

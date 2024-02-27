@@ -15,10 +15,6 @@
  */
 package dev.antonyholmes.modern.table;
 
-import dev.antonyholmes.modern.table.ModernRowTable;
-import dev.antonyholmes.modern.table.ModernTableCheckboxCellEditor;
-import dev.antonyholmes.modern.table.ModernTableCheckboxCellRenderer;
-
 /**
  * Table for listing items with the option to select them with a checkbox.
  * 

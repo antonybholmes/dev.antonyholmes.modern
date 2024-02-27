@@ -29,9 +29,6 @@ package dev.antonyholmes.modern.scrollpane;
 
 import java.awt.Component;
 
-import dev.antonyholmes.modern.scrollpane.ModernScrollBar;
-import dev.antonyholmes.modern.scrollpane.ModernTableScroller;
-
 import dev.antonyholmes.modern.dataview.ModernDataSelection;
 import dev.antonyholmes.modern.table.ModernTable;
 

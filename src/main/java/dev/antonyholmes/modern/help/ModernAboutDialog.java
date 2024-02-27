@@ -32,9 +32,6 @@ import java.io.IOException;
 import javax.swing.Box;
 
 import org.jebtk.core.Resources;
-import dev.antonyholmes.modern.help.GuiAppInfo;
-import dev.antonyholmes.modern.help.ModernAboutDialog;
-import dev.antonyholmes.modern.help.RibbonHelpLinkButton;
 
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButton;

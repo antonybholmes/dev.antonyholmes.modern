@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.io;
 
-import dev.antonyholmes.modern.io.CsvGuiFileFilter;
-import dev.antonyholmes.modern.io.GuiFileExtFilter;
-
 // TODO: Auto-generated Javadoc
 /**
  * The class CsvGuiFileFilter.

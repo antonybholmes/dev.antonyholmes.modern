@@ -32,8 +32,6 @@ import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.list.ModernList;
-import dev.antonyholmes.modern.list.ModernListCellRenderer;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernWidget;

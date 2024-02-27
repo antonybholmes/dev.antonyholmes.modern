@@ -29,11 +29,6 @@ package dev.antonyholmes.modern.tabs;
 
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabEventListener;
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.ViewPanel;
-
 /**
  * Provides a tab container for boilerpoint displaying of tabbed content.
  * 

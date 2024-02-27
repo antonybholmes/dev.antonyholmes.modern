@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.dataview;
 
-import dev.antonyholmes.modern.dataview.ModernDataCellRenderer;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 // TODO: Auto-generated Javadoc

@@ -37,9 +37,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 import javax.swing.JComponent;
 
-import dev.antonyholmes.modern.collapsepane.ModernCollapseEnableNodeRenderer;
-import dev.antonyholmes.modern.collapsepane.ModernCollapsePane;
-
 import dev.antonyholmes.modern.AssetService;
 
 /**

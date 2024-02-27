@@ -31,7 +31,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.dataview.ModernDataCell;
 
 import dev.antonyholmes.modern.SelectionRangeModel;
 import dev.antonyholmes.modern.event.ModernSelectionListener;

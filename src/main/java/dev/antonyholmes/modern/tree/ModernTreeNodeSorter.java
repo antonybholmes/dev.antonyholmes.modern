@@ -34,7 +34,6 @@ import java.util.List;
 import java.util.Map;
 
 import org.jebtk.core.tree.TreeNode;
-import dev.antonyholmes.modern.tree.ModernTreeNodeSorter;
 
 /**
  * The experiment tree can be sorted in multiple ways. Given a list of

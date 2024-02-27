@@ -6,8 +6,6 @@ import java.awt.Rectangle;
 
 import org.jebtk.core.ColorUtils;
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.scrollpane.ModernScrollBar;
-import dev.antonyholmes.modern.scrollpane.ModernVScrollBarMac;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.HoverFadeAnimation;

@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.ribbon;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.ribbon.RibbonDropDownButton2;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.event.ModernClickEvent;

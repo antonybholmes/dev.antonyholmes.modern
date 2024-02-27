@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.io;
 
 import java.io.File;
 
-import dev.antonyholmes.modern.io.GuiFileExtFilter;
-
 // TODO: Auto-generated Javadoc
 /**
  * The class EpsGuiFileFilter.

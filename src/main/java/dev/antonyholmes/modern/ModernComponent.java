@@ -50,13 +50,6 @@ import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.geom.IntRect;
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.BorderService;
-import dev.antonyholmes.modern.ComponentEvents;
-import dev.antonyholmes.modern.ModernComponent;
-import dev.antonyholmes.modern.ModernComponentAspectRatio;
-import dev.antonyholmes.modern.ModernComponentAspectRatioSquare;
-import dev.antonyholmes.modern.ModernComponentListeners;
-import dev.antonyholmes.modern.UI;
 
 import dev.antonyholmes.modern.css.CSSDrawUI;
 import dev.antonyholmes.modern.css.CSSKeyFrame;

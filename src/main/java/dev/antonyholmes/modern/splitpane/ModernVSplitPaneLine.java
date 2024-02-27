@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.splitpane;
 
-import dev.antonyholmes.modern.splitpane.VSplitPane;
-
 /**
  * The class ModernVSplitPaneLine.
  */

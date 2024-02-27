@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.dialog;
 
-import dev.antonyholmes.modern.dialog.ModernDialogTaskType;
-import dev.antonyholmes.modern.dialog.ModernDialogTaskWindow;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.event.ModernClickListener;
 import dev.antonyholmes.modern.panel.ModernContentPanel;

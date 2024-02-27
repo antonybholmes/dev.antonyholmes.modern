@@ -17,8 +17,6 @@ package dev.antonyholmes.modern.panel;
 
 import java.awt.Component;
 
-import dev.antonyholmes.modern.panel.HExpandBoxLayout;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.text.ModernAutoSizeLabel;
 

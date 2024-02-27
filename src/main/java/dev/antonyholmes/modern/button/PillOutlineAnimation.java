@@ -3,7 +3,6 @@ package dev.antonyholmes.modern.button;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.button.ButtonOutlineAnimation;
 
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.ModernWidget;

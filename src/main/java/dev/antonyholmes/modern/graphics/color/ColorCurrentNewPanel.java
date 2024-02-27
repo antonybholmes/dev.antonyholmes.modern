@@ -32,7 +32,6 @@ import java.awt.Graphics2D;
 import org.jebtk.core.ColorValue;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
-import dev.antonyholmes.modern.graphics.color.ColorSelectionModel;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

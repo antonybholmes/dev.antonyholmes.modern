@@ -36,9 +36,6 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.button.ComponentEvents;
-import dev.antonyholmes.modern.button.ModernDropDownWidget;
-import dev.antonyholmes.modern.button.MouseMotionEvents;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;

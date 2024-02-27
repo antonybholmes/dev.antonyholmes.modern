@@ -33,11 +33,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabsController;
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.TabsViewPanel;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.button.ModernButton;
 import dev.antonyholmes.modern.button.ModernButtonGroup;

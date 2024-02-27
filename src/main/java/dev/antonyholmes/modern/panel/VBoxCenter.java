@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.panel;
 
-import dev.antonyholmes.modern.panel.VCenterLayout;
-
 import dev.antonyholmes.modern.ModernComponent;
 
 /**

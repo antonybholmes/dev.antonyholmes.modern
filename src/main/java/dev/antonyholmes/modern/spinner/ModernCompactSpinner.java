@@ -53,15 +53,6 @@ import org.jebtk.core.text.Formatter.NumberFormatter;
 import org.jebtk.core.text.Parser;
 import org.jebtk.core.text.TextUtils;
 import org.jebtk.math.Linspace;
-import dev.antonyholmes.modern.spinner.ComponentActions;
-import dev.antonyholmes.modern.spinner.DecrementTask;
-import dev.antonyholmes.modern.spinner.FieldMouseActions;
-import dev.antonyholmes.modern.spinner.IncrementTask;
-import dev.antonyholmes.modern.spinner.KeyEvents;
-import dev.antonyholmes.modern.spinner.MouseEvents;
-import dev.antonyholmes.modern.spinner.MouseMotionActions;
-import dev.antonyholmes.modern.spinner.MouseWheelEvents;
-import dev.antonyholmes.modern.spinner.SpinnerUI;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

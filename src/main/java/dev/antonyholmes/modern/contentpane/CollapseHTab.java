@@ -32,8 +32,6 @@ import java.awt.BorderLayout;
 import javax.swing.Box;
 import javax.swing.JComponent;
 
-import dev.antonyholmes.modern.contentpane.ClickEvents;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.ModernComponent;

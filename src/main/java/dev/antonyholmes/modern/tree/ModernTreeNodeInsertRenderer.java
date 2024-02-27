@@ -27,10 +27,6 @@
  */
 package dev.antonyholmes.modern.tree;
 
-import dev.antonyholmes.modern.tree.ModernTreeNodeInsertRenderer;
-import dev.antonyholmes.modern.tree.ModernTreeNodeRenderer;
-import dev.antonyholmes.modern.tree.Tree;
-
 // TODO: Auto-generated Javadoc
 /**
  * Renderer for drawing between nodes when user is dragging.

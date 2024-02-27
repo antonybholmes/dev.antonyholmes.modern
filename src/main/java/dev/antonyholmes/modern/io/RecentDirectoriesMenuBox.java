@@ -33,10 +33,6 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
-import dev.antonyholmes.modern.io.DirectoryMenuItem;
-import dev.antonyholmes.modern.io.FileTitleMenuItem;
-import dev.antonyholmes.modern.io.RecentFilesService;
-
 import dev.antonyholmes.modern.menu.ModernMenuBox;
 
 /**

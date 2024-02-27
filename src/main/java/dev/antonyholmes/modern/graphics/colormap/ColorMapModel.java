@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.graphics.colormap;
 
 import org.jebtk.core.model.ItemModel;
-import dev.antonyholmes.modern.graphics.colormap.ColorMap;
 
 /**
  * Model for sharing a color map.

@@ -31,7 +31,6 @@ import java.io.File;
 import java.io.FileFilter;
 
 import org.jebtk.core.io.Io;
-import dev.antonyholmes.modern.io.GuiFileExtFilter;
 
 // TODO: Auto-generated Javadoc
 /**

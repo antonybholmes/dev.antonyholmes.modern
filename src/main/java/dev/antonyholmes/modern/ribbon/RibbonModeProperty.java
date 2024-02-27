@@ -15,8 +15,6 @@
  */
 package dev.antonyholmes.modern.ribbon;
 
-import dev.antonyholmes.modern.ribbon.RibbonSize;
-
 /**
  * The Interface RibbonModeProperty.
  */

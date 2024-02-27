@@ -30,12 +30,6 @@ package dev.antonyholmes.modern.io;
 import java.io.IOException;
 import java.nio.file.Path;
 
-import dev.antonyholmes.modern.io.DirectoryEvents;
-import dev.antonyholmes.modern.io.DirectoryMenuItem;
-import dev.antonyholmes.modern.io.OpenRibbonPanel;
-import dev.antonyholmes.modern.io.RecentDirectoriesMenuBox;
-import dev.antonyholmes.modern.io.RecentFilesService;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.event.ModernClickEvent;

@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.splitpane;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.splitpane.HSplitPane;
-
 /**
  * Creates a horizontal split pane that uses three holds for the grab handle.
  * 

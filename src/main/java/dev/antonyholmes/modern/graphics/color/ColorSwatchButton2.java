@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.graphics.color;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.graphics.color.ColorPopupMenu2;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

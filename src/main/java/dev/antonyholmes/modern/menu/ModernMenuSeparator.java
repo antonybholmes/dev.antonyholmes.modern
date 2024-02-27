@@ -32,8 +32,6 @@ import java.awt.Graphics2D;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 
-import dev.antonyholmes.modern.menu.ModernIconMenuItem;
-
 // TODO: Auto-generated Javadoc
 /**
  * Provides a line separator for menus with a theme consistent with

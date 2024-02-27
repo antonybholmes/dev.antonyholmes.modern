@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.tabs;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.tabs.Tab;
 
 /**
  * The class TabEvent.

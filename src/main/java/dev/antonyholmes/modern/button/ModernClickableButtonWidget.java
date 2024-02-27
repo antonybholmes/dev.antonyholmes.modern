@@ -34,10 +34,6 @@ import java.awt.event.MouseEvent;
 import javax.swing.AbstractAction;
 import javax.swing.KeyStroke;
 
-import dev.antonyholmes.modern.button.ActionEvents;
-import dev.antonyholmes.modern.button.ModernButtonWidget;
-import dev.antonyholmes.modern.button.MouseEvents;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 // TODO: Auto-generated Javadoc

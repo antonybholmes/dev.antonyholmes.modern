@@ -31,7 +31,6 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 /**
  * Rastorizes an icon (for example a vector based on) to reduce drawing

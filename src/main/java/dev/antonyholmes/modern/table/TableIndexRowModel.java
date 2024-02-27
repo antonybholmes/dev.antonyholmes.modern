@@ -15,9 +15,6 @@
  */
 package dev.antonyholmes.modern.table;
 
-import dev.antonyholmes.modern.table.TableIndex;
-import dev.antonyholmes.modern.table.TableIndexModel;
-
 /**
  * The Class TableIndexRowModel.
  */

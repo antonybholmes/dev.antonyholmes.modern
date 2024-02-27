@@ -30,9 +30,6 @@ package dev.antonyholmes.modern;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.ModernWidget;
-import dev.antonyholmes.modern.ModernWidgetBufferedImage;
-
 /**
  * The basis for rendering a component as an image so it does not waste time
  * rendering drawing primitives on each refresh.

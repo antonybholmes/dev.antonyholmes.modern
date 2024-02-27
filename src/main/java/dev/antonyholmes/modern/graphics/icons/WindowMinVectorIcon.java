@@ -32,7 +32,6 @@ import java.awt.Graphics2D;
 
 import org.jebtk.core.Mathematics;
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.ModernVectorScalableIcon;
 
 /**
  * The class MinVectorIcon.

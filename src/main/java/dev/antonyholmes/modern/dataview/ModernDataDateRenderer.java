@@ -32,8 +32,6 @@ import java.awt.Graphics2D;
 import java.util.Date;
 
 import org.jebtk.core.text.DateUtils;
-import dev.antonyholmes.modern.dataview.ModernData;
-import dev.antonyholmes.modern.dataview.ModernDataCellRenderer;
 
 import dev.antonyholmes.modern.ModernWidget;
 

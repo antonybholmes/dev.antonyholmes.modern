@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.io;
 
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.io.ModernListFileRenderer;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 // TODO: Auto-generated Javadoc

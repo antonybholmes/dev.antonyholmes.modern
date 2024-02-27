@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.table;
 
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.table.ModernTable;
-
 import dev.antonyholmes.modern.SelectionRangeModel;
 import dev.antonyholmes.modern.dataview.ModernDataModel;
 import dev.antonyholmes.modern.dataview.ModernDataSelection;

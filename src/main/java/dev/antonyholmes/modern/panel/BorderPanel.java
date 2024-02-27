@@ -31,8 +31,6 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.LayoutManager;
 
-import dev.antonyholmes.modern.panel.ModernPanel;
-
 // TODO: Auto-generated Javadoc
 /**
  * Replacement ModernButton with a common skin.

@@ -34,9 +34,6 @@ import java.text.ParseException;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.zoom.Zoom;
-import dev.antonyholmes.modern.zoom.ZoomComboBox;
-import dev.antonyholmes.modern.zoom.ZoomModel;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernWidget;

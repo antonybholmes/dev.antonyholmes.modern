@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.dialog;
 
 import java.awt.Color;
 
-import dev.antonyholmes.modern.dialog.ModernDialogButton;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 // TODO: Auto-generated Javadoc

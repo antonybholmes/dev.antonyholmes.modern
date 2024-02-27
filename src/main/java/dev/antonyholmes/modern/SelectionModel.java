@@ -35,7 +35,6 @@ import java.util.Set;
 import org.jebtk.core.collections.CollectionUtils;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.SelectionModel;
 
 import dev.antonyholmes.modern.event.ModernSelectionListeners;
 

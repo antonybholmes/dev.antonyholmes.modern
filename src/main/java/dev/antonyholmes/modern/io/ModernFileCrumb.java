@@ -24,7 +24,6 @@ import org.jebtk.core.event.ChangeListeners;
 import org.jebtk.core.geom.IntBlock;
 import org.jebtk.core.io.FileUtils;
 import org.jebtk.core.io.PathUtils;
-import dev.antonyholmes.modern.io.ResizeEvents;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernWidget;

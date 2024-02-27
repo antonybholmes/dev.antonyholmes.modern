@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.button;
 
-import dev.antonyholmes.modern.button.ModernCheckButton;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 /**

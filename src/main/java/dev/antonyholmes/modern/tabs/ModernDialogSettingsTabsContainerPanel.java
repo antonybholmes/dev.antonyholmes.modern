@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.tabs;
 
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.TabsViewPanel;
-
 import dev.antonyholmes.modern.dialog.ModernDialogWindow;
 
 /**

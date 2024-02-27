@@ -35,8 +35,6 @@ import java.awt.event.ComponentListener;
 import java.awt.geom.Arc2D;
 import java.awt.geom.GeneralPath;
 
-import dev.antonyholmes.modern.ribbon.RibbonFileMenuPanel;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernCheckButton;

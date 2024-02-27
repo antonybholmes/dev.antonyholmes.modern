@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.table;
 
 import org.jebtk.core.event.ChangeListeners;
-import dev.antonyholmes.modern.table.TableIndex;
 
 /**
  * Represents a column or row in a table.

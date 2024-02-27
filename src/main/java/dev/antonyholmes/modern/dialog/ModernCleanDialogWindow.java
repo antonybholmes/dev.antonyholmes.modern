@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.dialog;
 
-import dev.antonyholmes.modern.dialog.ModernDialogWindow;
-
 import dev.antonyholmes.modern.help.GuiAppInfo;
 import dev.antonyholmes.modern.window.ModernWindow;
 

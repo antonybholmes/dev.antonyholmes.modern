@@ -18,7 +18,6 @@ package dev.antonyholmes.modern.splitpane;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.splitpane.ModernHSplitPaneLine;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.HoverFadeAnimation;

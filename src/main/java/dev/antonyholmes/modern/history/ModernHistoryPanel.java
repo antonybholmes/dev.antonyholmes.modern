@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.history;
 
 import java.awt.event.MouseListener;
 
-import dev.antonyholmes.modern.history.ModernHistoryList;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.button.ModernButton;

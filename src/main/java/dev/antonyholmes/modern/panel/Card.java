@@ -15,7 +15,6 @@ import javax.swing.border.Border;
 
 import org.jebtk.core.ColorUtils;
 import org.jebtk.core.geom.IntDim;
-import dev.antonyholmes.modern.panel.Card;
 
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.ModernComponent;

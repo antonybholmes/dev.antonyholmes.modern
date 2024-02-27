@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.button;
 
 import java.awt.Dimension;
 
-import dev.antonyholmes.modern.button.ModernButton;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 

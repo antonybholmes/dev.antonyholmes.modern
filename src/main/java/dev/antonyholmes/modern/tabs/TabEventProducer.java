@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.tabs;
 
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabEventListener;
-
 /**
  * For classes that generate ModernClickEvents.
  *

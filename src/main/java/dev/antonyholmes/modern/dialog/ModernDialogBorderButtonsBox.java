@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.dialog;
 import java.awt.Color;
 import java.awt.Graphics;
 
-import dev.antonyholmes.modern.dialog.ModernDialogButtonsBox;
-
 import dev.antonyholmes.modern.theme.ThemeService;
 
 // TODO: Auto-generated Javadoc

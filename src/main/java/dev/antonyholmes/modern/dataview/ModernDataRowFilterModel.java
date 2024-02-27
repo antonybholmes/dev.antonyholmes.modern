@@ -17,8 +17,6 @@ package dev.antonyholmes.modern.dataview;
 
 import java.util.List;
 
-import dev.antonyholmes.modern.dataview.ModernDataModel;
-
 /**
  * The Class ModernDataRowFilterModel.
  */

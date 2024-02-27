@@ -28,8 +28,6 @@
 package dev.antonyholmes.modern.graphics.icons;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.ModernIcon;
-import dev.antonyholmes.modern.graphics.icons.RasterIcon;
 
 /**
  * Rastorizes an icon to 16x16 pixels.

@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.combobox;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
-import dev.antonyholmes.modern.combobox.ModernComboBox;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.graphics.icons.TriangleDownVectorIcon;
 import dev.antonyholmes.modern.menu.ModernScrollPopupMenu;

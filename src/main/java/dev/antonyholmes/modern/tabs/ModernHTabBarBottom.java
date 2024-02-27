@@ -31,9 +31,6 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.event.MouseEvent;
 
-import dev.antonyholmes.modern.tabs.ModernHTabBar;
-import dev.antonyholmes.modern.tabs.TabsModel;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.theme.ModernTheme;
 import dev.antonyholmes.modern.theme.ThemeService;

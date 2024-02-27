@@ -23,9 +23,6 @@ import javax.swing.Box;
 
 import org.jebtk.core.collections.CollectionUtils;
 import org.jebtk.core.io.PathUtils;
-import dev.antonyholmes.modern.io.FileDialog;
-import dev.antonyholmes.modern.io.GuiFileExtFilter;
-import dev.antonyholmes.modern.io.RecentFilesService;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernComponent;

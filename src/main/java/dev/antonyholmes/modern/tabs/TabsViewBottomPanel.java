@@ -29,9 +29,6 @@ package dev.antonyholmes.modern.tabs;
 
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.TabsViewPanel;
-
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.ModernWidget;
 

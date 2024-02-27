@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.ribbon;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.ribbon.Ribbon;
-import dev.antonyholmes.modern.ribbon.RibbonModeProperty;
-import dev.antonyholmes.modern.ribbon.RibbonSize;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

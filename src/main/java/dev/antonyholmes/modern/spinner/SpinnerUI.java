@@ -4,7 +4,6 @@ import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.spinner.ModernCompactSpinner;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernComponent;

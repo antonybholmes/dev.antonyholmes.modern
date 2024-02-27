@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.panel;
 import java.awt.Component;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.panel.CardPanel;
-import dev.antonyholmes.modern.panel.ModernPanel;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.theme.MaterialUtils;
 

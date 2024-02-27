@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.tabs;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.tabs.ModernHTabBar;
-import dev.antonyholmes.modern.tabs.TabsModel;
-
 import dev.antonyholmes.modern.ModernWidget;
 
 // TODO: Auto-generated Javadoc

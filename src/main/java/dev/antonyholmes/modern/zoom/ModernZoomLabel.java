@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.zoom;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
-import dev.antonyholmes.modern.zoom.ZoomEvents;
-import dev.antonyholmes.modern.zoom.ZoomModel;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

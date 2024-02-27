@@ -32,8 +32,6 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.text.TextProperty;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 

@@ -32,9 +32,6 @@ import java.util.List;
 import javax.swing.SwingUtilities;
 import javax.swing.SwingWorker;
 
-import dev.antonyholmes.modern.status.Message;
-import dev.antonyholmes.modern.status.StatusModel;
-
 import dev.antonyholmes.modern.UI;
 
 /**

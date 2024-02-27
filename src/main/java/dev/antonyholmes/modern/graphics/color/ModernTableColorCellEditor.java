@@ -31,9 +31,6 @@ import java.awt.Color;
 import java.awt.Component;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.graphics.color.ColorPopupMenu;
-import dev.antonyholmes.modern.graphics.color.ColorSelectionModel;
-import dev.antonyholmes.modern.graphics.color.ModernTableColorCellRenderer;
 
 import dev.antonyholmes.modern.dataview.ModernData;
 import dev.antonyholmes.modern.event.ModernClickEvent;

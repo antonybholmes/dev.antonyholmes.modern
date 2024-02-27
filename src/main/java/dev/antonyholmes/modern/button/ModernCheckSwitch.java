@@ -22,10 +22,6 @@ import java.awt.Graphics2D;
 import javax.swing.border.Border;
 
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.button.CheckBox;
-import dev.antonyholmes.modern.button.CheckSwitchAnimation;
-import dev.antonyholmes.modern.button.CheckSwitchChangeAnimation;
-import dev.antonyholmes.modern.button.ModernButton;
 
 import dev.antonyholmes.modern.UI;
 

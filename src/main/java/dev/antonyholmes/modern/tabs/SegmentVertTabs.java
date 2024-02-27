@@ -33,8 +33,6 @@ import java.awt.geom.Arc2D;
 import java.awt.geom.GeneralPath;
 
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.tabs.SegmentTabs;
-import dev.antonyholmes.modern.tabs.TabsModel;
 
 import dev.antonyholmes.modern.theme.DrawUIService;
 

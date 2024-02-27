@@ -28,9 +28,6 @@
 package dev.antonyholmes.modern.graphics;
 
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.graphics.CanvasCursorEvent;
-import dev.antonyholmes.modern.graphics.CanvasCursorEventProducer;
-import dev.antonyholmes.modern.graphics.CanvasCursorListener;
 
 /**
  * The basis for model controls in a model view controller setup.

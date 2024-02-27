@@ -33,7 +33,6 @@ import java.awt.GradientPaint;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.ModernVectorScalableIcon;
 
 import dev.antonyholmes.modern.ColorTheme;
 import dev.antonyholmes.modern.ModernWidget;

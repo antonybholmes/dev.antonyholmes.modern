@@ -32,8 +32,6 @@ import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.Shape;
 
-import dev.antonyholmes.modern.menu.ModernIconMenuItem;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.graphics.ImageUtils;
 import dev.antonyholmes.modern.graphics.shapes.ShapeService;

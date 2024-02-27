@@ -34,12 +34,6 @@ import java.awt.event.FocusListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import dev.antonyholmes.modern.button.FocusEvents;
-import dev.antonyholmes.modern.button.ModernButton;
-import dev.antonyholmes.modern.button.ModernClickEvents;
-import dev.antonyholmes.modern.button.ModernTwoStateWidget;
-import dev.antonyholmes.modern.button.MouseEvents;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.event.ModernClickEvent;
 import dev.antonyholmes.modern.event.ModernClickListener;

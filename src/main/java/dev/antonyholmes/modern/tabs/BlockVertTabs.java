@@ -35,8 +35,6 @@ import java.awt.geom.Arc2D;
 import java.awt.geom.GeneralPath;
 
 import org.jebtk.core.ColorUtils;
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.TextTabs;
 
 import dev.antonyholmes.modern.ribbon.RibbonMenuItem;
 import dev.antonyholmes.modern.theme.MaterialService;

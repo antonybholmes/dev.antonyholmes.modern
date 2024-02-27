@@ -33,7 +33,6 @@ import java.awt.geom.GeneralPath;
 
 import org.jebtk.core.Mathematics;
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.ModernVectorIcon;
 
 import dev.antonyholmes.modern.ribbon.Ribbon;
 

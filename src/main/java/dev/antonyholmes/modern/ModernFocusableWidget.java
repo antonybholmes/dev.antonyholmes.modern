@@ -32,10 +32,8 @@ import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-
-import dev.antonyholmes.modern.FocusEvents;
-import dev.antonyholmes.modern.ModernWidget;
-import dev.antonyholmes.modern.MouseEvents;
+ 
+ 
 
 /**
  * The basis of widgets that can grab focus.

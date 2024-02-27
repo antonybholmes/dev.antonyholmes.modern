@@ -27,11 +27,6 @@
  */
 package dev.antonyholmes.modern.table;
 
-import dev.antonyholmes.modern.table.EmptyTableModel;
-import dev.antonyholmes.modern.table.ModernTable;
-import dev.antonyholmes.modern.table.ModernTableModel;
-import dev.antonyholmes.modern.table.TableIndexModel;
-
 import dev.antonyholmes.modern.dataview.ModernDataModel;
 import dev.antonyholmes.modern.zoom.ZoomModel;
 

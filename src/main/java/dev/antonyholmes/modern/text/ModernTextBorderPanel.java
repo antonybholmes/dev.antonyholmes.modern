@@ -32,13 +32,6 @@ import java.awt.Graphics2D;
 
 import javax.swing.JComponent;
 
-import dev.antonyholmes.modern.text.ModernPasswordField;
-import dev.antonyholmes.modern.text.ModernTextArea;
-import dev.antonyholmes.modern.text.ModernTextBox;
-import dev.antonyholmes.modern.text.ModernTextField;
-import dev.antonyholmes.modern.text.TextBorderAnimation;
-import dev.antonyholmes.modern.text.TextProperty;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButton;

@@ -32,8 +32,6 @@ import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
-import dev.antonyholmes.modern.graphics.icons.ModernVectorScalableIcon;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.graphics.ImageUtils;
 

@@ -21,8 +21,6 @@ import java.awt.event.ComponentEvent;
 
 import org.jebtk.core.Props;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.ribbon.Ribbon;
-import dev.antonyholmes.modern.ribbon.RibbonSegmentVertTabs;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.TranslateYAnimation;

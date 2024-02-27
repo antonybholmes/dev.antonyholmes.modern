@@ -20,8 +20,6 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.ribbon.RibbonBackMenuItem;
-import dev.antonyholmes.modern.ribbon.RibbonMenuItem;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.HoverFadeAnimation;

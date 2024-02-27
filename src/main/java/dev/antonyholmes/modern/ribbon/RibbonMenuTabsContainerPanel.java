@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.ribbon;
 
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.ribbon.RibbonMenuPanel;
-
 import dev.antonyholmes.modern.tabs.TabsModel;
 import dev.antonyholmes.modern.tabs.TabsViewPanel;
 

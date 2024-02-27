@@ -36,7 +36,6 @@ import javax.swing.JComponent;
 import javax.swing.border.Border;
 
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.panel.ModernPanel;
 
 import dev.antonyholmes.modern.UI;
 

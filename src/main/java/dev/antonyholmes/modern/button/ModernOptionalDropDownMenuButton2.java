@@ -35,10 +35,6 @@ import java.awt.event.ComponentEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
-import dev.antonyholmes.modern.button.ComponentEvents;
-import dev.antonyholmes.modern.button.ModernDropDownWidget2;
-import dev.antonyholmes.modern.button.MouseMotionEvents;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;

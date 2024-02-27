@@ -31,11 +31,9 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.text.ParseException;
 
-import javax.swing.BorderFactory;
 import javax.swing.JTextField;
 
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.text.TextProperty;
 
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.ModernWidget;

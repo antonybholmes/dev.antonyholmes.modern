@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.window;
 
-import dev.antonyholmes.modern.window.ModernSplashButton;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 /**

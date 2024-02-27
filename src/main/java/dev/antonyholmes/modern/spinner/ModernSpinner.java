@@ -40,9 +40,6 @@ import javax.swing.BoxLayout;
 import javax.swing.Timer;
 
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.spinner.IncrementTask;
-import dev.antonyholmes.modern.spinner.KeyEvents;
-import dev.antonyholmes.modern.spinner.MouseEvents;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;

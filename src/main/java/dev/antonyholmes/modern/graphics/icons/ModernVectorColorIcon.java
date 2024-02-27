@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.graphics.icons;
 
 import java.awt.Color;
 
-import dev.antonyholmes.modern.graphics.icons.ModernVectorIcon;
-
 /**
  * Represents an icon that can have its color specified.
  * 

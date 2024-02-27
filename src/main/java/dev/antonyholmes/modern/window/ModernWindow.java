@@ -54,12 +54,6 @@ import javax.swing.JWindow;
 import javax.swing.SwingUtilities;
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.window.AllMouseEvents;
-import dev.antonyholmes.modern.window.MenuActions;
-import dev.antonyholmes.modern.window.ModernWindow;
-import dev.antonyholmes.modern.window.ModernWindowPanel;
-import dev.antonyholmes.modern.window.WindowEvents;
-import dev.antonyholmes.modern.window.WindowService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

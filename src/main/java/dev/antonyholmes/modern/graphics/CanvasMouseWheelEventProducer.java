@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.graphics;
 
-import dev.antonyholmes.modern.graphics.CanvasMouseWheelEvent;
-import dev.antonyholmes.modern.graphics.CanvasMouseWheelListener;
-
 /**
  * For classes that generate ModernClickEvents.
  *

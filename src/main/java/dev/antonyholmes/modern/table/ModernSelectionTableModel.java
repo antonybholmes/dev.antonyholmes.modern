@@ -19,7 +19,6 @@ import java.util.List;
 
 import org.jebtk.core.collections.CollectionUtils;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.table.ModernTableModel;
 
 /**
  * The Class ModernSelectionTableModel.

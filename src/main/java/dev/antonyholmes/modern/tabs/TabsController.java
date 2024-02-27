@@ -32,10 +32,6 @@ import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 import javax.swing.KeyStroke;
 
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabEventListener;
-import dev.antonyholmes.modern.tabs.TabsModel;
-
 import dev.antonyholmes.modern.ModernFocusableWidget;
 
 /**

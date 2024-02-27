@@ -20,8 +20,6 @@ import java.awt.Graphics2D;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.ribbon.RibbonHideButton;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButton;

@@ -6,9 +6,6 @@ import java.awt.geom.GeneralPath;
 import org.jebtk.core.Props;
 import org.jebtk.core.geom.IntRect;
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.theme.DrawUI;
-import dev.antonyholmes.modern.theme.MaterialService;
-import dev.antonyholmes.modern.theme.ModernTheme;
 
 import dev.antonyholmes.modern.graphics.ImageUtils;
 

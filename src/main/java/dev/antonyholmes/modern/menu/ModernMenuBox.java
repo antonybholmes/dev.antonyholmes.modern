@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.menu;
 
-import dev.antonyholmes.modern.menu.ModernMenuItem;
-
 import dev.antonyholmes.modern.event.ModernClickEvent;
 import dev.antonyholmes.modern.event.ModernClickEventProducer;
 import dev.antonyholmes.modern.event.ModernClickListener;

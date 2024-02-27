@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.graphics;
 import java.awt.event.KeyEvent;
 
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.graphics.CanvasKeyEventProducer;
-import dev.antonyholmes.modern.graphics.CanvasKeyListener;
 
 /**
  * The basis for model controls in a model view controller setup.

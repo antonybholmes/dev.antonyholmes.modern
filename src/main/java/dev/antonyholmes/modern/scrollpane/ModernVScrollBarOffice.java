@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.scrollpane;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
-import dev.antonyholmes.modern.scrollpane.ModernVScrollBar;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.graphics.icons.CheveronDownVectorIcon;
 import dev.antonyholmes.modern.graphics.icons.CheveronUpVectorIcon;

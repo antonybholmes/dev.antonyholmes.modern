@@ -36,7 +36,6 @@ import java.net.URL;
 import javax.imageio.ImageIO;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.MultiResIcon;
 
 import dev.antonyholmes.modern.graphics.ImageUtils;
 

@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.window;
 
 import org.jebtk.core.geom.IntDim;
-import dev.antonyholmes.modern.window.ModernWindowTitleBarButton;
 
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;

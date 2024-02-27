@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.tree;
 
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.tree.ModernTreeBranchNodeRenderer;
-
 import dev.antonyholmes.modern.graphics.ImageUtils;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 

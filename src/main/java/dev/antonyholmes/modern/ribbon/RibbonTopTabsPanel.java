@@ -15,8 +15,6 @@
  */
 package dev.antonyholmes.modern.ribbon;
 
-import dev.antonyholmes.modern.ribbon.RibbonSegmentTabs;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

@@ -30,10 +30,6 @@ package dev.antonyholmes.modern.clipboard;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
-import dev.antonyholmes.modern.clipboard.ClipboardService;
-import dev.antonyholmes.modern.clipboard.ClipboardUI;
-import dev.antonyholmes.modern.clipboard.FocusEvents;
-
 import dev.antonyholmes.modern.ModernFocusableWidget;
 
 // TODO: Auto-generated Javadoc

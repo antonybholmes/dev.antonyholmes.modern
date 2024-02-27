@@ -19,7 +19,6 @@ import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.text.ModernClipboardTextField;
 
 /**
  * Shows a suggestion of what to type before deleting it as the user selects it.

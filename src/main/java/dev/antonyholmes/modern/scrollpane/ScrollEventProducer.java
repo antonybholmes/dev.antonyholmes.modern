@@ -1,8 +1,5 @@
 package dev.antonyholmes.modern.scrollpane;
 
-import dev.antonyholmes.modern.scrollpane.ScrollEvent;
-import dev.antonyholmes.modern.scrollpane.ScrollListener;
-
 /**
  * For classes that generate scroll events.
  *

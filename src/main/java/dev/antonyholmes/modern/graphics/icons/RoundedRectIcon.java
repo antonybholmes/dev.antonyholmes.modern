@@ -31,7 +31,6 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.ModernVectorScalableIcon;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.theme.MaterialService;

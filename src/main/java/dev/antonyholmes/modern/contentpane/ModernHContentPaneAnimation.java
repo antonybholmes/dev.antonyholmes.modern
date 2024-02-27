@@ -18,7 +18,6 @@ package dev.antonyholmes.modern.contentpane;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.contentpane.ModernHContentPane;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.HoverFadeAnimation;

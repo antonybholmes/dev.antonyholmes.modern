@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.graphics;
 
 import java.util.EventListener;
 
-import dev.antonyholmes.modern.graphics.CanvasMouseWheelEvent;
-
 /**
  * Notifies listeners that the mouse wheel was moved on a canvas.
  * 

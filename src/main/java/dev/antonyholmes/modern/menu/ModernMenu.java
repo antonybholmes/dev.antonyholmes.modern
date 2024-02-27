@@ -33,8 +33,6 @@ import java.awt.Graphics;
 import javax.swing.BorderFactory;
 import javax.swing.JMenu;
 
-import dev.antonyholmes.modern.menu.ModernMenuItem;
-
 import dev.antonyholmes.modern.event.ModernClickEvent;
 import dev.antonyholmes.modern.event.ModernClickEventProducer;
 import dev.antonyholmes.modern.event.ModernClickListener;

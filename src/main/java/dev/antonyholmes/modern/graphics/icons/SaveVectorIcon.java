@@ -33,7 +33,6 @@ import java.awt.geom.GeneralPath;
 
 import org.jebtk.core.Props;
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.graphics.icons.ModernVectorScalableIcon;
 
 /**
  * Vector based save icon.

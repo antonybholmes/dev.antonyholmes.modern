@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.menu;
 import java.awt.BasicStroke;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.menu.ModernMenuSeparator;
-
 // TODO: Auto-generated Javadoc
 /**
  * Provides a full line separator for menus with a theme consistent with

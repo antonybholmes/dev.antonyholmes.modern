@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.tooltip;
 
 import java.util.EventListener;
 
-import dev.antonyholmes.modern.tooltip.ModernToolTipEvent;
-
 // TODO: Auto-generated Javadoc
 /**
  * The listener interface for receiving modernToolTip events. The class that is

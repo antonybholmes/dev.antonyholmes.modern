@@ -31,11 +31,6 @@ import java.awt.Color;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.graphics.color.ColorDialog;
-import dev.antonyholmes.modern.graphics.color.ColorSelectionModel;
-import dev.antonyholmes.modern.graphics.color.MultiColorPicker;
-import dev.antonyholmes.modern.graphics.color.StandardColorPicker;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.dialog.ModernDialogStatus;

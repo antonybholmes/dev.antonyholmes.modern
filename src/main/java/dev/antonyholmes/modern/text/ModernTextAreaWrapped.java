@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.text;
 
-import dev.antonyholmes.modern.text.ModernClipboardTextArea;
-
 // TODO: Auto-generated Javadoc
 /**
  * The class ModernTextAreaWrapped.

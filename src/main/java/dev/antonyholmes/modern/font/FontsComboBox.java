@@ -33,8 +33,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import dev.antonyholmes.modern.font.FontMenuItem;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.combobox.ModernComboBox;

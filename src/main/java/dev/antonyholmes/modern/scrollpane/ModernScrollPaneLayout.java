@@ -6,10 +6,6 @@ import java.awt.Dimension;
 import java.awt.LayoutManager;
 import java.awt.Rectangle;
 
-import dev.antonyholmes.modern.scrollpane.ModernScrollPane;
-import dev.antonyholmes.modern.scrollpane.ScrollBarLocation;
-import dev.antonyholmes.modern.scrollpane.ScrollBarPolicy;
-
 public class ModernScrollPaneLayout implements LayoutManager {
 
   @Override

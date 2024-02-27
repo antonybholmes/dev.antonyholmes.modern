@@ -28,9 +28,6 @@
 package dev.antonyholmes.modern.graphics;
 
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.graphics.CanvasMouseWheelEvent;
-import dev.antonyholmes.modern.graphics.CanvasMouseWheelEventProducer;
-import dev.antonyholmes.modern.graphics.CanvasMouseWheelListener;
 
 public class CanvasMouseWheelListeners extends EventProducer<CanvasMouseWheelListener>
     implements CanvasMouseWheelEventProducer {

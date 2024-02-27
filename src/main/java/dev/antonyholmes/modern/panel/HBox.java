@@ -33,9 +33,6 @@ import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.panel.GenericBox;
-import dev.antonyholmes.modern.panel.HBox;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.text.ModernAutoSizeLabel;
 import dev.antonyholmes.modern.text.ModernLabel;

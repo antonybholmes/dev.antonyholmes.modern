@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.tabs;
 
 import java.util.EventListener;
 
-import dev.antonyholmes.modern.tabs.TabEvent;
-
 // TODO: Auto-generated Javadoc
 /**
  * The listener interface for receiving tabEvent events. The class that is

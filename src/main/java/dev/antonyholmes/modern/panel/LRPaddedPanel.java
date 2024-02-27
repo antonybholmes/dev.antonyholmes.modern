@@ -30,7 +30,6 @@ package dev.antonyholmes.modern.panel;
 import java.awt.Component;
 import java.awt.LayoutManager;
 
-import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.ModernWidget;
 
 // TODO: Auto-generated Javadoc

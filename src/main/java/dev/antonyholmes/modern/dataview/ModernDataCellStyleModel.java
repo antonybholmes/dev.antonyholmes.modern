@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.dataview;
 
-import dev.antonyholmes.modern.dataview.ModernDataCellModel;
-import dev.antonyholmes.modern.dataview.ModernDataCellStyle;
-
 // TODO: Auto-generated Javadoc
 /**
  * Model for controlling the appearance of cells such as the font and color. It

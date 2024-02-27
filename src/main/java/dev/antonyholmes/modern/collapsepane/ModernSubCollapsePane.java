@@ -30,11 +30,7 @@ package dev.antonyholmes.modern.collapsepane;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
-
-import dev.antonyholmes.modern.collapsepane.AbstractCollapsePane;
-import dev.antonyholmes.modern.collapsepane.MouseEvents;
-import dev.antonyholmes.modern.collapsepane.MouseMotionEvents;
-
+ 
 /**
  * Allows collapsable panes to be created.
  * 

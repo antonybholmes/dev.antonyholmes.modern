@@ -1,8 +1,5 @@
 package dev.antonyholmes.modern.tabs;
 
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabEventListener;
-
 public class TabEventAdapter implements TabEventListener {
 
   @Override

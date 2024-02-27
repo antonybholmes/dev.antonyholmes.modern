@@ -37,11 +37,6 @@ import java.awt.event.MouseMotionListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import dev.antonyholmes.modern.contentpane.ComponentEvents;
-import dev.antonyholmes.modern.contentpane.ContentPaneEvents;
-import dev.antonyholmes.modern.contentpane.MouseEvents;
-import dev.antonyholmes.modern.contentpane.MouseMotionEvents;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.tabs.Tab;
 import dev.antonyholmes.modern.tabs.TabEvent;

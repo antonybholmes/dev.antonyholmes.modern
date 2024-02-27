@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.text;
 
-import dev.antonyholmes.modern.text.ModernSubHeadingLabel;
-
 import dev.antonyholmes.modern.theme.ThemeService;
 
 /**

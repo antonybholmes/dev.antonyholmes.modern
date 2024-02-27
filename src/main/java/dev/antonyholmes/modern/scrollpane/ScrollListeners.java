@@ -1,9 +1,6 @@
 package dev.antonyholmes.modern.scrollpane;
 
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.scrollpane.ScrollEvent;
-import dev.antonyholmes.modern.scrollpane.ScrollEventProducer;
-import dev.antonyholmes.modern.scrollpane.ScrollListener;
 
 /**
  * Listen for scroll events and forward to listeners.

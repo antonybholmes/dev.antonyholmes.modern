@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.dataview;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.dataview.ModernDataViewListener;
 
 /**
  * The interface ModernDataViewEventProducer.

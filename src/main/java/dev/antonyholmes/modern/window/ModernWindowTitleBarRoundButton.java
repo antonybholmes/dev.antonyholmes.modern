@@ -31,7 +31,6 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.ColorUtils;
-import dev.antonyholmes.modern.window.ModernWindowTitleBarButton;
 
 import dev.antonyholmes.modern.graphics.ImageUtils;
 

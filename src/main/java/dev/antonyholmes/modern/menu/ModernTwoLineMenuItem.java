@@ -33,9 +33,6 @@ import java.awt.Graphics2D;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import dev.antonyholmes.modern.menu.ModernIconMenuItem;
-import dev.antonyholmes.modern.menu.MouseEvents;
-
 import dev.antonyholmes.modern.TwoLineWidget;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 

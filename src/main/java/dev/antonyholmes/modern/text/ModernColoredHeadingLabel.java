@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.text;
 
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.text.ModernHeadingLabel;
-
 import dev.antonyholmes.modern.theme.ThemeService;
 
 /**

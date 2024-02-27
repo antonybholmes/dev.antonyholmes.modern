@@ -33,7 +33,6 @@ import java.util.List;
 import org.jebtk.core.collections.CollectionUtils;
 import org.jebtk.core.collections.UniqueArrayList;
 import org.jebtk.core.stream.Stream;
-import dev.antonyholmes.modern.io.GuiFileExtFilter;
 
 // TODO: Auto-generated Javadoc
 /**

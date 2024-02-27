@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.combobox;
 
 import org.jebtk.core.BooleanOperator;
-import dev.antonyholmes.modern.combobox.LogicalComboBox;
 
 import dev.antonyholmes.modern.menu.ModernIconMenuItem;
 

@@ -34,19 +34,6 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.CheveronDownVectorIcon;
-import dev.antonyholmes.modern.graphics.icons.CheveronLeftVectorIcon;
-import dev.antonyholmes.modern.graphics.icons.CheveronRightVectorIcon;
-import dev.antonyholmes.modern.graphics.icons.CheveronUpVectorIcon;
-import dev.antonyholmes.modern.graphics.icons.HideDownVectorIcon;
-import dev.antonyholmes.modern.graphics.icons.HideLeftVectorIcon;
-import dev.antonyholmes.modern.graphics.icons.HideRightVectorIcon;
-import dev.antonyholmes.modern.graphics.icons.HideUpVectorIcon;
-import dev.antonyholmes.modern.graphics.icons.ModernIcon;
-import dev.antonyholmes.modern.graphics.icons.ModernVectorIcon;
-import dev.antonyholmes.modern.graphics.icons.MultiResIcon;
-import dev.antonyholmes.modern.graphics.icons.Raster16Icon;
-import dev.antonyholmes.modern.graphics.icons.RasterIcon;
 
 import dev.antonyholmes.modern.graphics.ImageUtils;
 

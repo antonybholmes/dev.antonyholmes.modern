@@ -32,19 +32,6 @@ import java.awt.Color;
 import javax.swing.Box;
 
 import org.jebtk.core.ColorValue;
-import dev.antonyholmes.modern.graphics.color.AlphaSlider;
-import dev.antonyholmes.modern.graphics.color.ColorChannel;
-import dev.antonyholmes.modern.graphics.color.ColorCurrentNewPanel;
-import dev.antonyholmes.modern.graphics.color.ColorMatrixPanel;
-import dev.antonyholmes.modern.graphics.color.ColorRangeBlueSlider;
-import dev.antonyholmes.modern.graphics.color.ColorRangeGreenSlider;
-import dev.antonyholmes.modern.graphics.color.ColorRangeRedSlider;
-import dev.antonyholmes.modern.graphics.color.ColorSelectionModel;
-import dev.antonyholmes.modern.graphics.color.ColorSpinnerAlpha;
-import dev.antonyholmes.modern.graphics.color.ColorSpinnerBlue;
-import dev.antonyholmes.modern.graphics.color.ColorSpinnerGreen;
-import dev.antonyholmes.modern.graphics.color.ColorSpinnerRed;
-import dev.antonyholmes.modern.graphics.color.HtmlColorPanel;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

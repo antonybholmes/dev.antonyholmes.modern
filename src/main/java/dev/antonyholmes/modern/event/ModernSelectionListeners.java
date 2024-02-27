@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.event;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.event.ModernSelectionEventProducer;
-import dev.antonyholmes.modern.event.ModernSelectionListener;
 
 /**
  * The basis for model controls in a model view controller setup.

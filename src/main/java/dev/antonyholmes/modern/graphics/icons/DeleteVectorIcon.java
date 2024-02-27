@@ -30,7 +30,6 @@ package dev.antonyholmes.modern.graphics.icons;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.CrossVectorIcon;
 
 /**
  * The class DeleteVectorIcon.

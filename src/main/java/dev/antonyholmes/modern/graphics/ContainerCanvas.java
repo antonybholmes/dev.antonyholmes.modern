@@ -36,11 +36,6 @@ import java.awt.event.ComponentEvent;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.geom.IntPos2D;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.graphics.CanvasCursorEvent;
-import dev.antonyholmes.modern.graphics.CanvasCursorListener;
-import dev.antonyholmes.modern.graphics.CanvasListener;
-import dev.antonyholmes.modern.graphics.DrawingContext;
-import dev.antonyholmes.modern.graphics.ModernCanvas;
 
 /**
  * Allows a canvas to be stored and manipulated within another. For example a

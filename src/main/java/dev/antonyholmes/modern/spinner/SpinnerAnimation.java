@@ -3,7 +3,6 @@ package dev.antonyholmes.modern.spinner;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.spinner.ModernCompactSpinner;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernWidget;

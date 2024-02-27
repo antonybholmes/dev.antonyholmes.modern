@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.graphics;
 
-import dev.antonyholmes.modern.graphics.CanvasMouseEvent;
-import dev.antonyholmes.modern.graphics.CanvasMouseListener;
-
 /**
  * The class ModernCanvasMouseAdapter.
  */

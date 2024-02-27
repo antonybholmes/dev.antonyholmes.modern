@@ -45,8 +45,6 @@ import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeEventProducer;
 import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.event.ChangeListeners;
-import dev.antonyholmes.modern.collapsepane.ComponentEvents;
-import dev.antonyholmes.modern.collapsepane.ModernCollapseNodeRenderer;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.event.HighlightEvent;

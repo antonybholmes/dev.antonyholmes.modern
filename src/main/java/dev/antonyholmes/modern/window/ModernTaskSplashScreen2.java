@@ -32,9 +32,6 @@ import java.awt.Color;
 import javax.swing.Box;
 import javax.swing.SwingWorker;
 
-import dev.antonyholmes.modern.window.ModernSplashScreen;
-import dev.antonyholmes.modern.window.SetupTask;
-
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.help.GuiAppInfo;

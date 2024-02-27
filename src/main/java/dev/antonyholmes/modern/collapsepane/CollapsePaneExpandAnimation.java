@@ -6,8 +6,6 @@ import java.awt.Rectangle;
 import org.jebtk.core.Props;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
-import dev.antonyholmes.modern.collapsepane.ModernCollapseNodeRenderer;
-import dev.antonyholmes.modern.collapsepane.ModernSubCollapsePane;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.RotationAnimation;

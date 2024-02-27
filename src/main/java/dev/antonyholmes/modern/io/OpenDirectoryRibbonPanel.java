@@ -36,8 +36,6 @@ import javax.swing.Box;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.io.FileUtils;
-import dev.antonyholmes.modern.io.ModernListRecentDirectoryRenderer;
-import dev.antonyholmes.modern.io.RecentFilesService;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.BorderService;

@@ -33,10 +33,6 @@ import java.awt.GridLayout;
 import java.util.ArrayList;
 import java.util.List;
 
-import dev.antonyholmes.modern.menu.ModernIconMenuItem;
-import dev.antonyholmes.modern.menu.ModernMenuItem;
-import dev.antonyholmes.modern.menu.ModernTitleMenuItem;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernClickWidget;

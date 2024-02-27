@@ -32,9 +32,6 @@ import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.scrollpane.MacScrollAnimation;
-import dev.antonyholmes.modern.scrollpane.ModernHScrollBar;
-import dev.antonyholmes.modern.scrollpane.ModernScrollPane;
 
 /**
  * Flat, minimal chrome implementation of a scroll pane control.

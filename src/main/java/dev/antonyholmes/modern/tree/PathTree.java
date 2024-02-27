@@ -36,8 +36,6 @@ import java.util.List;
 import org.jebtk.core.path.Path;
 import org.jebtk.core.tree.TreeNode;
 import org.jebtk.core.tree.TreeRootNode;
-import dev.antonyholmes.modern.tree.ModernTree;
-import dev.antonyholmes.modern.tree.ModernTreeNodeFolderRenderer;
 
 /**
  * Specialized tree that renderer paths as a hieraracy.

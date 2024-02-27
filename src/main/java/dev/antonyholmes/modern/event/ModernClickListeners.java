@@ -28,9 +28,6 @@
 package dev.antonyholmes.modern.event;
 
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.event.ModernClickEvent;
-import dev.antonyholmes.modern.event.ModernClickEventProducer;
-import dev.antonyholmes.modern.event.ModernClickListener;
 
 /**
  * The basis for model controls in a model view controller setup.

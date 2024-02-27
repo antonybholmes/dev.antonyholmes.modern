@@ -29,12 +29,6 @@ package dev.antonyholmes.modern.zoom;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.zoom.ModernZoomSlider;
-import dev.antonyholmes.modern.zoom.Zoom;
-import dev.antonyholmes.modern.zoom.ZoomDialog;
-import dev.antonyholmes.modern.zoom.ZoomModel;
-import dev.antonyholmes.modern.zoom.ZoomRibbonPanel;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButtonWidget;

@@ -19,7 +19,6 @@ import java.awt.Component;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.list.ModernList;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.WidgetAnimation;

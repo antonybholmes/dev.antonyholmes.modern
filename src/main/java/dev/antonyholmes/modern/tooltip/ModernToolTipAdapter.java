@@ -1,8 +1,5 @@
 package dev.antonyholmes.modern.tooltip;
 
-import dev.antonyholmes.modern.tooltip.ModernToolTipEvent;
-import dev.antonyholmes.modern.tooltip.ModernToolTipListener;
-
 public class ModernToolTipAdapter implements ModernToolTipListener {
 
   @Override

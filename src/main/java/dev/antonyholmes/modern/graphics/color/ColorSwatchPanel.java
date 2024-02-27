@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.graphics.color;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.graphics.color.ColorSwatchButton;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.window.ModernWindow;
 

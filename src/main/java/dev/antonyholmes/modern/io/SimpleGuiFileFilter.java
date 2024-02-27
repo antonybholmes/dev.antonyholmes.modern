@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.io;
 
 import java.util.Collection;
 
-import dev.antonyholmes.modern.io.GuiFileExtFilter;
-
 // TODO: Auto-generated Javadoc
 /**
  * Filter for GIF files.

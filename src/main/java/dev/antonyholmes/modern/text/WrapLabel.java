@@ -35,7 +35,6 @@ import java.util.List;
 import org.jebtk.core.text.Join;
 import org.jebtk.core.text.Splitter;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.text.TextProperty;
 
 import dev.antonyholmes.modern.ModernWidget;
 

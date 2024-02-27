@@ -15,10 +15,6 @@
  */
 package dev.antonyholmes.modern.tabs;
 
-import dev.antonyholmes.modern.tabs.BlockVertTabs;
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.TabsViewPanel;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.UI;
 

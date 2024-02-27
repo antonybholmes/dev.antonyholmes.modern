@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.tree;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.tree.TreeNode;
-import dev.antonyholmes.modern.tree.ModernTreeNodeRenderer;
-import dev.antonyholmes.modern.tree.Tree;
-import dev.antonyholmes.modern.tree.TreeHighlightAnimation;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.graphics.ImageUtils;

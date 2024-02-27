@@ -22,11 +22,6 @@ import java.util.List;
 
 import org.jebtk.core.tree.CheckTreeNode;
 import org.jebtk.core.tree.TreeNode;
-import dev.antonyholmes.modern.tree.ModernCheckTreeMode;
-import dev.antonyholmes.modern.tree.ModernTree;
-import dev.antonyholmes.modern.tree.ModernTreeCheckNodeRenderer;
-import dev.antonyholmes.modern.tree.ModernTreeEvent;
-import dev.antonyholmes.modern.tree.TreeEventAdapter;
 
 /**
  * Tree for checkable nodes that will respond to mouse events and toggle whether

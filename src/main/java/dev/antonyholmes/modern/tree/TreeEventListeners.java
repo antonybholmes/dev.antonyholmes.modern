@@ -28,9 +28,6 @@
 package dev.antonyholmes.modern.tree;
 
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.tree.ModernTreeEvent;
-import dev.antonyholmes.modern.tree.TreeEventListener;
-import dev.antonyholmes.modern.tree.TreeEventProducer;
 
 /**
  * The basis for model controls in a model view controller setup.

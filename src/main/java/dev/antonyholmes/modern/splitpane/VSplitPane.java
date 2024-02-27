@@ -33,8 +33,6 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 import org.jebtk.core.Mathematics;
-import dev.antonyholmes.modern.splitpane.MouseEvents;
-import dev.antonyholmes.modern.splitpane.SplitPane;
 
 /**
  * Vertical split pane i.e. add a horizontal line between two panels.

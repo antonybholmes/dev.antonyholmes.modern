@@ -31,8 +31,6 @@ import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
 
-import dev.antonyholmes.modern.graphics.color.ColorPicker;
-
 /**
  * The class ColorPicker.
  */

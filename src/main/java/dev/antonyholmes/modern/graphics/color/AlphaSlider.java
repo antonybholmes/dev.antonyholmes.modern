@@ -29,10 +29,6 @@ package dev.antonyholmes.modern.graphics.color;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
-import dev.antonyholmes.modern.graphics.color.ChangeEvents;
-import dev.antonyholmes.modern.graphics.color.ColorChannel;
-import dev.antonyholmes.modern.graphics.color.ColorSelectionModel;
-import dev.antonyholmes.modern.graphics.color.ModelEvents;
 
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.slider.ContinuousMacOrbSlider;

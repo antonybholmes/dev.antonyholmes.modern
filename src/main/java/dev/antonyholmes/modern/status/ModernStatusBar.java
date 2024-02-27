@@ -34,9 +34,6 @@ import java.awt.event.ComponentEvent;
 import javax.swing.Box;
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.status.ModernStatusLabel;
-import dev.antonyholmes.modern.status.StatusModel;
-
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.ModernWidget;

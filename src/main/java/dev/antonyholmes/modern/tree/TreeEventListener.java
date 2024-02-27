@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.tree;
 
 import java.util.EventListener;
 
-import dev.antonyholmes.modern.tree.ModernTreeEvent;
-
 // TODO: Auto-generated Javadoc
 /**
  * The listener interface for receiving treeEvent events. The class that is

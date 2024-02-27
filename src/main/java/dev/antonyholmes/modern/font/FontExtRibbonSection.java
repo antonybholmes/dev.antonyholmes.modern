@@ -31,8 +31,6 @@ import java.awt.Color;
 import java.awt.Font;
 
 import org.jebtk.core.text.SentenceCaseType;
-import dev.antonyholmes.modern.font.FontRibbonSection;
-import dev.antonyholmes.modern.font.SentenceCaseButton;
 
 import dev.antonyholmes.modern.window.ModernRibbonWindow;
 

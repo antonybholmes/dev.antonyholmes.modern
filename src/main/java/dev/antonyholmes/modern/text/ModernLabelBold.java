@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.text;
 
-import dev.antonyholmes.modern.text.ModernAutoSizeLabel;
-
 /**
  * The class ModernLabelBold.
  */

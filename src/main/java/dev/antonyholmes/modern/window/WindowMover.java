@@ -38,8 +38,6 @@ import java.awt.Window;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import dev.antonyholmes.modern.window.ModernWindow;
-
 /**
  * This class allows you to move a Component by using a mouse. The Component
  * moved can be a high level Window (ie. Window, Frame, Dialog) in which case

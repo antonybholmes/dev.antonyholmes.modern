@@ -38,8 +38,6 @@ import org.jebtk.core.collections.DefaultHashMap;
 import org.jebtk.core.collections.DefaultHashMapCreator;
 import org.jebtk.core.collections.HashMapCreator;
 import org.jebtk.core.collections.IterMap;
-import dev.antonyholmes.modern.BorderService;
-import dev.antonyholmes.modern.BorderServiceLoader;
 
 /**
  * Cache borders so they can be reused.

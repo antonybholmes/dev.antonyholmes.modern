@@ -42,11 +42,6 @@ import javax.swing.SwingUtilities;
 
 import org.jebtk.core.collections.DefaultHashMap;
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.window.BringWindowToFront;
-import dev.antonyholmes.modern.window.ModernWindow;
-import dev.antonyholmes.modern.window.ModernWindowEventListeners;
-import dev.antonyholmes.modern.window.WindowService;
-import dev.antonyholmes.modern.window.WindowServiceLoader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

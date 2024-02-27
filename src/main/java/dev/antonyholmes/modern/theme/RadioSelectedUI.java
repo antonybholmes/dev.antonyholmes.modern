@@ -4,7 +4,6 @@ import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.theme.RadioUI;
 
 public class RadioSelectedUI extends RadioUI {
 

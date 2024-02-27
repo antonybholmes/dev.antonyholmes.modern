@@ -35,8 +35,6 @@ import java.util.Map;
 
 import javax.swing.BoxLayout;
 
-import dev.antonyholmes.modern.ribbon.RibbonPanelSideTabsButton;
-
 import dev.antonyholmes.modern.button.ModernButtonGroup;
 import dev.antonyholmes.modern.button.ModernClickWidget;
 import dev.antonyholmes.modern.event.ModernClickEvent;

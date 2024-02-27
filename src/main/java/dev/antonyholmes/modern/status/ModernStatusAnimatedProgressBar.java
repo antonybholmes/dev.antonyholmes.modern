@@ -35,8 +35,6 @@ import java.awt.event.ActionListener;
 
 import javax.swing.Timer;
 
-import dev.antonyholmes.modern.status.ModernStatusProgressBar;
-
 import dev.antonyholmes.modern.progress.ProgressEvent;
 import dev.antonyholmes.modern.progress.ProgressModel;
 import dev.antonyholmes.modern.theme.ThemeService;

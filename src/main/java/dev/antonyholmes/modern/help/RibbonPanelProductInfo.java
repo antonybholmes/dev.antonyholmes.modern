@@ -29,11 +29,6 @@ package dev.antonyholmes.modern.help;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.help.GuiAppInfo;
-import dev.antonyholmes.modern.help.RibbonHelpLinkButton;
-import dev.antonyholmes.modern.help.RibbonPanelAboutButton;
-import dev.antonyholmes.modern.help.ThemeSelectionPanel;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.event.ModernClickEvent;
 import dev.antonyholmes.modern.event.ModernClickListener;

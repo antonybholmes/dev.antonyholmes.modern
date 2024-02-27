@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.tree;
 
-import dev.antonyholmes.modern.tree.ModernTreeEvent;
-import dev.antonyholmes.modern.tree.TreeEventListener;
-
 /**
  * The class TreeEventAdapter.
  */

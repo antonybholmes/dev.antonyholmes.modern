@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.dialog;
 
-import dev.antonyholmes.modern.dialog.DialogEvent;
-import dev.antonyholmes.modern.dialog.DialogEventListener;
-
 /**
  * For classes that generate ModernClickEvents.
  *

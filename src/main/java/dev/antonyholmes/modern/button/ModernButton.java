@@ -33,7 +33,6 @@ import java.awt.Graphics2D;
 
 import org.jebtk.core.settings.SettingsService;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.button.ModernClickableButtonWidget;
 
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;

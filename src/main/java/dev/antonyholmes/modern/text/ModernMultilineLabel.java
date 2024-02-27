@@ -36,8 +36,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.text.ComponentEvents;
-import dev.antonyholmes.modern.text.TextProperty;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.graphics.DrawingContext;

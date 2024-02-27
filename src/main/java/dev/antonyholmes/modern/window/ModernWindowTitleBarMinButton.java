@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.window;
 import java.awt.Color;
 import java.awt.Frame;
 
-import dev.antonyholmes.modern.window.ModernWindow;
-import dev.antonyholmes.modern.window.ModernWindowTitleBarWinButton;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.event.ModernClickEvent;
 import dev.antonyholmes.modern.event.ModernClickListener;

@@ -19,8 +19,6 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.net.URL;
 
-import dev.antonyholmes.modern.button.ModernUrlLinkButton;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;

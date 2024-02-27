@@ -21,9 +21,6 @@ import java.awt.event.ComponentEvent;
 
 import org.jebtk.core.Mathematics;
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.tabs.OrbTabs;
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabEventAdapter;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.TranslateXAnimation;

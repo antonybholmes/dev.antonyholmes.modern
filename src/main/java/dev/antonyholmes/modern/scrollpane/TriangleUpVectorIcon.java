@@ -31,7 +31,6 @@ import java.awt.Graphics2D;
 import java.awt.geom.GeneralPath;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.scrollpane.TriangleVectorIcon;
 
 /**
  * Down arrow vector icon for combobox buttons etc.

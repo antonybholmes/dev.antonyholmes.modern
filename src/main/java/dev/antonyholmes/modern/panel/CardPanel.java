@@ -31,8 +31,6 @@ import java.awt.Component;
 
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.panel.Card;
-
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.ModernComponent;
 

@@ -34,8 +34,6 @@ import java.awt.Font;
 import javax.swing.border.Border;
 
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.text.ModernAutoSizeLabel;
-import dev.antonyholmes.modern.text.ModernLabel;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

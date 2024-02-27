@@ -35,17 +35,6 @@ import java.awt.event.MouseEvent;
 
 import javax.swing.Timer;
 
-import dev.antonyholmes.modern.tooltip.ModernBasicToolTipPanel;
-import dev.antonyholmes.modern.tooltip.ModernToolTip;
-import dev.antonyholmes.modern.tooltip.ModernToolTipEvent;
-import dev.antonyholmes.modern.tooltip.ModernToolTipEventProducer;
-import dev.antonyholmes.modern.tooltip.ModernToolTipListener;
-import dev.antonyholmes.modern.tooltip.ModernToolTipSuggestHelpPanel;
-import dev.antonyholmes.modern.tooltip.ModernToolTipWidget;
-import dev.antonyholmes.modern.tooltip.MouseEvents;
-import dev.antonyholmes.modern.tooltip.ToolTipEvents;
-import dev.antonyholmes.modern.tooltip.ToolTipService;
-
 import dev.antonyholmes.modern.ModernFocusableWidget;
 
 /**

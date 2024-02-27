@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.clipboard;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.clipboard.ClipboardEventListener;
-import dev.antonyholmes.modern.clipboard.ClipboardEventProducer;
 
 /**
  * The basis for model controls in a model view controller setup.

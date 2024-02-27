@@ -28,9 +28,6 @@
 package dev.antonyholmes.modern.dialog;
 
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.dialog.DialogEvent;
-import dev.antonyholmes.modern.dialog.DialogEventListener;
-import dev.antonyholmes.modern.dialog.DialogEventProducer;
 
 /**
  * The basis for model controls in a model view controller setup.

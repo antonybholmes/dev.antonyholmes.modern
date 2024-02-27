@@ -29,9 +29,6 @@ package dev.antonyholmes.modern.dataview;
 
 import java.awt.Component;
 
-import dev.antonyholmes.modern.dataview.ModernData;
-import dev.antonyholmes.modern.dataview.ModernDataEditorListeners;
-
 // TODO: Auto-generated Javadoc
 /**
  * Provides a flat look table renderer for the flat table although it can be

@@ -31,7 +31,6 @@ import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeEventProducer;
 import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.event.ChangeListeners;
-import dev.antonyholmes.modern.button.ModernClickWidget;
 
 /**
  * For widgets that change values.

@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.dataview;
 
-import dev.antonyholmes.modern.dataview.ModernDataRowSelection;
-
 /**
  * The class ModernDataSelection.
  */

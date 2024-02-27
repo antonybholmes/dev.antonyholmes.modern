@@ -33,8 +33,6 @@ import java.awt.Component;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 
-import dev.antonyholmes.modern.window.ModernWindowPanel;
-
 import dev.antonyholmes.modern.dialog.ModernDialogButtonBox;
 import dev.antonyholmes.modern.dialog.ModernDialogContentPanel;
 import dev.antonyholmes.modern.dialog.ModernDialogStatus;

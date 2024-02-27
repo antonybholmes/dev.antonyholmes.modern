@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.history;
 import java.awt.Component;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.history.ModernDataModelTransform;
-import dev.antonyholmes.modern.history.ModernHistoryListBasicCellRenderer;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.list.ModernList;
 

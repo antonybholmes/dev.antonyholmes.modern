@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.menu;
 
-import dev.antonyholmes.modern.menu.ModernIconMenuItem;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 /**

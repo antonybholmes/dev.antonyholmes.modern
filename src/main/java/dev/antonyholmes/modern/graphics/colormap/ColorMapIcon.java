@@ -21,7 +21,6 @@ import java.awt.Rectangle;
 import java.awt.geom.Point2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.colormap.ColorMap;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.graphics.icons.ModernVectorIcon;

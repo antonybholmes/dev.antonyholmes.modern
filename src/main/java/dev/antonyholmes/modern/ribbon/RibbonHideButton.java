@@ -15,8 +15,6 @@
  */
 package dev.antonyholmes.modern.ribbon;
 
-import dev.antonyholmes.modern.ribbon.RibbonButton;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.graphics.icons.CheveronUpVectorIcon;

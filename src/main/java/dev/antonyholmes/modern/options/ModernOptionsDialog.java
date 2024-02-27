@@ -39,8 +39,6 @@ import org.jebtk.core.path.Path;
 import org.jebtk.core.settings.SettingsService;
 import org.jebtk.core.tree.TreeNode;
 import org.jebtk.core.tree.TreePath;
-import dev.antonyholmes.modern.options.ModernOptionsDialog;
-import dev.antonyholmes.modern.options.ModernSettingsTableModel;
 
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.UI;

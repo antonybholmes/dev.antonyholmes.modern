@@ -20,8 +20,6 @@ import java.awt.Graphics2D;
 import java.awt.LinearGradientPaint;
 import java.awt.geom.Point2D;
 
-import dev.antonyholmes.modern.graphics.colormap.ColorMap;
-
 import dev.antonyholmes.modern.dataview.ModernData;
 import dev.antonyholmes.modern.dataview.ModernDataCellRenderer;
 

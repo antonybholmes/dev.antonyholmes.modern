@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.event;
 
-import dev.antonyholmes.modern.event.ModernStateEvent;
-import dev.antonyholmes.modern.event.ModernStateListener;
-
 /**
  * For classes that generate ModernStateEvents.
  *

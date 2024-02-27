@@ -30,7 +30,6 @@ package dev.antonyholmes.modern.graphics.color;
 import org.jebtk.core.ColorValue;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListeners;
-import dev.antonyholmes.modern.graphics.color.ColorChannel;
 
 /**
  * The class ColorSelectionModel.

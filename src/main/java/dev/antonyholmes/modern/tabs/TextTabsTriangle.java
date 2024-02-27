@@ -29,9 +29,6 @@ package dev.antonyholmes.modern.tabs;
 
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.TextTabs;
-
 // TODO: Auto-generated Javadoc
 /**
  * Simple horizontal tabs using labels as buttons.

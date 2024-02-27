@@ -31,9 +31,6 @@ import java.awt.Graphics2D;
 import java.awt.Point;
 
 import org.jebtk.core.tree.TreeNode;
-import dev.antonyholmes.modern.tree.ModernTreeNodeRenderer;
-import dev.antonyholmes.modern.tree.Tree;
-import dev.antonyholmes.modern.tree.TreeIconNodeRenderer;
 
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 

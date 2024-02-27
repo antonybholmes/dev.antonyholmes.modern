@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.dialog;
 
 import java.awt.Component;
 
-import dev.antonyholmes.modern.dialog.ModernDialogBorderPanel;
-
 import dev.antonyholmes.modern.ModernComponent;
 
 /**

@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.scrollpane;
 
 import java.awt.Component;
 
-import dev.antonyholmes.modern.scrollpane.ModernScrollBar;
-
 /**
  * The class Scroller controls how the component behaves during scrolling. This
  * is so that for example, tables can scroll by rows rather than pixels for a

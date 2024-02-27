@@ -29,9 +29,6 @@ package dev.antonyholmes.modern.tabs;
 
 import java.awt.Color;
 
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.TabsPanel;
-
 import dev.antonyholmes.modern.theme.ThemeService;
 
 // TODO: Auto-generated Javadoc

@@ -34,8 +34,6 @@ import java.awt.event.FocusListener;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.dialog.MessageDialogPanel;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButton;
 import dev.antonyholmes.modern.event.ModernClickEvent;

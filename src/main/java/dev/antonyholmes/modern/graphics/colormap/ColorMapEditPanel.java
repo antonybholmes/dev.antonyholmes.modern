@@ -23,10 +23,6 @@ import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.awt.geom.Point2D;
 
-import dev.antonyholmes.modern.graphics.colormap.ColorMap;
-import dev.antonyholmes.modern.graphics.colormap.ColorMapColorButton;
-import dev.antonyholmes.modern.graphics.colormap.ColorMapType;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.event.ModernClickEvent;

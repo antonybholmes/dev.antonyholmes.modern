@@ -27,10 +27,6 @@
  */
 package dev.antonyholmes.modern.zoom;
 
-import dev.antonyholmes.modern.zoom.ModernZoomLabel;
-import dev.antonyholmes.modern.zoom.ModernZoomSlider;
-import dev.antonyholmes.modern.zoom.ZoomModel;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.panel.HBox;
 

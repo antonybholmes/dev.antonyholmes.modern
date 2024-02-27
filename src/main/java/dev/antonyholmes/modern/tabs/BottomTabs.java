@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.tabs;
 
-import dev.antonyholmes.modern.tabs.SegmentTabs;
-import dev.antonyholmes.modern.tabs.TabsModel;
-
 // TODO: Auto-generated Javadoc
 /**
  * Mac Style tabs.

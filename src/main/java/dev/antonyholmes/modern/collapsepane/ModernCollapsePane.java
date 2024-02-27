@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.collapsepane;
 
 import java.awt.Dimension;
 
-import dev.antonyholmes.modern.collapsepane.ModernSubCollapsePane;
-
 import dev.antonyholmes.modern.theme.MaterialUtils;
 
 /**

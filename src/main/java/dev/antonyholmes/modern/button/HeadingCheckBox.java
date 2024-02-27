@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.button;
 
 import java.awt.Font;
 
-import dev.antonyholmes.modern.button.ModernCheckBox;
-
 /**
  * Default look for a heading label.
  *

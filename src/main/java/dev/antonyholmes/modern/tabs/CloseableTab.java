@@ -29,10 +29,6 @@ package dev.antonyholmes.modern.tabs;
 
 import java.awt.Component;
 
-import dev.antonyholmes.modern.tabs.ClickEvents;
-import dev.antonyholmes.modern.tabs.CloseButton;
-import dev.antonyholmes.modern.tabs.TabsModel;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.button.ModernButton;
 import dev.antonyholmes.modern.event.ModernClickEvent;

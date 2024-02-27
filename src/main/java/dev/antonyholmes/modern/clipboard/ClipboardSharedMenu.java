@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.clipboard;
 
-import dev.antonyholmes.modern.clipboard.ClipboardSharedMenu;
-import dev.antonyholmes.modern.clipboard.ClipboardSharedMenuLoader;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.event.ModernClickEvent;
 import dev.antonyholmes.modern.event.ModernClickListener;

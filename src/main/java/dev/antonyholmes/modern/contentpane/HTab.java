@@ -31,8 +31,6 @@ import java.awt.Component;
 
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.contentpane.HTabToolbar;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.ModernWidget;
 

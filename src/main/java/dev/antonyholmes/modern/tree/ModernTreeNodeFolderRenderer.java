@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.tree;
 
-import dev.antonyholmes.modern.tree.TreeIconNodeCountRenderer;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.graphics.icons.FolderVectorIcon;
 

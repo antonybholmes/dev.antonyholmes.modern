@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.event;
 
 import java.util.EventListener;
 
-import dev.antonyholmes.modern.event.ModernStateEvent;
-
 /**
  * Modern UI controls such as buttons should fire ModernClickEvents.
  * 

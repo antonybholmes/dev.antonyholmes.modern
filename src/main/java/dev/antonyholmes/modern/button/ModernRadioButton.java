@@ -30,10 +30,6 @@ package dev.antonyholmes.modern.button;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.button.ModernButton;
-import dev.antonyholmes.modern.button.ModernTwoStateWidget;
-import dev.antonyholmes.modern.button.RadioAnimation;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

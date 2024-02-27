@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.button;
 
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.button.ModernCheckButton;
-
 import dev.antonyholmes.modern.theme.ThemeService;
 
 /**

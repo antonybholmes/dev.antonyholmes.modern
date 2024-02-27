@@ -35,14 +35,6 @@ import java.util.Map;
 
 import javax.swing.JComponent;
 
-import dev.antonyholmes.modern.tabs.SizableTab;
-import dev.antonyholmes.modern.tabs.Tab;
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabEventListener;
-import dev.antonyholmes.modern.tabs.TabEventListeners;
-import dev.antonyholmes.modern.tabs.TabEvents;
-import dev.antonyholmes.modern.tabs.Tabs;
-
 import dev.antonyholmes.modern.ModernComponent;
 
 /**

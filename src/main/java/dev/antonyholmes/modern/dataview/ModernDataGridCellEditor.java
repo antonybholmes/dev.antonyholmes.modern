@@ -33,8 +33,6 @@ import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.dataview.ModernData;
-import dev.antonyholmes.modern.dataview.ModernDataCellEditor;
 
 import dev.antonyholmes.modern.panel.ModernPanel;
 import dev.antonyholmes.modern.text.ModernNumericalTextField;

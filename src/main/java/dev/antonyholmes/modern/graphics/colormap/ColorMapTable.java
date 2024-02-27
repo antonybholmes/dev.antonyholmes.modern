@@ -15,9 +15,6 @@
  */
 package dev.antonyholmes.modern.graphics.colormap;
 
-import dev.antonyholmes.modern.graphics.colormap.ColorMapCellRenderer;
-import dev.antonyholmes.modern.graphics.colormap.ColorMapTableModel;
-
 import dev.antonyholmes.modern.table.ModernRowTable;
 
 /**

@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.graphics;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.graphics.CanvasEventProducer;
-import dev.antonyholmes.modern.graphics.CanvasListener;
 
 /**
  * The basis for model controls in a model view controller setup.

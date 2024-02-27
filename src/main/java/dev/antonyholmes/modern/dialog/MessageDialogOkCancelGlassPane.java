@@ -34,13 +34,6 @@ import java.awt.event.FocusListener;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.dialog.DialogEvent;
-import dev.antonyholmes.modern.dialog.DialogEventListener;
-import dev.antonyholmes.modern.dialog.MessageDialogPanel;
-import dev.antonyholmes.modern.dialog.MessageDialogStatusGlassPane;
-import dev.antonyholmes.modern.dialog.ModernDialogStatus;
-import dev.antonyholmes.modern.dialog.OKCancelPanel;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButton;
 import dev.antonyholmes.modern.event.ModernClickEvent;

@@ -27,10 +27,6 @@
  */
 package dev.antonyholmes.modern.graphics.color;
 
-import dev.antonyholmes.modern.graphics.color.ColorChannel;
-import dev.antonyholmes.modern.graphics.color.ColorSelectionModel;
-import dev.antonyholmes.modern.graphics.color.ColorSpinner;
-
 /**
  * Color spinner that responds to the blue channel.
  * 

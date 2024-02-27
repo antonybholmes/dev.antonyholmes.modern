@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.panel;
 
 import java.awt.LayoutManager;
 
-import dev.antonyholmes.modern.panel.MatrixLayout;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.ModernWidget;
 

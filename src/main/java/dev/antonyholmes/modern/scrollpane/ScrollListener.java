@@ -2,8 +2,6 @@ package dev.antonyholmes.modern.scrollpane;
 
 import java.util.EventListener;
 
-import dev.antonyholmes.modern.scrollpane.ScrollEvent;
-
 /**
  * Listen for scroll events
  * 

@@ -21,7 +21,6 @@ import org.jebtk.core.Mathematics;
 import org.jebtk.core.Props;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.list.ModernList;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.TranslateYAnimation;

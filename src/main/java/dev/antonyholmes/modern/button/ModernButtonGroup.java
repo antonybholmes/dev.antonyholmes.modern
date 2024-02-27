@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.button;
 import java.util.HashSet;
 import java.util.Set;
 
-import dev.antonyholmes.modern.button.ModernButtonGroup;
-import dev.antonyholmes.modern.button.ModernClickWidget;
-
 import dev.antonyholmes.modern.event.ModernClickEvent;
 import dev.antonyholmes.modern.event.ModernClickListener;
 import dev.antonyholmes.modern.event.ModernStateEvent;

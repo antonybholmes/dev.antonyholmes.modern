@@ -19,7 +19,6 @@ import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.collapsepane.ModernSubCollapsePane;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.HighlightAnimation;

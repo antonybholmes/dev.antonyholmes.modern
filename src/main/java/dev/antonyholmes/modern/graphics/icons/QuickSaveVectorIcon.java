@@ -34,7 +34,6 @@ import java.awt.geom.GeneralPath;
 import java.awt.geom.Rectangle2D;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.ModernVectorIcon;
 
 import dev.antonyholmes.modern.ModernWidget;
 

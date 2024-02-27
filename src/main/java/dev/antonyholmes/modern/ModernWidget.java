@@ -48,10 +48,6 @@ import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.geom.IntRect;
 import org.jebtk.core.settings.SettingsService;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.BorderService;
-import dev.antonyholmes.modern.ModernComponent;
-import dev.antonyholmes.modern.ModernWidget;
-import dev.antonyholmes.modern.UI;
 
 import dev.antonyholmes.modern.animation.Animation;
 import dev.antonyholmes.modern.animation.Animations;

@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.dialog;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.dialog.ModernDialogStatus;
 
 /**
  * Modern UI controls such as buttons should fire ModernClickEvents.

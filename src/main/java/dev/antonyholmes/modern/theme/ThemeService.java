@@ -44,13 +44,6 @@ import org.jebtk.core.Resources;
 import org.jebtk.core.model.KeyStore;
 import org.jebtk.core.path.Path;
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.theme.ModernTheme;
-import dev.antonyholmes.modern.theme.Theme;
-import dev.antonyholmes.modern.theme.ThemeColorMap;
-import dev.antonyholmes.modern.theme.ThemeColors;
-import dev.antonyholmes.modern.theme.ThemeFonts;
-import dev.antonyholmes.modern.theme.ThemeService;
-import dev.antonyholmes.modern.theme.ThemeServiceLoader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

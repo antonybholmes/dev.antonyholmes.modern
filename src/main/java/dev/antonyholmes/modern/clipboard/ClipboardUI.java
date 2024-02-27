@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.clipboard;
 
-import dev.antonyholmes.modern.clipboard.Clipboard;
-
 /**
  * Controls that want to hook into the clipboard system must implement this.
  *

@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.button;
 import java.awt.LayoutManager;
 
 import org.jebtk.core.NameGetter;
-import dev.antonyholmes.modern.button.ButtonStyle;
-import dev.antonyholmes.modern.button.ModernButtonWidget;
-import dev.antonyholmes.modern.button.ModernClickWidget;
 
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 import dev.antonyholmes.modern.text.TextProperty;

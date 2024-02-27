@@ -33,9 +33,6 @@ import java.awt.image.BufferedImageOp;
 import java.awt.image.ColorConvertOp;
 import java.io.IOException;
 
-import dev.antonyholmes.modern.graphics.icons.ModernIcon;
-import dev.antonyholmes.modern.graphics.icons.RasterIcon;
-
 /**
  * Rastorizes an icon (for example a vector based on) to reduce drawing
  * overhead.

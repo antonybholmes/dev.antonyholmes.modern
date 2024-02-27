@@ -33,8 +33,6 @@ import java.awt.event.FocusListener;
 import javax.swing.Box;
 
 import org.jebtk.core.event.ChangeListener;
-import dev.antonyholmes.modern.zoom.FocusEvents;
-import dev.antonyholmes.modern.zoom.ZoomModel;
 
 import dev.antonyholmes.modern.button.ModernButtonGroup;
 import dev.antonyholmes.modern.button.ModernRadioButton;

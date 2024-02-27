@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.window;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.window.ModernWindowEventProducer;
-import dev.antonyholmes.modern.window.ModernWindowListener;
 
 /**
  * The basis for model controls in a model view controller setup.

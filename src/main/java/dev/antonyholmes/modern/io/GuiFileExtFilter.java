@@ -41,7 +41,6 @@ import javax.swing.filechooser.FileFilter;
 import org.jebtk.core.collections.CollectionUtils;
 import org.jebtk.core.io.PathUtils;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.io.GuiFileExtFilter;
 
 /**
  * The class GuiFileExtFilter.

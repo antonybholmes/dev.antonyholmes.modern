@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.io;
 import java.nio.file.Path;
 import java.util.Date;
 
-import dev.antonyholmes.modern.io.RecentFileMenuItem;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 import dev.antonyholmes.modern.graphics.icons.OpenFolderVectorIcon;

@@ -41,11 +41,6 @@ import javax.swing.border.Border;
 
 import org.jebtk.core.io.PathUtils;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.window.ModernTitleBar;
-import dev.antonyholmes.modern.window.ModernWindow;
-import dev.antonyholmes.modern.window.WindowLeftTabNav;
-import dev.antonyholmes.modern.window.WindowRightTabNav;
-import dev.antonyholmes.modern.window.WindowTabNav;
 
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.ModernWidget;

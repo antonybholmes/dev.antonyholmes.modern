@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.tree;
 import java.awt.Graphics2D;
 import java.awt.Point;
 
-import dev.antonyholmes.modern.tree.ModernTreeBranchNodeRenderer;
-
 // TODO: Auto-generated Javadoc
 /**
  * Provides a rudimentary implementation of a node renderer that detects if is

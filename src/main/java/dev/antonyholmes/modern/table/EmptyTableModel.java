@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.table;
 
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.table.ModernTableModel;
 
 /**
  * Empty table model for use as table holder.

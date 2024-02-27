@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.window;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.window.ModernWindowListener;
 
 /**
  * For classes that generate ModernClickEvents.

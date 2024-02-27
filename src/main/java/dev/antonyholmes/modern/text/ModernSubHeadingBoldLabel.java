@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.text;
 import java.awt.Color;
 import java.awt.Font;
 
-import dev.antonyholmes.modern.text.ModernAutoSizeLabel;
-
 import dev.antonyholmes.modern.theme.ThemeService;
 
 /**

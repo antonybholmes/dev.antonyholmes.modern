@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.text;
 
-import dev.antonyholmes.modern.text.ModernClipboardTextField;
-
 import dev.antonyholmes.modern.ModernWidget;
 
 // TODO: Auto-generated Javadoc

@@ -30,10 +30,6 @@ package dev.antonyholmes.modern.collapsepane;
 import java.awt.Graphics2D;
 import java.awt.Point;
 
-import dev.antonyholmes.modern.collapsepane.AbstractCollapsePane;
-import dev.antonyholmes.modern.collapsepane.ModernCollapseEnableNodeRenderer;
-import dev.antonyholmes.modern.collapsepane.ModernCollapseNodeRenderer;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.graphics.icons.CheckedVectorIcon;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;

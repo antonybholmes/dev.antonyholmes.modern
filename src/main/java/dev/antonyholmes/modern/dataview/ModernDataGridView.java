@@ -39,11 +39,6 @@ import java.awt.event.MouseEvent;
 
 import org.jebtk.core.geom.IntPos2D;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.dataview.ModernData;
-import dev.antonyholmes.modern.dataview.ModernDataCell;
-import dev.antonyholmes.modern.dataview.ModernDataCellRenderer;
-import dev.antonyholmes.modern.dataview.ModernDataSelection;
-import dev.antonyholmes.modern.dataview.MouseEvents;
 
 import dev.antonyholmes.modern.SelectionPolicy;
 import dev.antonyholmes.modern.graphics.DrawingContext;

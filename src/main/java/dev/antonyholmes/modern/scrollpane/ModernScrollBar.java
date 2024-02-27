@@ -52,13 +52,6 @@ import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.event.ChangeListeners;
 import org.jebtk.core.geom.IntRect;
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.scrollpane.ComponentEvents;
-import dev.antonyholmes.modern.scrollpane.IncrementScroll;
-import dev.antonyholmes.modern.scrollpane.ModernScrollBar;
-import dev.antonyholmes.modern.scrollpane.MouseEvents;
-import dev.antonyholmes.modern.scrollpane.MouseWheelEvents;
-import dev.antonyholmes.modern.scrollpane.ScrollBarLocation;
-import dev.antonyholmes.modern.scrollpane.Scroller;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.MouseUtils;

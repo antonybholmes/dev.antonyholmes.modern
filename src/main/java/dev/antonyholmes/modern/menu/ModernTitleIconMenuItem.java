@@ -31,8 +31,6 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
-import dev.antonyholmes.modern.menu.ModernMenuItem;
-
 import dev.antonyholmes.modern.theme.ThemeService;
 
 // TODO: Auto-generated Javadoc

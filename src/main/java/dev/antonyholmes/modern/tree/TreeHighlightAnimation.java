@@ -19,8 +19,6 @@ import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
 import org.jebtk.core.tree.TreeNode;
-import dev.antonyholmes.modern.tree.ModernTree;
-import dev.antonyholmes.modern.tree.ModernTreeNodeRenderer;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.animation.HighlightAnimation;

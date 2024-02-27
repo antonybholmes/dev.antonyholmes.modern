@@ -36,7 +36,6 @@ import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.geom.IntDim;
 import org.jebtk.core.geom.IntPos2D;
-import dev.antonyholmes.modern.zoom.ZoomModel;
 
 import dev.antonyholmes.modern.MouseUtils;
 import dev.antonyholmes.modern.graphics.CanvasMouseEvent;

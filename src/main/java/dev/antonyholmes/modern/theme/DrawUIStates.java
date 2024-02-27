@@ -22,8 +22,6 @@ import java.util.List;
 import org.jebtk.core.collections.IterHashMap;
 import org.jebtk.core.collections.IterMap;
 import org.jebtk.core.event.ChangeListeners;
-import dev.antonyholmes.modern.theme.DrawUI;
-import dev.antonyholmes.modern.theme.DrawUIStates;
 
 /**
  * The Class Animations.

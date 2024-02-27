@@ -29,12 +29,6 @@ package dev.antonyholmes.modern.window;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.window.ArrangeEvents;
-import dev.antonyholmes.modern.window.ModernWindow;
-import dev.antonyholmes.modern.window.ModernWindowListener;
-import dev.antonyholmes.modern.window.SwitchWindowMenuItem;
-import dev.antonyholmes.modern.window.WindowRegistryListener;
-import dev.antonyholmes.modern.window.WindowService;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.button.ModernButtonGroup;
@@ -70,11 +64,7 @@ public class WindowRibbonSection extends RibbonSection implements ModernWindowLi
    */
   private static final int MAX_CHARS = 30;
 
-  /**
-   * The constant MENU_WIDTH.
-   */
-  private static final int MENU_WIDTH = 300;
-
+ 
   /**
    * The member window menu.
    */

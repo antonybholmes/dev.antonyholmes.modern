@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.button;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
-import dev.antonyholmes.modern.button.ModernDropDownButton;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 import dev.antonyholmes.modern.graphics.icons.TriangleDownVectorIcon;

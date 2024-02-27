@@ -35,9 +35,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.tabs.MouseEvents;
-import dev.antonyholmes.modern.tabs.TabsController;
-import dev.antonyholmes.modern.tabs.TabsModel;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

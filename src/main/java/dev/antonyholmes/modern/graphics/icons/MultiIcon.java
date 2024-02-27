@@ -33,7 +33,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 /**
  * The class MultiIcon.

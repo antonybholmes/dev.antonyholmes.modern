@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.zoom;
 
 import org.jebtk.core.event.ChangeListeners;
-import dev.antonyholmes.modern.zoom.Zoom;
 
 /**
  * Provides a zoom model for zoom components to communicate through. Zoom is

@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.ribbon;
 
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.ribbon.RibbonBackAnimation;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButton;

@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.io;
 
-import dev.antonyholmes.modern.io.SimpleGuiFileFilter;
-
 // TODO: Auto-generated Javadoc
 /**
  * Filter for GIF files.

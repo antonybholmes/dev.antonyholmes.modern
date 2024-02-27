@@ -29,9 +29,6 @@ package dev.antonyholmes.modern.panel;
 
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.panel.VBoxAutoWidth;
-import dev.antonyholmes.modern.panel.VBoxAutoWidthLayout;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.scrollpane.VertScrollComponent;
 

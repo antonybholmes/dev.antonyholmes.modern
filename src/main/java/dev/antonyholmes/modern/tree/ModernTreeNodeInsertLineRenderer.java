@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.tree;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.tree.ModernTreeNodeInsertRenderer;
-
 import dev.antonyholmes.modern.theme.ThemeService;
 
 // TODO: Auto-generated Javadoc

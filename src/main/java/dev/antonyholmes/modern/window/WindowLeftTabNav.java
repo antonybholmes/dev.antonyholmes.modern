@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.window;
 
-import dev.antonyholmes.modern.window.WindowTabNav;
-
 import dev.antonyholmes.modern.contentpane.ModernHContentPane;
 import dev.antonyholmes.modern.tabs.TabsModel;
 

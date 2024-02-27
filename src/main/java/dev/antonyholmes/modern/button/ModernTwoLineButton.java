@@ -34,9 +34,6 @@ import java.awt.Rectangle;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-import dev.antonyholmes.modern.button.ModernButton;
-import dev.antonyholmes.modern.button.MouseEvents;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.TwoLineWidget;

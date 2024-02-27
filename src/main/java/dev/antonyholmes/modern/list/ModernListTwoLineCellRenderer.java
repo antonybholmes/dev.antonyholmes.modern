@@ -31,9 +31,6 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.list.ModernList;
-import dev.antonyholmes.modern.list.ModernListIconCellRenderer;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 // TODO: Auto-generated Javadoc

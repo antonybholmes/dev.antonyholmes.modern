@@ -27,9 +27,6 @@ import java.util.List;
 
 import org.jebtk.core.geom.IntDim;
 import org.jebtk.core.geom.IntPos2D;
-import dev.antonyholmes.modern.graphics.colormap.ColorMap;
-import dev.antonyholmes.modern.graphics.colormap.MouseEvents;
-import dev.antonyholmes.modern.graphics.colormap.MouseMoveEvents;
 
 import dev.antonyholmes.modern.button.ModernClickWidget;
 import dev.antonyholmes.modern.graphics.ImageUtils;

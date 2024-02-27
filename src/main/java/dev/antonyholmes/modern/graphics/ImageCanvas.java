@@ -32,11 +32,6 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.graphics.CanvasAdapter;
-import dev.antonyholmes.modern.graphics.CanvasEvents;
-import dev.antonyholmes.modern.graphics.DrawingContext;
-import dev.antonyholmes.modern.graphics.ImageUtils;
-import dev.antonyholmes.modern.graphics.ModernCanvas;
 
 /**
  * Render child canvas as an image to improve display performance on the GUI of

@@ -31,9 +31,6 @@ import java.awt.Dimension;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
-import dev.antonyholmes.modern.menu.ModernIconMenuItem;
-import dev.antonyholmes.modern.menu.ModernMenuItem;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.dialog.ModernDialogWindow;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;

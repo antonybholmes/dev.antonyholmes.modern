@@ -22,7 +22,6 @@ import org.jebtk.core.collections.CollectionUtils;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.graphics.colormap.ColorMapService;
 
 import dev.antonyholmes.modern.table.ModernTableModel;
 

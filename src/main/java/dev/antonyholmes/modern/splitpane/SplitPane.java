@@ -39,8 +39,6 @@ import javax.swing.JComponent;
 import javax.swing.SwingUtilities;
 
 import org.jebtk.core.Mathematics;
-import dev.antonyholmes.modern.splitpane.ComponentEvents;
-import dev.antonyholmes.modern.splitpane.SplitPane;
 
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.ModernWidget;

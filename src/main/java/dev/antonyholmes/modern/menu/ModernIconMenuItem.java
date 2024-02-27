@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.menu;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.menu.ModernIconMenuItem;
-import dev.antonyholmes.modern.menu.ModernMenuItem;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 

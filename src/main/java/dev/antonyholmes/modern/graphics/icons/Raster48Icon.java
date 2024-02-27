@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.graphics.icons;
 
-import dev.antonyholmes.modern.graphics.icons.ModernIcon;
-import dev.antonyholmes.modern.graphics.icons.RasterIcon;
-
 /**
  * Rastorizes an icon to 48x48 pixels.
  * 

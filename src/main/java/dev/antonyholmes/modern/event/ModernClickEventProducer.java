@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.event;
 
-import dev.antonyholmes.modern.event.ModernClickEvent;
-import dev.antonyholmes.modern.event.ModernClickListener;
-
 /**
  * For classes that generate ModernClickEvents.
  *

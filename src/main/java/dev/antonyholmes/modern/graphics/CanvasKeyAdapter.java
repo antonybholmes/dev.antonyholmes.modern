@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.graphics;
 
 import java.awt.event.KeyEvent;
 
-import dev.antonyholmes.modern.graphics.CanvasKeyListener;
-
 /**
  * The class ModernCanvasMouseAdapter.
  */

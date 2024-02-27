@@ -37,11 +37,6 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
-import dev.antonyholmes.modern.scrollpane.KeyEvents;
-import dev.antonyholmes.modern.scrollpane.ModernScrollBar;
-import dev.antonyholmes.modern.scrollpane.MouseEvents;
-import dev.antonyholmes.modern.scrollpane.MouseMotionEvents;
-
 import dev.antonyholmes.modern.BorderService;
 
 /**

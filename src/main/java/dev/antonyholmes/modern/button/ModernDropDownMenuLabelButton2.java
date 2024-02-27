@@ -31,8 +31,6 @@ import java.awt.Dimension;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.button.ModernClickEvents;
-import dev.antonyholmes.modern.button.ModernDropDownWidget2;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernWidget;

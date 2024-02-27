@@ -32,7 +32,6 @@ import java.util.TreeMap;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListeners;
-import dev.antonyholmes.modern.table.TableIndex;
 
 import dev.antonyholmes.modern.SelectionRangeModel;
 import dev.antonyholmes.modern.event.ModernSelectionEventProducer;

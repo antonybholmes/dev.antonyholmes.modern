@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.scrollpane;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
-import dev.antonyholmes.modern.scrollpane.ModernHScrollBar;
-
 import dev.antonyholmes.modern.graphics.ImageUtils;
 import dev.antonyholmes.modern.theme.MaterialService;
 

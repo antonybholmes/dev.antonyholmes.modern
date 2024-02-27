@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.spinner;
 
-import dev.antonyholmes.modern.spinner.ModernSpinner;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.graphics.icons.MinusVectorIcon;
 import dev.antonyholmes.modern.graphics.icons.PlusVectorIcon;

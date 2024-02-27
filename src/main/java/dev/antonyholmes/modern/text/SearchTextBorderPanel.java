@@ -34,11 +34,6 @@ import java.awt.event.ComponentEvent;
 
 import javax.swing.JComponent;
 
-import dev.antonyholmes.modern.text.ModernPasswordField;
-import dev.antonyholmes.modern.text.ModernTextBox;
-import dev.antonyholmes.modern.text.ModernTextField;
-import dev.antonyholmes.modern.text.TextProperty;
-
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

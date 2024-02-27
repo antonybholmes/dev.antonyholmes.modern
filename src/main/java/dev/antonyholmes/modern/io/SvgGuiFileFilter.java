@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.io;
 
-import dev.antonyholmes.modern.io.GuiFileExtFilter;
-
 /**
  * The class SvgGuiFileFilter.
  */

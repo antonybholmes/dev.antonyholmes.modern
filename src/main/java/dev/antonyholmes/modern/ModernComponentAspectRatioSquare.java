@@ -2,8 +2,6 @@ package dev.antonyholmes.modern;
 
 import java.awt.Dimension;
 
-import dev.antonyholmes.modern.ModernComponentAspectRatio;
-
 public class ModernComponentAspectRatioSquare extends ModernComponentAspectRatio {
   @Override
   public Dimension getPreferredSize(Dimension preferred, Dimension min, Dimension max) {

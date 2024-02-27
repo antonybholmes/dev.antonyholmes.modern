@@ -32,8 +32,6 @@ import java.awt.Graphics2D;
 
 import javax.swing.BoxLayout;
 
-import dev.antonyholmes.modern.panel.ModernPanel;
-
 import dev.antonyholmes.modern.ribbon.Ribbon;
 
 /**

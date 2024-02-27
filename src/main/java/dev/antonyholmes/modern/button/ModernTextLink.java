@@ -18,8 +18,6 @@ package dev.antonyholmes.modern.button;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.button.ModernLinkButton;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.ribbon.Ribbon;

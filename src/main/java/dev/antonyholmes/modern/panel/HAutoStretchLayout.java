@@ -7,7 +7,6 @@ import java.awt.Insets;
 import java.awt.LayoutManager;
 
 import org.jebtk.core.Mathematics;
-import dev.antonyholmes.modern.panel.HAlignment;
 
 /**
  * Align component in center of screen and dynamically change its width to be a

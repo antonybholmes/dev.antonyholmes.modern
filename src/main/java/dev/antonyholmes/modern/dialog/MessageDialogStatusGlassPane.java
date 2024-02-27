@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.dialog;
 
-import dev.antonyholmes.modern.dialog.DialogEventListener;
-import dev.antonyholmes.modern.dialog.DialogEventListeners;
-
 import dev.antonyholmes.modern.window.FrostedGlassPane;
 
 /**

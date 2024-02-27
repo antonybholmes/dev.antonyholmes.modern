@@ -44,10 +44,6 @@ import javax.swing.JLayeredPane;
 import javax.swing.SwingUtilities;
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.dialog.AllMouseEvents;
-import dev.antonyholmes.modern.dialog.ModernDialogStatus;
-import dev.antonyholmes.modern.dialog.ModernDialogWindow;
-
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.ModernWidget;

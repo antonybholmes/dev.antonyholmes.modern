@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.history;
 import java.awt.Color;
 import java.awt.Component;
 
-import dev.antonyholmes.modern.history.ModernHistoryListCellRenderer;
-
 import dev.antonyholmes.modern.list.ModernList;
 
 // TODO: Auto-generated Javadoc

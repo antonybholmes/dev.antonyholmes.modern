@@ -32,8 +32,6 @@ import java.awt.Frame;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.ColorUtils;
-import dev.antonyholmes.modern.window.ModernWindow;
-import dev.antonyholmes.modern.window.ModernWindowTitleBarRoundButton;
 
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.event.ModernClickEvent;

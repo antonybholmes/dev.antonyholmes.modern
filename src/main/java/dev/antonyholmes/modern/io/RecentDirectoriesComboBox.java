@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.io;
 
-import dev.antonyholmes.modern.io.RecentFilesComboBox;
-import dev.antonyholmes.modern.io.RecentFilesService;
-
 import dev.antonyholmes.modern.AssetService;
 
 /**

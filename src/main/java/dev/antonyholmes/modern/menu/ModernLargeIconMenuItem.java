@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.menu;
 
 import java.awt.Dimension;
 
-import dev.antonyholmes.modern.menu.ModernIconMenuItem;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 /**

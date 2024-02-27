@@ -28,11 +28,6 @@
 package dev.antonyholmes.modern.dataview;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.dataview.ModernDataCellStyle;
-import dev.antonyholmes.modern.dataview.ModernDataCellStyleModel;
-import dev.antonyholmes.modern.dataview.ModernDataModel;
-import dev.antonyholmes.modern.dataview.ModernDataViewListener;
-import dev.antonyholmes.modern.dataview.StyleEvents;
 
 /**
  * Extended table model.

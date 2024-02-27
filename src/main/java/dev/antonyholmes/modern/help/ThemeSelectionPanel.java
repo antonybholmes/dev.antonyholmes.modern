@@ -15,8 +15,6 @@
  */
 package dev.antonyholmes.modern.help;
 
-import dev.antonyholmes.modern.help.ThemeSelectionCombo;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButton;
 import dev.antonyholmes.modern.dialog.ModernDialogButton;

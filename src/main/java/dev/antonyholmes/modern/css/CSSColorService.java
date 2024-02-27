@@ -8,7 +8,6 @@ import org.jebtk.core.ColorUtils;
 
 import dev.antonyholmes.modern.animation.AnimationTimer;
 import dev.antonyholmes.modern.animation.EasingAnimation;
-import dev.antonyholmes.modern.css.CSSColor;
 
 public class CSSColorService {
 

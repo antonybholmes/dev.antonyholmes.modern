@@ -30,7 +30,6 @@ package dev.antonyholmes.modern.graphics.icons;
 import java.awt.Color;
 
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.graphics.icons.ModernVectorIcon;
 
 import dev.antonyholmes.modern.theme.ThemeService;
 

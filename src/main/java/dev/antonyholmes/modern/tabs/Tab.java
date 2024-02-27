@@ -29,11 +29,6 @@ package dev.antonyholmes.modern.tabs;
 
 import javax.swing.JComponent;
 
-import dev.antonyholmes.modern.tabs.Tab;
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabEventListeners;
-import dev.antonyholmes.modern.tabs.TabPosition;
-
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 /**

@@ -32,9 +32,6 @@ import java.awt.event.FocusEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import dev.antonyholmes.modern.button.FocusEvents;
-import dev.antonyholmes.modern.button.MouseEvents;
-
 import dev.antonyholmes.modern.FocusAdapter;
 import dev.antonyholmes.modern.css.CSSWidget;
 import dev.antonyholmes.modern.event.HighlightEvent;

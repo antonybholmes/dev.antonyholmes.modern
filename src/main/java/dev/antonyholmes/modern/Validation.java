@@ -30,7 +30,6 @@ package dev.antonyholmes.modern;
 import java.util.Collection;
 
 import org.jebtk.core.collections.CollectionUtils;
-import dev.antonyholmes.modern.ValidationException;
 
 import dev.antonyholmes.modern.dialog.MessageDialogType;
 import dev.antonyholmes.modern.dialog.ModernMessageDialog;

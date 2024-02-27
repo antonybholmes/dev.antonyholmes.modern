@@ -17,10 +17,6 @@ package dev.antonyholmes.modern.tabs;
 
 import java.awt.BorderLayout;
 
-import dev.antonyholmes.modern.tabs.SideTabs;
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.TabsViewPanel;
-
 import dev.antonyholmes.modern.ModernComponent;
 
 /**

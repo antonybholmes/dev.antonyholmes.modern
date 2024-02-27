@@ -44,10 +44,6 @@ import javax.swing.JButton;
 import javax.swing.JComponent;
 import javax.swing.TransferHandler;
 
-import dev.antonyholmes.modern.dataview.DndButton;
-import dev.antonyholmes.modern.dataview.ModernDataGridView;
-import dev.antonyholmes.modern.dataview.ModernDataTileCellRenderer;
-
 // TODO: Auto-generated Javadoc
 /**
  * Default to a large tile view.

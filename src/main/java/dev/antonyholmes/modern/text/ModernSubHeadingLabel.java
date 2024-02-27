@@ -32,8 +32,6 @@ import java.awt.Font;
 
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.text.ModernAutoSizeLabel;
-
 import dev.antonyholmes.modern.theme.MaterialService;
 
 /**

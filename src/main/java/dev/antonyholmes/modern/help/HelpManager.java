@@ -35,7 +35,6 @@ import java.net.URL;
 
 import org.jebtk.core.http.URLUtils;
 import org.jebtk.core.settings.Setting;
-import dev.antonyholmes.modern.help.GuiAppInfo;
 
 /**
  * Manage showing help to users.

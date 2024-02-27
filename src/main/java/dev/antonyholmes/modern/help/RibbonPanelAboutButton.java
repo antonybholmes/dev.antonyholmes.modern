@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.help;
 
-import dev.antonyholmes.modern.help.GuiAppInfo;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernTextLink;
 

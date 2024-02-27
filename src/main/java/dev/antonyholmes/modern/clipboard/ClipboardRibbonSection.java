@@ -28,8 +28,6 @@
 package dev.antonyholmes.modern.clipboard;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.clipboard.ClipboardEventListener;
-import dev.antonyholmes.modern.clipboard.ClipboardService;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.button.ModernButtonWidget;

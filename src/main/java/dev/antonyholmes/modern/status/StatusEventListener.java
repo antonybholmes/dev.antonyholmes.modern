@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.status;
 
 import java.util.EventListener;
 
-import dev.antonyholmes.modern.status.StatusEvent;
-
 // TODO: Auto-generated Javadoc
 /**
  * The listener interface for receiving statusEvent events. The class that is

@@ -17,8 +17,6 @@ package dev.antonyholmes.modern.ribbon;
 
 import java.awt.Dimension;
 
-import dev.antonyholmes.modern.ribbon.RibbonSegmentVertTabs;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.tabs.SegmentTabs;

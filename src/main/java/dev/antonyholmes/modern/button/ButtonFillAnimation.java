@@ -1,7 +1,5 @@
 package dev.antonyholmes.modern.button;
 
-import dev.antonyholmes.modern.button.ModernClickWidget;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.css.CSSHoverAnimation;
 

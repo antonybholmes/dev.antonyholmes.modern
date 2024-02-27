@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.list;
 import java.awt.Component;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.list.ModernList;
-
 import dev.antonyholmes.modern.button.ModernClickWidget;
 
 // TODO: Auto-generated Javadoc

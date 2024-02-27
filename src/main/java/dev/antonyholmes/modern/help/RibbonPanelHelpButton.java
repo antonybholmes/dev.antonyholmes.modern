@@ -31,9 +31,6 @@ import java.awt.Graphics2D;
 import java.io.IOException;
 import java.net.URISyntaxException;
 
-import dev.antonyholmes.modern.help.GuiAppInfo;
-import dev.antonyholmes.modern.help.HelpManager;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.event.ModernClickEvent;
 import dev.antonyholmes.modern.event.ModernClickListener;

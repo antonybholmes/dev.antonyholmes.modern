@@ -42,8 +42,6 @@ import org.jebtk.core.collections.DefaultHashMapCreator;
 import org.jebtk.core.collections.EntryCreator;
 import org.jebtk.core.collections.HashMapCreator;
 import org.jebtk.core.collections.IterMap;
-import dev.antonyholmes.modern.AssetService;
-import dev.antonyholmes.modern.AssetServiceLoader;
 
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 import dev.antonyholmes.modern.graphics.icons.ModernImageIcon;

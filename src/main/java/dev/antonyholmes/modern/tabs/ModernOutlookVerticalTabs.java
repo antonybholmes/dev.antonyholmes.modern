@@ -38,13 +38,6 @@ import java.util.Map;
 
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.tabs.Tab;
-import dev.antonyholmes.modern.tabs.TabButton;
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabsController;
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.TabsViewPanel;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.button.ModernButtonGroup;
 import dev.antonyholmes.modern.button.ModernCheckButton;

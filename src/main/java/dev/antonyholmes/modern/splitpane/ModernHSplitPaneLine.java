@@ -27,8 +27,6 @@
  */
 package dev.antonyholmes.modern.splitpane;
 
-import dev.antonyholmes.modern.splitpane.HSplitPane;
-
 /**
  * Represents a horizontal split pane that uses a solid line to separate two
  * components.

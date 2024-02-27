@@ -27,10 +27,6 @@
  */
 package dev.antonyholmes.modern.graphics.color;
 
-import dev.antonyholmes.modern.graphics.color.ColorChannel;
-import dev.antonyholmes.modern.graphics.color.ColorRangeSlider;
-import dev.antonyholmes.modern.graphics.color.ColorSelectionModel;
-
 /**
  * The class ColorRangeBluePanel.
  */

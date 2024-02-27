@@ -37,10 +37,6 @@ import java.awt.event.MouseMotionListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import dev.antonyholmes.modern.graphics.color.ColorSelectionModel;
-import dev.antonyholmes.modern.graphics.color.MouseEvents;
-import dev.antonyholmes.modern.graphics.color.MouseMoveEvents;
-
 import dev.antonyholmes.modern.button.ModernClickWidget;
 import dev.antonyholmes.modern.event.ModernClickEvent;
 import dev.antonyholmes.modern.theme.ThemeService;

@@ -32,9 +32,6 @@ import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.graphics.icons.FileVectorIcon;
-import dev.antonyholmes.modern.graphics.icons.ModernIcon;
-import dev.antonyholmes.modern.graphics.icons.ModernVectorIcon;
 
 /**
  * The class PasteVectorIcon.

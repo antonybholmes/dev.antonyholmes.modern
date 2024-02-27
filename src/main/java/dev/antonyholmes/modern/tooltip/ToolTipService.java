@@ -33,13 +33,6 @@ import java.util.Map;
 
 import org.jebtk.core.collections.DefaultHashMap;
 import org.jebtk.core.collections.EntryCreator;
-import dev.antonyholmes.modern.tooltip.ModernToolTipEvent;
-import dev.antonyholmes.modern.tooltip.ModernToolTipEventProducer;
-import dev.antonyholmes.modern.tooltip.ModernToolTipListener;
-import dev.antonyholmes.modern.tooltip.ToolTipLevel;
-import dev.antonyholmes.modern.tooltip.ToolTipListeners;
-import dev.antonyholmes.modern.tooltip.ToolTipService;
-import dev.antonyholmes.modern.tooltip.ToolTipServiceLoader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

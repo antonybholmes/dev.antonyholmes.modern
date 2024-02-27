@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.tooltip;
 
-import dev.antonyholmes.modern.tooltip.ModernBasicToolTipPanel;
-import dev.antonyholmes.modern.tooltip.ModernToolTip;
-
 /**
  * Extension of the basic tooltip that also suggests the user presses F1 to get
  * more help.

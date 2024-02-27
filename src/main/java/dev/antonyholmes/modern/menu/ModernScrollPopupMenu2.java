@@ -31,10 +31,6 @@ import java.awt.Component;
 import java.awt.Dimension;
 import java.util.List;
 
-import dev.antonyholmes.modern.menu.ModernMenuItem;
-import dev.antonyholmes.modern.menu.ModernPopupMenu2;
-import dev.antonyholmes.modern.menu.ModernScrollMenuPanel;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.button.ModernClickWidget;
 import dev.antonyholmes.modern.scrollpane.ModernScrollPane;

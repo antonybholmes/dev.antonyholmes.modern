@@ -37,12 +37,6 @@ import javax.swing.border.Border;
 
 import org.jebtk.core.NameGetter;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.ribbon.Ribbon;
-import dev.antonyholmes.modern.ribbon.RibbonLargeButton;
-import dev.antonyholmes.modern.ribbon.RibbonModeProperty;
-import dev.antonyholmes.modern.ribbon.RibbonSectionLabel;
-import dev.antonyholmes.modern.ribbon.RibbonSize;
-import dev.antonyholmes.modern.ribbon.RibbonSubSectionSeparator;
 
 import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.UI;

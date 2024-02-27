@@ -32,10 +32,6 @@ import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-import dev.antonyholmes.modern.tabs.MouseEvents;
-import dev.antonyholmes.modern.tabs.TabsController;
-import dev.antonyholmes.modern.tabs.TabsModel;
-
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.event.HighlightEvent;

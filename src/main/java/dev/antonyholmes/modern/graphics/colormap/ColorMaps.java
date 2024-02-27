@@ -39,7 +39,6 @@ import org.jebtk.core.json.JsonRepresentation;
 import org.jebtk.core.model.NameListModel;
 import org.jebtk.core.xml.XmlRepresentation;
 import org.jebtk.core.xml.XmlUtils;
-import dev.antonyholmes.modern.graphics.colormap.ColorMap;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

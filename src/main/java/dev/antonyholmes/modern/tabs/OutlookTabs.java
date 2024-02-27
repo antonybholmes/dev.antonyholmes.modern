@@ -30,11 +30,6 @@ package dev.antonyholmes.modern.tabs;
 import java.util.HashMap;
 import java.util.Map;
 
-import dev.antonyholmes.modern.tabs.Tab;
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabsController;
-import dev.antonyholmes.modern.tabs.TabsModel;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ButtonStyle;
 import dev.antonyholmes.modern.button.ModernButtonGroup;

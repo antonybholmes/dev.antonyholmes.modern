@@ -30,9 +30,8 @@ package dev.antonyholmes.modern.zoom;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.zoom.ZoomEvents;
-import dev.antonyholmes.modern.zoom.ZoomModel;
-
+ 
+ 
 /**
  * Configurable zoom model that loads and saves its settings to the Settings
  * system.

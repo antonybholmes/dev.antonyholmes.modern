@@ -30,7 +30,6 @@ package dev.antonyholmes.modern.menu;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.menu.ModernMenuItem;
 
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernCheckButton;

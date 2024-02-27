@@ -33,9 +33,6 @@ import java.awt.Graphics2D;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-import dev.antonyholmes.modern.button.ModernCheckButton;
-import dev.antonyholmes.modern.button.MouseEvents;
-
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.TwoLineWidget;

@@ -31,8 +31,6 @@ import java.awt.Component;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.panel.HBox;
-
 /**
  * Horizontal box that centers whatever components are added to it.
  * 

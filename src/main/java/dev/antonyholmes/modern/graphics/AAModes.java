@@ -5,8 +5,6 @@ import java.util.Iterator;
 import java.util.Set;
 
 import org.jebtk.core.event.ChangeListeners;
-import dev.antonyholmes.modern.graphics.AAMode;
-import dev.antonyholmes.modern.graphics.AAModes;
 
 public class AAModes extends ChangeListeners implements Iterable<AAMode> {
 

@@ -29,13 +29,6 @@ package dev.antonyholmes.modern.ribbon;
 
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.ribbon.Ribbon;
-import dev.antonyholmes.modern.ribbon.RibbonFileMenuPanel;
-import dev.antonyholmes.modern.ribbon.RibbonMenuPanel;
-import dev.antonyholmes.modern.ribbon.RibbonTitleBarExitButton;
-import dev.antonyholmes.modern.ribbon.RibbonTitleBarMaxButton;
-import dev.antonyholmes.modern.ribbon.RibbonTitleBarMinButton;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.window.ModernTitleBar;
 import dev.antonyholmes.modern.window.ModernWindow;

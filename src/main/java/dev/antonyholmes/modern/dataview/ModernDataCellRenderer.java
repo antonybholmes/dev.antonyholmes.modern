@@ -31,8 +31,6 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.dataview.ModernData;
-
 import dev.antonyholmes.modern.button.ModernClickWidget;
 import dev.antonyholmes.modern.font.FontUtils;
 import dev.antonyholmes.modern.theme.ThemeService;

@@ -31,9 +31,6 @@ import java.awt.Component;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.panel.HBox;
-import dev.antonyholmes.modern.panel.HExBox;
-
 /**
  * The class HBoxPanel.
  */

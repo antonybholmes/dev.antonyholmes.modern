@@ -30,7 +30,6 @@ package dev.antonyholmes.modern.combobox;
 import java.awt.Dimension;
 
 import org.jebtk.core.BooleanOperator;
-import dev.antonyholmes.modern.combobox.ModernComboBox;
 
 import dev.antonyholmes.modern.AssetService;
 import dev.antonyholmes.modern.UI;

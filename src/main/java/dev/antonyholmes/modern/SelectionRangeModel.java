@@ -33,7 +33,6 @@ import java.util.TreeSet;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.SelectionRangeType;
 
 import dev.antonyholmes.modern.event.ModernSelectionListeners;
 

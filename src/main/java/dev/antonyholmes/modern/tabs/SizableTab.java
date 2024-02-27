@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.tabs;
 
 import javax.swing.JComponent;
 
-import dev.antonyholmes.modern.tabs.Tab;
-
 /**
  * Specifies a tab that can be resized
  * 

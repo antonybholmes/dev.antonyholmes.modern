@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.table;
 import java.awt.Component;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.table.AbstractModernTableCellEditor;
-import dev.antonyholmes.modern.table.ModernTableCheckboxCellRenderer;
 
 import dev.antonyholmes.modern.dataview.ModernData;
 import dev.antonyholmes.modern.event.ModernClickEvent;

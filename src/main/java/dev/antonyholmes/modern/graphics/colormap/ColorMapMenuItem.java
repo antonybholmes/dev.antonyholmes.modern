@@ -18,8 +18,6 @@ package dev.antonyholmes.modern.graphics.colormap;
 import java.awt.Graphics2D;
 import java.awt.Point;
 
-import dev.antonyholmes.modern.graphics.colormap.ColorMap;
-
 import dev.antonyholmes.modern.menu.ModernIconMenuItem;
 
 /**

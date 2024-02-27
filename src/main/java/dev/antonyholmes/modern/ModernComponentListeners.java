@@ -31,7 +31,6 @@ import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.ModernComponentEventProducer;
 
 /**
  * The basis for model controls in a model view controller setup.

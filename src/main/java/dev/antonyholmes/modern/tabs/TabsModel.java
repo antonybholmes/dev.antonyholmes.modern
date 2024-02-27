@@ -36,13 +36,6 @@ import org.jebtk.core.collections.CollectionUtils;
 import org.jebtk.core.collections.DefaultHashMap;
 import org.jebtk.core.collections.EntryCreator;
 import org.jebtk.core.collections.IterMap;
-import dev.antonyholmes.modern.tabs.Tab;
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabEventListener;
-import dev.antonyholmes.modern.tabs.TabEventListeners;
-import dev.antonyholmes.modern.tabs.TabEvents;
-import dev.antonyholmes.modern.tabs.Tabs;
-import dev.antonyholmes.modern.tabs.TabsModel;
 
 import dev.antonyholmes.modern.contentpane.CenterTab;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;

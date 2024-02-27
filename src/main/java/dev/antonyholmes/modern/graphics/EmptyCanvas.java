@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.graphics;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.graphics.DrawingContext;
-import dev.antonyholmes.modern.graphics.ModernCanvas;
-
 /**
  * Allow empty space to be inserted into figures.
  * 

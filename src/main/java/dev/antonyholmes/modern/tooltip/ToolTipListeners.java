@@ -28,9 +28,6 @@
 package dev.antonyholmes.modern.tooltip;
 
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.tooltip.ModernToolTipEvent;
-import dev.antonyholmes.modern.tooltip.ModernToolTipEventProducer;
-import dev.antonyholmes.modern.tooltip.ModernToolTipListener;
 
 /**
  * The basis for model controls in a model view controller setup.

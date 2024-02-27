@@ -36,10 +36,6 @@ import java.awt.geom.GeneralPath;
 
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.tabs.TabEvent;
-import dev.antonyholmes.modern.tabs.TabsModel;
-import dev.antonyholmes.modern.tabs.TextTabs;
-
 import dev.antonyholmes.modern.event.HighlightEvent;
 import dev.antonyholmes.modern.event.HighlightListener;
 import dev.antonyholmes.modern.theme.MaterialService;

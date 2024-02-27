@@ -32,8 +32,6 @@ import java.awt.Font;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.button.ModernButton;
-import dev.antonyholmes.modern.button.ModernTwoStateWidget;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

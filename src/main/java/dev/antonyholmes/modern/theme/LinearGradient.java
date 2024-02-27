@@ -4,9 +4,6 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.theme.ColorGradient;
-import dev.antonyholmes.modern.theme.LinearGradient;
-
 import dev.antonyholmes.modern.ModernComponent;
 
 public class LinearGradient implements ColorGradient {

@@ -21,12 +21,6 @@ import java.awt.Font;
 import org.jebtk.core.ColorUtils;
 import org.jebtk.core.model.KeyStore;
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.theme.IntConstants;
-import dev.antonyholmes.modern.theme.MaterialColors;
-import dev.antonyholmes.modern.theme.MaterialFonts;
-import dev.antonyholmes.modern.theme.MaterialService;
-import dev.antonyholmes.modern.theme.MaterialServiceLoader;
-import dev.antonyholmes.modern.theme.ThemeService;
 
 import dev.antonyholmes.modern.ModernWidget;
 

@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.table;
 import java.awt.Component;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.table.ModernRowTable;
-
 import dev.antonyholmes.modern.dataview.ModernDataCellRenderer;
 import dev.antonyholmes.modern.dataview.ModernDataSelection;
 import dev.antonyholmes.modern.graphics.DrawingContext;

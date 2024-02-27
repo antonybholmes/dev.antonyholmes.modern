@@ -34,7 +34,6 @@ import javax.swing.JTextArea;
 
 import org.jebtk.core.stream.Stream;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.text.ModernTextField;
 
 import dev.antonyholmes.modern.ModernWidget;
 

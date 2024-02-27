@@ -39,27 +39,6 @@ import javax.swing.filechooser.FileFilter;
 
 import org.jebtk.core.collections.CollectionUtils;
 import org.jebtk.core.io.PathUtils;
-import dev.antonyholmes.modern.io.AllGuiFilesFilter;
-import dev.antonyholmes.modern.io.AllSettingsGuiFileFilter;
-import dev.antonyholmes.modern.io.CsvGuiFileFilter;
-import dev.antonyholmes.modern.io.FileDialog;
-import dev.antonyholmes.modern.io.GuiFileExtFilter;
-import dev.antonyholmes.modern.io.JsonGuiFileFilter;
-import dev.antonyholmes.modern.io.OpenDialog;
-import dev.antonyholmes.modern.io.OpenDirSelection;
-import dev.antonyholmes.modern.io.OpenFilesSelection;
-import dev.antonyholmes.modern.io.OpenTextFileSelection;
-import dev.antonyholmes.modern.io.PathSelection;
-import dev.antonyholmes.modern.io.PathsSelection;
-import dev.antonyholmes.modern.io.RecentFilesService;
-import dev.antonyholmes.modern.io.SaveDialog;
-import dev.antonyholmes.modern.io.SaveFileSelection;
-import dev.antonyholmes.modern.io.TsvGuiFileFilter;
-import dev.antonyholmes.modern.io.TxtGuiFileFilter;
-import dev.antonyholmes.modern.io.TxtTsvCsvGuiFileFilter;
-import dev.antonyholmes.modern.io.TxtTsvGuiFileFilter;
-import dev.antonyholmes.modern.io.XmlGuiFileFilter;
-import dev.antonyholmes.modern.io.ZipGuiFileFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

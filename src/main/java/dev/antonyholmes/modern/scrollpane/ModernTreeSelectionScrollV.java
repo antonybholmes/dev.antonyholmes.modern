@@ -29,7 +29,6 @@ package dev.antonyholmes.modern.scrollpane;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.scrollpane.ModernScrollBar;
 
 import dev.antonyholmes.modern.event.ModernSelectionListener;
 import dev.antonyholmes.modern.tree.ModernTree;

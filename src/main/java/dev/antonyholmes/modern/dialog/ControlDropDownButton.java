@@ -17,8 +17,6 @@ package dev.antonyholmes.modern.dialog;
 
 import java.awt.Dimension;
 
-import dev.antonyholmes.modern.dialog.ModernDialogFlatDropDownButton;
-
 import dev.antonyholmes.modern.UI;
 
 /**

@@ -31,8 +31,6 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.text.ModernLabel;
-
 /**
  * Displays text.
  * 

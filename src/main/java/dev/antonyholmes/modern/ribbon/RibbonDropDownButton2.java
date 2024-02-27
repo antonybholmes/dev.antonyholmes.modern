@@ -27,8 +27,6 @@ ColorSwatchButton.java * Copyright (C) 2016, Antony Holmes
  */
 package dev.antonyholmes.modern.ribbon;
 
-import dev.antonyholmes.modern.ribbon.RibbonDropDownButtonAnimation2;
-
 import dev.antonyholmes.modern.button.ModernDropDownButton2;
 import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 import dev.antonyholmes.modern.menu.ModernPopupMenu2;

@@ -32,9 +32,6 @@ import java.awt.Component;
 import javax.swing.BoxLayout;
 import javax.swing.border.Border;
 
-import dev.antonyholmes.modern.panel.GenericBox;
-import dev.antonyholmes.modern.panel.VBox;
-
 /**
  * The class VBoxPanel.
  */

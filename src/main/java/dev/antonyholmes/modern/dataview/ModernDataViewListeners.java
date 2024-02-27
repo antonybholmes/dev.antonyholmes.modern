@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.dataview;
 
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.EventProducer;
-import dev.antonyholmes.modern.dataview.ModernDataViewEventProducer;
-import dev.antonyholmes.modern.dataview.ModernDataViewListener;
 
 /**
  * Provides the ability to register and unregister ModernClickEventListeners for

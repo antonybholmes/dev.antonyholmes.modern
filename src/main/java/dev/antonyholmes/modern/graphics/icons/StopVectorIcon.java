@@ -32,7 +32,6 @@ import java.awt.Graphics2D;
 
 import org.jebtk.core.Props;
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.graphics.icons.ModernVectorIcon;
 
 /**
  * Run arrow icon, like the standard play button.

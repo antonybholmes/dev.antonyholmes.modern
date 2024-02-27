@@ -29,8 +29,6 @@ package dev.antonyholmes.modern.text;
 
 import javax.swing.JTextField;
 
-import dev.antonyholmes.modern.text.ModernTextField;
-
 import dev.antonyholmes.modern.UI;
 
 // TODO: Auto-generated Javadoc

@@ -33,7 +33,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.jebtk.core.Props;
-import dev.antonyholmes.modern.graphics.icons.ModernIcon;
 
 /**
  * The class MultiStateIcon represents an icon

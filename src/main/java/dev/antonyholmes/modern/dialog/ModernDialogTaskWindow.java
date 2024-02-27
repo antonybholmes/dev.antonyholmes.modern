@@ -32,13 +32,6 @@ import java.awt.Component;
 import javax.swing.Box;
 import javax.swing.JComponent;
 
-import dev.antonyholmes.modern.dialog.ModernDialogButton;
-import dev.antonyholmes.modern.dialog.ModernDialogButtonsBox;
-import dev.antonyholmes.modern.dialog.ModernDialogPrimaryButton;
-import dev.antonyholmes.modern.dialog.ModernDialogStatus;
-import dev.antonyholmes.modern.dialog.ModernDialogTaskType;
-import dev.antonyholmes.modern.dialog.ModernDialogWindow;
-
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;

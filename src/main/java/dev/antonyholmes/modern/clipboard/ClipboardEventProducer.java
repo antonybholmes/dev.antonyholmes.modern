@@ -28,7 +28,6 @@
 package dev.antonyholmes.modern.clipboard;
 
 import org.jebtk.core.event.ChangeEvent;
-import dev.antonyholmes.modern.clipboard.ClipboardEventListener;
 
 /**
  * For classes that generate ModernClickEvents.

@@ -30,9 +30,6 @@ package dev.antonyholmes.modern.ribbon;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.ribbon.Ribbon;
-import dev.antonyholmes.modern.ribbon.RibbonSection;
-
 import dev.antonyholmes.modern.ModernWidget;
 
 // TODO: Auto-generated Javadoc

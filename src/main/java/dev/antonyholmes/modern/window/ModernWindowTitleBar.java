@@ -27,16 +27,6 @@
  */
 package dev.antonyholmes.modern.window;
 
-import dev.antonyholmes.modern.window.ModernTitleBar;
-import dev.antonyholmes.modern.window.ModernWindow;
-import dev.antonyholmes.modern.window.ModernWindowTitleBarExitButton;
-import dev.antonyholmes.modern.window.ModernWindowTitleBarExitRoundButton;
-import dev.antonyholmes.modern.window.ModernWindowTitleBarMaxButton;
-import dev.antonyholmes.modern.window.ModernWindowTitleBarMaxRoundButton;
-import dev.antonyholmes.modern.window.ModernWindowTitleBarMinButton;
-import dev.antonyholmes.modern.window.ModernWindowTitleBarMinRoundButton;
-import dev.antonyholmes.modern.window.ModernWindowTitleBarStyle;
-
 import dev.antonyholmes.modern.UI;
 
 /**

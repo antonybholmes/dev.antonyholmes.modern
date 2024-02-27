@@ -32,10 +32,6 @@ import java.awt.event.FocusListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import dev.antonyholmes.modern.text.FocusEvents;
-import dev.antonyholmes.modern.text.ModernTextArea;
-import dev.antonyholmes.modern.text.MouseEvents;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.clipboard.ClipboardService;
 import dev.antonyholmes.modern.clipboard.ClipboardSharedMenu;

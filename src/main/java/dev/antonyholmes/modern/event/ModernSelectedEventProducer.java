@@ -27,9 +27,6 @@
  */
 package dev.antonyholmes.modern.event;
 
-import dev.antonyholmes.modern.event.ModernSelectedEvent;
-import dev.antonyholmes.modern.event.ModernSelectedListener;
-
 /**
  * For classes that generate ModernSelectedEvents.
  *

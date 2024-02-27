@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.collapsepane;
 import java.awt.Graphics2D;
 
 import org.jebtk.core.geom.IntRect;
-import dev.antonyholmes.modern.collapsepane.AbstractCollapsePane;
-import dev.antonyholmes.modern.collapsepane.ModernCollapseNodeRenderer;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.graphics.icons.CheveronDownVectorIcon;

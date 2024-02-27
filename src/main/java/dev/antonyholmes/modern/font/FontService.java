@@ -24,9 +24,6 @@ import org.jebtk.core.collections.HashMapCreator;
 import org.jebtk.core.collections.IterMap;
 import org.jebtk.core.path.Path;
 import org.jebtk.core.settings.SettingsService;
-import dev.antonyholmes.modern.font.FontService;
-import dev.antonyholmes.modern.font.FontServiceLoader;
-import dev.antonyholmes.modern.font.FontUtils;
 
 import dev.antonyholmes.modern.theme.ModernTheme;
 

@@ -37,7 +37,6 @@ import java.util.regex.Pattern;
 import org.jebtk.core.Mathematics;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.text.TextUtils;
-import dev.antonyholmes.modern.table.ModernTable;
 
 import dev.antonyholmes.modern.ModernComponent;
 import dev.antonyholmes.modern.UI;

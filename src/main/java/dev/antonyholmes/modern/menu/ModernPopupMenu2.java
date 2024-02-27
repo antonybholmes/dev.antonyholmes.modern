@@ -33,9 +33,6 @@ import java.util.List;
 
 import javax.swing.Box;
 
-import dev.antonyholmes.modern.menu.ModernMenuSeparator;
-import dev.antonyholmes.modern.menu.ModernPopup2;
-
 import dev.antonyholmes.modern.button.ModernClickWidget;
 import dev.antonyholmes.modern.panel.VBoxAutoSizeLayout;
 

@@ -15,8 +15,6 @@
  */
 package dev.antonyholmes.modern.table;
 
-import dev.antonyholmes.modern.table.ModernTableHeadingRendererModel;
-
 import dev.antonyholmes.modern.table.header.ModernTableHeaderRowCellRenderer;
 
 /**

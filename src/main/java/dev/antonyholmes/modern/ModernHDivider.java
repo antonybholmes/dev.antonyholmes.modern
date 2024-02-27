@@ -30,9 +30,6 @@ package dev.antonyholmes.modern;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 
-import dev.antonyholmes.modern.ModernComponent;
-import dev.antonyholmes.modern.UI;
-
 // TODO: Auto-generated Javadoc
 /**
  * Provides a line separator for menus with a theme consistent with

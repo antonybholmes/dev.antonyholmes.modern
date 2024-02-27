@@ -30,8 +30,6 @@ package dev.antonyholmes.modern.text;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-import dev.antonyholmes.modern.text.ModernPasswordField;
-
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.clipboard.ClipboardSharedMenu;
 import dev.antonyholmes.modern.event.ModernClickEvent;

@@ -8,9 +8,6 @@ import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.awt.image.Kernel;
 
-import dev.antonyholmes.modern.graphics.AbstractBufferedImageOp;
-import dev.antonyholmes.modern.graphics.ImageUtils;
-
 /**
  * A filter which applies a convolution kernel to an image.
  * 

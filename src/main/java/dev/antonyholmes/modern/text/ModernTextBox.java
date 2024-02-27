@@ -51,13 +51,6 @@ import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeEventProducer;
 import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.event.ChangeListeners;
-import dev.antonyholmes.modern.text.CaretTask;
-import dev.antonyholmes.modern.text.ComponentEvents;
-import dev.antonyholmes.modern.text.FocusEvents;
-import dev.antonyholmes.modern.text.ModernTextBoxAlignment;
-import dev.antonyholmes.modern.text.TextProperty;
-import dev.antonyholmes.modern.text.ViewDecTask;
-import dev.antonyholmes.modern.text.ViewIncTask;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
