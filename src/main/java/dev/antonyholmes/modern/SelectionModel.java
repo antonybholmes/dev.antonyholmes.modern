@@ -60,7 +60,7 @@ public class SelectionModel<T> extends ModernSelectionListeners implements Itera
   /**
    * The fire.
    */
-  private boolean fire = true;
+  //private boolean fire = true;
 
   /**
    * Sets the.
@@ -267,12 +267,12 @@ public class SelectionModel<T> extends ModernSelectionListeners implements Itera
     return TextUtils.join(mItems, TextUtils.COMMA_DELIMITER);
   }
 
-  /**
-   * Sets whether the selection model reports changes or not.
-   *
-   * @param fire the new fire update
-   */
-  public void setFireUpdate(boolean fire) {
-    this.fire = fire;
-  }
+//  /**
+//   * Sets whether the selection model reports changes or not.
+//   *
+//   * @param fire the new fire update
+//   */
+//  public void setFireUpdate(boolean fire) {
+//    this.fire = fire;
+//  }
 }

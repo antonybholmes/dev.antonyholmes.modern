@@ -45,12 +45,12 @@ public class ComboBoxHighlightAnimation2 extends ButtonAltFillAnimation implemen
   @Override
   public void draw(ModernWidget c, Graphics2D g2, Props props) {
     if (getWidget().isEnabled()) {
-      IntRect rect = mWidget.getInternalRect();
+      IntRect rect = ((ModernWidget)mWidget).getInternalRect();
 
       IntRect buttonRect = new IntRect(mCombo.mButtonX, mWidget.getInsets().top, ModernComboBox.BUTTON_WIDTH,
           rect.getH());
 
-      fill(mWidget, g2, buttonRect);
+      fill((ModernWidget)mWidget, g2, buttonRect);
     }
   }
 

@@ -121,7 +121,7 @@ public abstract class RotationAnimation extends TimerAnimation {
     try {
       g2.rotate(getAngle());
 
-      drawRotation(mWidget, g2Temp, props);
+      drawRotation(c, g2Temp, props);
     } finally {
       g2Temp.dispose();
     }

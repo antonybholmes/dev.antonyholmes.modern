@@ -49,7 +49,7 @@ public class CSSBackgroundUI extends CSSBaseUI {
           g2.setColor(c.getCSSProps().getColor("background-color"));
         }
       } else {
-        g2.setColor(CSSKeyFramesService.getInstance().getToStyleClass("widget").getColor("background-color"));
+        g2.setColor(CSSPropsService.getInstance().getToStyleClass("widget").getColor("background-color"));
 
         // System.err.println("key " +
         // CSSKeyFramesService.getInstance().getToStyleClass("widget")

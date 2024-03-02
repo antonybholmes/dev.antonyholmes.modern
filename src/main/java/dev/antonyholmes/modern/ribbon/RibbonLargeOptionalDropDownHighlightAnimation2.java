@@ -56,7 +56,7 @@ public class RibbonLargeOptionalDropDownHighlightAnimation2 extends DropDownButt
       return;
     }
 
-    IntRect rect = getWidget().getInternalRect();
+    IntRect rect = ((ModernWidget)mWidget).getInternalRect();
 
     int x = 0;
     int w = 0;

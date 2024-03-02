@@ -54,7 +54,7 @@ public class RibbonLargeOptionalDropDownHighlightAnimation extends DropDownButto
   public void draw(ModernWidget c, Graphics2D g2, Props props) {
     if (getWidget().isEnabled()) { // && (getButton().getHightlighted() ||
       // getButton().getPopupShown())) {
-      IntRect rect = getWidget().getInternalRect();
+      IntRect rect = ((ModernWidget)mWidget).getInternalRect();
 
       int x = 0;
       int w = 0;

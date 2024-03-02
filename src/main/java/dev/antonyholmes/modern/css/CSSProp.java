@@ -13,14 +13,14 @@ public abstract class CSSProp {
     return Double.MIN_VALUE;
   }
 
-  public CSSColor getColor() {
+  public CssColor getColor() {
     return null;
   }
 
   public abstract CSSPropType getType();
 
-  public CSSUnit getUnit() {
-    return CSSUnit.NONE;
+  public CssUnit getUnit() {
+    return CssUnit.NONE;
   }
 
   public Font getFont() {

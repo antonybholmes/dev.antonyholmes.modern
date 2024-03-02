@@ -25,7 +25,7 @@ import org.jebtk.core.collections.DefaultHashMap;
 import org.jebtk.core.collections.EntryCreator;
 
 import dev.antonyholmes.modern.ModernWidget;
-import dev.antonyholmes.modern.css.CSSColor;
+import dev.antonyholmes.modern.css.CssColor;
 import dev.antonyholmes.modern.graphics.colormap.ColorMap;
 import dev.antonyholmes.modern.graphics.colormap.NamedColors;
 
@@ -119,7 +119,7 @@ public class FadeAnimation extends EasingAnimation {
     // in the transparent state (the last step) and work backwards to
     // opaque once the animation begins. Therefore with a color map,
     // the last color needs to be the starting color.
-    CSSColor colorMap[] = ColorMap.createTwoColorMap(color1, color2, AnimationTimer.STEPS, false);
+    CssColor colorMap[] = ColorMap.createTwoColorMap(color1, color2, AnimationTimer.STEPS, false);
 
     for (int i = 0; i < AnimationTimer.STEPS; ++i) {
       mFadeColorMap.get(i).add(name, colorMap[i]);

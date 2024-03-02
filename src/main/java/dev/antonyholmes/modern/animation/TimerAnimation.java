@@ -18,7 +18,8 @@ package dev.antonyholmes.modern.animation;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import dev.antonyholmes.modern.ModernWidget;
+import javax.swing.JComponent;
+
 
 /**
  * Allows for fade in/out animation on an element.
@@ -52,11 +53,11 @@ public abstract class TimerAnimation extends WidgetAnimation {
    *
    * @param widget the widget
    */
-  public TimerAnimation(ModernWidget w) {
+  public TimerAnimation(JComponent w) {
     this(w, AnimationTimer.DELAY_MS);
   }
 
-  public TimerAnimation(ModernWidget w, int delay) {
+  public TimerAnimation(JComponent w, int delay) {
     super(w);
 
     mTimer = new AnimationTimer(new TimerEvents());

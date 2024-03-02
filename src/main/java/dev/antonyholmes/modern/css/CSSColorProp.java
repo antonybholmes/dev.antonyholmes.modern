@@ -2,14 +2,14 @@ package dev.antonyholmes.modern.css;
 
 public class CSSColorProp extends CSSProp {
 
-  protected final CSSColor mV;
+  protected final CssColor mV;
 
-  public CSSColorProp(CSSColor v) {
+  public CSSColorProp(CssColor v) {
     mV = v;
   }
 
   @Override
-  public CSSColor getColor() {
+  public CssColor getColor() {
     return mV;
   }
 

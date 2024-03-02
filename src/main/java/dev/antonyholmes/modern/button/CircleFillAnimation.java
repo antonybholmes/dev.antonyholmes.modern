@@ -21,7 +21,7 @@ public class CircleFillAnimation extends ButtonFillAnimation {
   public void draw(ModernWidget c, Graphics2D g2, Props props) {
     if (mWidget.isEnabled()) {
 
-      DrawUIService.getInstance().getRenderer("circle-fill").draw(mWidget, g2, getFadeColor("fill"));
+      DrawUIService.getInstance().getRenderer("circle-fill").draw((ModernWidget)mWidget, g2, getFadeColor("fill"));
 
       /*
        * Graphics2D g2Temp = ImageUtils.createAAStrokeGraphics(g2);

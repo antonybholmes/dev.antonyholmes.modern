@@ -54,7 +54,7 @@ import org.jebtk.core.settings.SettingsService;
 import dev.antonyholmes.modern.css.CSSDrawUI;
 import dev.antonyholmes.modern.css.CSSKeyFrame;
 import dev.antonyholmes.modern.css.CSSKeyFrames;
-import dev.antonyholmes.modern.css.CSSKeyFramesService;
+import dev.antonyholmes.modern.css.CSSPropsService;
 import dev.antonyholmes.modern.css.CSSProps;
 import dev.antonyholmes.modern.graphics.AAMode;
 import dev.antonyholmes.modern.graphics.AAModes;
@@ -1322,7 +1322,7 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
    * @param names
    */
   public static void updateStyleClasses(ModernComponent c, int frame, String name, String... names) {
-    CSSKeyFramesService kf = CSSKeyFramesService.getInstance();
+    CSSPropsService kf = CSSPropsService.getInstance();
 
     if (kf.contains(frame, name)) {
       c.getKeyFrames().getKeyFrame(frame).update(kf.getStyleClass(frame, name));
@@ -1343,7 +1343,7 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
    * @param names
    */
   public static void addCSSProps(ModernComponent c, String name, String... names) {
-    CSSKeyFramesService kf = CSSKeyFramesService.getInstance();
+    CSSPropsService kf = CSSPropsService.getInstance();
 
     if (kf.contains(CSSKeyFrames.FROM, name)) {
       c.getCSSProps().update(kf.getStyleClass(CSSKeyFrames.FROM, name));

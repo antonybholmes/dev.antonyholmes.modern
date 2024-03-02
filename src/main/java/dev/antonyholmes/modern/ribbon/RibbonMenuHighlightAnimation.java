@@ -55,9 +55,9 @@ public class RibbonMenuHighlightAnimation extends HoverFadeAnimation {
   @Override
   public void draw(ModernWidget c, Graphics2D g2, Props props) {
     if (mButton.isSelected()) {
-      ModernWidget.fill(g2, MaterialService.instance().getColor("gray-selected"), getWidget().getRect());
+      ModernWidget.fill(g2, MaterialService.instance().getColor("gray-selected"), ((ModernWidget)mWidget).getRect());
     } else {
-      ModernWidget.fill(g2, getFadeColor("highlight"), getWidget().getRect());
+      ModernWidget.fill(g2, getFadeColor("highlight"), ((ModernWidget)mWidget).getRect());
     }
   }
 }

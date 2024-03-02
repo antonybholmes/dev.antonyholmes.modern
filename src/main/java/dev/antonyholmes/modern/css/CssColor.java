@@ -41,14 +41,20 @@ import org.w3c.dom.Element;
  * The class CSSColor represents a color with additional Props for use with HTML
  * like elements.
  */
-public class CSSColor extends Color implements XmlRepresentation, JsonRepresentation {
+public class CssColor extends Color implements XmlRepresentation, JsonRepresentation {
 
   /**
    * The constant serialVersionUID.
    */
   private static final long serialVersionUID = 1L;
+  
+  public static final CssColor BLACK = CssColor.from(Color.BLACK);
+  public static final CssColor WHITE = CssColor.from(Color.WHITE);
+  public static final CssColor RED = CssColor.from(Color.RED);
+  public static final CssColor GREEN = CssColor.from(Color.GREEN);
+  public static final CssColor BLUE = CssColor.from(Color.BLUE);
 
-  public CSSColor(Color c) {
+  public CssColor(Color c) {
     super(c.getRed(), c.getGreen(), c.getBlue(), c.getAlpha());
   }
 
@@ -59,7 +65,7 @@ public class CSSColor extends Color implements XmlRepresentation, JsonRepresenta
    * @param g the g
    * @param b the b
    */
-  public CSSColor(int r, int g, int b) {
+  public CssColor(int r, int g, int b) {
     super(r, g, b);
   }
 
@@ -71,7 +77,7 @@ public class CSSColor extends Color implements XmlRepresentation, JsonRepresenta
    * @param b the b
    * @param a the a
    */
-  public CSSColor(int r, int g, int b, int a) {
+  public CssColor(int r, int g, int b, int a) {
     super(r, g, b, a);
   }
 
@@ -82,7 +88,7 @@ public class CSSColor extends Color implements XmlRepresentation, JsonRepresenta
    * @param g the g
    * @param b the b
    */
-  public CSSColor(float r, float g, float b) {
+  public CssColor(float r, float g, float b) {
     super(r, g, b);
   }
 
@@ -94,7 +100,7 @@ public class CSSColor extends Color implements XmlRepresentation, JsonRepresenta
    * @param b the b
    * @param a the a
    */
-  public CSSColor(float r, float g, float b, float a) {
+  public CssColor(float r, float g, float b, float a) {
     super(r, g, b, a);
   }
 
@@ -143,7 +149,7 @@ public class CSSColor extends Color implements XmlRepresentation, JsonRepresenta
    * @param c the c
    * @return the color map color
    */
-  public static CSSColor create(Color c) {
-    return new CSSColor(c.getRed(), c.getGreen(), c.getBlue(), c.getAlpha());
+  public static CssColor from(Color c) {
+    return new CssColor(c.getRed(), c.getGreen(), c.getBlue(), c.getAlpha());
   }
 }

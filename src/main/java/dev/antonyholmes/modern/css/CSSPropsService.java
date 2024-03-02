@@ -55,12 +55,12 @@ import org.xml.sax.helpers.DefaultHandler;
 import dev.antonyholmes.modern.theme.MaterialService;
 import dev.antonyholmes.modern.theme.ThemeService;
 
-public class CSSKeyFramesService {
+public class CSSPropsService {
 
-  private static class KeyFramesServiceLoader {
+  private static class CSSPropsHelper {
 
     /** The Constant INSTANCE. */
-    private static final CSSKeyFramesService INSTANCE = new CSSKeyFramesService();
+    private static final CSSPropsService INSTANCE = new CSSPropsService();
   }
 
   /**
@@ -68,8 +68,8 @@ public class CSSKeyFramesService {
    *
    * @return single instance of SettingsService
    */
-  public static CSSKeyFramesService getInstance() {
-    return KeyFramesServiceLoader.INSTANCE;
+  public static CSSPropsService getInstance() {
+    return CSSPropsHelper.INSTANCE;
   }
 
   private class StyleClassXmlHandler extends DefaultHandler {
@@ -105,7 +105,7 @@ public class CSSKeyFramesService {
         // if (inherits != null) {
         // getStyleClass(mClass).inherits(getStyleClass(inherits));
         // }
-      } else if (qName.equals("property")) {
+      } else if (qName.equals("prop")) {
         String name = attributes.getValue("name");
 
         String value = attributes.getValue("value");
@@ -121,7 +121,7 @@ public class CSSKeyFramesService {
         } else if (v.endsWith("%")) {
           cls.set(name, new CSSPercentProp(Integer.parseInt(v.substring(0, v.length() - 1))));
         } else if (v.endsWith("px")) {
-          cls.set(name, new CSSUnitProp(Integer.parseInt(v.substring(0, v.length() - 2)), CSSUnit.PX));
+          cls.set(name, new CSSUnitProp(Integer.parseInt(v.substring(0, v.length() - 2)), CssUnit.PX));
         } else if (v.equals("true")) {
           // cls.set(name, true);
         } else if (v.equals("false")) {
@@ -171,7 +171,7 @@ public class CSSKeyFramesService {
 
   public static final String COMPONENT = "component";
 
-  private static final Logger LOG = LoggerFactory.getLogger(CSSKeyFramesService.class);
+  private static final Logger LOG = LoggerFactory.getLogger(CSSPropsService.class);
 
   private static final Path DEFAULT_XML_FILE = PathUtils.getPath("res/style.xml");
 
@@ -180,7 +180,7 @@ public class CSSKeyFramesService {
 
   private boolean mAutoLoad = true;
 
-  private CSSKeyFramesService() {
+  private CSSPropsService() {
     // mStyleMap.put(COMPONENT, COMPONENT_STYLE);
 
     // set("border-radius", 6);

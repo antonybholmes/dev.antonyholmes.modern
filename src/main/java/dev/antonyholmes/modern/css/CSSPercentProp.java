@@ -13,8 +13,8 @@ public class CSSPercentProp extends CSSNumProp {
   }
 
   @Override
-  public CSSUnit getUnit() {
-    return CSSUnit.PERCENT;
+  public CssUnit getUnit() {
+    return CssUnit.PERCENT;
   }
 
   @Override

@@ -45,7 +45,7 @@ public class ComboBoxHighlightAnimation extends ButtonAltFillAnimation implement
   @Override
   public void draw(ModernWidget c, Graphics2D g2, Props props) {
     if (getWidget().isEnabled()) {
-      IntRect rect = mWidget.getInternalRect();
+      IntRect rect = ((ModernWidget)mWidget).getInternalRect();
 
       // widget.getWidgetRenderer().drawOutline(g2, rect);
 
@@ -53,7 +53,7 @@ public class ComboBoxHighlightAnimation extends ButtonAltFillAnimation implement
       IntRect buttonRect = new IntRect(mCombo.mButtonX, mWidget.getInsets().top, ModernComboBox.BUTTON_WIDTH,
           rect.getH());
 
-      fill(mWidget, g2, buttonRect);
+      fill((ModernWidget)mWidget, g2, buttonRect);
     }
 
     // Color c = ColorUtils.getTransparentColor(Color.RED, mTrans);

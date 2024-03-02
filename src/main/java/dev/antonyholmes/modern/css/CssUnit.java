@@ -1,9 +1,9 @@
 package dev.antonyholmes.modern.css;
 
-public enum CSSUnit {
+public enum CssUnit {
   NONE, CM, MM, IN, PX, EM, REM, PC, PERCENT;
 
-  public static CSSUnit parse(String unit) {
+  public static CssUnit parse(String unit) {
     switch (unit.toLowerCase()) {
     case "cm":
       return CM;

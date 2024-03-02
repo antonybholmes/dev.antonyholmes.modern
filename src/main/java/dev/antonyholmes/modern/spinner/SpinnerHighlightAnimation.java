@@ -22,7 +22,7 @@ public class SpinnerHighlightAnimation extends ButtonOutlineAnimation {
 
   @Override
   public void draw(ModernWidget c, Graphics2D g2, Props props) {
-    IntRect r = mWidget.getInternalRect();
+    IntRect r = ((ModernWidget)mWidget).getInternalRect();
 
     int x = r.getX();
     int y = r.getY();

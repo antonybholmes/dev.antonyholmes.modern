@@ -16,14 +16,14 @@ public class RadioOutlineAnimation extends ButtonOutlineAnimation {
 
   @Override
   public void draw(ModernWidget c, Graphics2D g2, Props props) {
-    if (mWidget.isEnabled() && !mWidget.isSelected()) {
+    if (mWidget.isEnabled() && !((ModernWidget)mWidget).isSelected()) {
       int x = mWidget.getInsets().left;
       int y = (mWidget.getHeight() - RadioAnimation.RADIO_SIZE) / 2;
 
       Graphics2D g2Temp = ImageUtils.createAAStrokeGraphics(g2);
 
       try {
-        outline(mWidget, g2Temp, new IntRect(x, y, RadioAnimation.RADIO_SIZE, RadioAnimation.RADIO_SIZE));
+        outline((ModernWidget)mWidget, g2Temp, new IntRect(x, y, RadioAnimation.RADIO_SIZE, RadioAnimation.RADIO_SIZE));
       } finally {
         g2Temp.dispose();
       }

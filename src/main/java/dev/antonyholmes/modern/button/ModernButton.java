@@ -54,24 +54,28 @@ public class ModernButton extends ModernClickableButtonWidget {
   /**
    * The constant DEFAULT_SIZE.
    */
-  public static final Dimension DEFAULT_SIZE = ModernTheme.loadDimension("theme.button.dimensions.default");
+  public static final Dimension DEFAULT_SIZE = 
+      ModernTheme.loadDimension("theme.button.dimensions.default");
 
   /**
    * The constant ICON_TEXT_SIZE.
    */
-  public static final Dimension ICON_TEXT_SIZE = ModernTheme.loadDimension("theme.button.dimensions.icon-text");
+  public static final Dimension ICON_TEXT_SIZE = 
+      ModernTheme.loadDimension("theme.button.dimensions.icon-text");
 
   /**
    * The constant ICON_ONLY_SIZE.
    */
-  public static final Dimension ICON_ONLY_SIZE = new Dimension(getButtonHeight(), getButtonHeight());
+  public static final Dimension ICON_ONLY_SIZE = 
+      new Dimension(getButtonHeight(), getButtonHeight());
 
   /** The Constant SMALL_BUTTON_HEIGHT. */
   public static final int SMALL_BUTTON_HEIGHT = SettingsService.getInstance()
       .getInt("theme.button.small-button.height");
 
   /** The Constant SMALL_BUTTON_SIZE. */
-  public static final Dimension SMALL_BUTTON_SIZE = new Dimension(SMALL_BUTTON_HEIGHT, SMALL_BUTTON_HEIGHT);
+  public static final Dimension SMALL_BUTTON_SIZE = 
+      new Dimension(SMALL_BUTTON_HEIGHT, SMALL_BUTTON_HEIGHT);
 
   /** The Constant MIN_BUTTON_WIDTH. */
   private static final int MIN_BUTTON_WIDTH = 80;

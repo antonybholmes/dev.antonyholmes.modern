@@ -21,7 +21,9 @@ import java.awt.event.ContainerListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import dev.antonyholmes.modern.ModernWidget;
+import javax.swing.JComponent;
+
+
 
 /**
  * Allows for fade in/out animation on an element.
@@ -97,7 +99,7 @@ public abstract class HoverAnimation extends TimerAnimation {
    *
    * @param widget the widget
    */
-  public HoverAnimation(ModernWidget widget) {
+  public HoverAnimation(JComponent widget) {
     super(widget);
 
     bind(widget);

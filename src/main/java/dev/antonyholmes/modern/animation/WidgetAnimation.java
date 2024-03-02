@@ -15,7 +15,8 @@
  */
 package dev.antonyholmes.modern.animation;
 
-import dev.antonyholmes.modern.ModernWidget;
+import javax.swing.JComponent;
+
 
 /**
  * Base class for animations on widgets.
@@ -25,14 +26,14 @@ import dev.antonyholmes.modern.ModernWidget;
 public abstract class WidgetAnimation extends Animation {
 
   /** The m widget. */
-  public final ModernWidget mWidget;
+  public final JComponent mWidget;
 
   /**
    * Instantiates a new widget animation.
    *
    * @param widget the widget
    */
-  public WidgetAnimation(ModernWidget widget) {
+  public WidgetAnimation(JComponent widget) {
     mWidget = widget;
   }
 
@@ -45,13 +46,13 @@ public abstract class WidgetAnimation extends Animation {
    *
    * @return the widget
    */
-  public ModernWidget getWidget() {
+  public JComponent getWidget() {
     return mWidget;
   }
 
   @Override
   public String getName() {
-    return "widget";
+    return "widget-animation";
   }
 
   public void bindChildren() {

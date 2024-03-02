@@ -23,8 +23,8 @@ public class ComboBoxAnimation extends WidgetAnimation {
    */
   @Override
   public void draw(ModernWidget c, Graphics2D g2, Props props) {
-    IntRect rect = mWidget.getInternalRect();
+    IntRect rect = ((ModernWidget)mWidget).getInternalRect();
 
-    DrawUIService.getInstance().getRenderer("content-box").draw(mWidget, g2, rect);
+    DrawUIService.getInstance().getRenderer("content-box").draw((ModernWidget)mWidget, g2, rect);
   }
 }

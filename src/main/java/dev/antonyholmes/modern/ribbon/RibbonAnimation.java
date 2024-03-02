@@ -15,10 +15,8 @@
  */
 package dev.antonyholmes.modern.ribbon;
 
-import java.awt.Color;
 import java.awt.Graphics2D;
 
-import org.jebtk.core.ColorUtils;
 import org.jebtk.core.Props;
 
 import dev.antonyholmes.modern.ModernWidget;
@@ -31,9 +29,6 @@ import dev.antonyholmes.modern.animation.WidgetAnimation;
  */
 public class RibbonAnimation extends WidgetAnimation {
 
-  private Ribbon mRibbon;
-
-  private static final Color RIBBON_LIGHT_COLOR = ColorUtils.tint(Ribbon.BAR_BACKGROUND, 0.1);
 
   /**
    * Instantiates a new state animation.
@@ -43,7 +38,7 @@ public class RibbonAnimation extends WidgetAnimation {
   public RibbonAnimation(ModernWidget ribbon) {
     super(ribbon);
 
-    mRibbon = (Ribbon) ribbon;
+ 
   }
 
   /*

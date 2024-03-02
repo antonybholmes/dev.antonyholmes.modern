@@ -2,15 +2,15 @@ package dev.antonyholmes.modern.css;
 
 public class CSSUnitProp extends CSSNumProp {
 
-  private CSSUnit mUnit = CSSUnit.MM;
+  private CssUnit mUnit = CssUnit.MM;
 
-  public CSSUnitProp(double v, CSSUnit unit) {
+  public CSSUnitProp(double v, CssUnit unit) {
     super(v);
 
     mUnit = unit;
   }
 
-  public CSSUnit getUnit() {
+  public CssUnit getUnit() {
     return mUnit;
   }
 

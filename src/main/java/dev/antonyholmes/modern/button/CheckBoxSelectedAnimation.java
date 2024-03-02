@@ -27,9 +27,9 @@ public class CheckBoxSelectedAnimation extends ButtonFillAnimation {
       // getWidget().getWidgetRenderer()
       // .fill(g2, x, y, ModernCheckBox.ICON_SIZE, ModernCheckBox.ICON_SIZE);
 
-      DrawUIService.getInstance().getRenderer("button-fill").draw(mWidget, g2,
+      DrawUIService.getInstance().getRenderer("button-fill").draw((ModernWidget)mWidget, g2,
           new IntRect(x, y, ModernCheckBox.ICON_SIZE, ModernCheckBox.ICON_SIZE),
-          mWidget.getToKeyFrame().getColor("background-color"));
+          ((ModernWidget)mWidget).getToKeyFrame().getColor("background-color"));
 
       // fill(g2,
       // x,

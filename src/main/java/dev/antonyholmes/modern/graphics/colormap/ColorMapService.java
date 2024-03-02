@@ -49,7 +49,7 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import dev.antonyholmes.modern.css.CSSColor;
+import dev.antonyholmes.modern.css.CssColor;
 
 /**
  * Settings factory for providing global settings to an application. Can load
@@ -114,7 +114,7 @@ public class ColorMapService extends ColorMaps {
     private String mName;
 
     /** The m anchor colors. */
-    private List<CSSColor> mAnchorColors = new ArrayList<CSSColor>();
+    private List<CssColor> mAnchorColors = new ArrayList<CssColor>();
 
     /** The m colors. */
     private int mColors = -1;
@@ -132,7 +132,7 @@ public class ColorMapService extends ColorMaps {
         mColors = Integer.parseInt(attributes.getValue("colors"));
       } else if (qName.equals("color")) {
         mAnchorColors
-            .add(new CSSColor(Integer.parseInt(attributes.getValue("r")), Integer.parseInt(attributes.getValue("g")),
+            .add(new CssColor(Integer.parseInt(attributes.getValue("r")), Integer.parseInt(attributes.getValue("g")),
                 Integer.parseInt(attributes.getValue("b")), Integer.parseInt(attributes.getValue("a"))));
       } else {
         // do nothing
@@ -368,13 +368,13 @@ public class ColorMapService extends ColorMaps {
     for (Json colorMapJson : json) {
       System.err.println("loading custom color map " + colorMapJson.getString("name"));
 
-      List<CSSColor> colors = new ArrayList<CSSColor>();
+      List<CssColor> colors = new ArrayList<CssColor>();
 
       for (Json colorsJson : colorMapJson.get("anchor-colors")) {
         System.err.println("Colors " + colorsJson.getInt("r") + " " + +colorsJson.getInt("g") + " "
             + +colorsJson.getInt("b") + " " + +colorsJson.getInt("a"));
 
-        CSSColor color = new CSSColor(colorsJson.getInt("r"), colorsJson.getInt("g"), colorsJson.getInt("b"),
+        CssColor color = new CssColor(colorsJson.getInt("r"), colorsJson.getInt("g"), colorsJson.getInt("b"),
             colorsJson.getInt("a"));
 
         colors.add(color);

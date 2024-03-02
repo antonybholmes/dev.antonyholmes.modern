@@ -21,7 +21,7 @@ import org.jebtk.core.Props;
 import org.jebtk.core.geom.IntRect;
 
 import dev.antonyholmes.modern.ModernComponent;
-import dev.antonyholmes.modern.css.CSSKeyFramesService;
+import dev.antonyholmes.modern.css.CSSPropsService;
 
 /**
  * The Class ModernRoundedWidgetRenderer.
@@ -45,7 +45,7 @@ public class ButtonDrawUI extends ButtonOutlineUI {
         g2.setColor(c.getCSSProps().getColor("background-color"));
       }
     } else {
-      g2.setColor(CSSKeyFramesService.getInstance().getToStyleClass("widget").getColor("background-color"));
+      g2.setColor(CSSPropsService.getInstance().getToStyleClass("widget").getColor("background-color"));
     }
 
     fill(c, g2, rect, props);

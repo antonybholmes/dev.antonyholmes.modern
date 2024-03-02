@@ -57,7 +57,7 @@ public abstract class CSSBaseUI extends DrawUI {
       if (c != null) {
         color = c.getCSSProps().getColor(name);
       } else {
-        color = CSSKeyFramesService.getInstance().getToStyleClass("widget")
+        color = CSSPropsService.getInstance().getToStyleClass("widget")
             .getColor(name);
       }
     }
@@ -164,7 +164,7 @@ public abstract class CSSBaseUI extends DrawUI {
       return c.getCSSProps(); // getFromKeyFrame();
     } else {
       // Return the reference style class if all else fails
-      return CSSKeyFramesService.getInstance().getStyleClass("widget");
+      return CSSPropsService.getInstance().getStyleClass("widget");
     }
   }
 

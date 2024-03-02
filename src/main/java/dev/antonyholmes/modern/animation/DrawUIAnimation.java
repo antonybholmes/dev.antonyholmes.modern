@@ -39,8 +39,8 @@ public class DrawUIAnimation extends WidgetAnimation {
    */
   @Override
   public void draw(ModernWidget c, Graphics2D g2, Props props) {
-    for (DrawUI d : mWidget.getDrawStates()) {
-      d.draw(mWidget, g2, props);
+    for (DrawUI d : ((ModernWidget)mWidget).getDrawStates()) {
+      d.draw((ModernWidget)mWidget, g2, props);
     }
   }
 

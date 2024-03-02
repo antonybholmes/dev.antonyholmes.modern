@@ -49,14 +49,14 @@ public class CheckSwitchAnimation extends WidgetAnimation {
       // widget.getFromKeyFrame().getStyles("background-color") + " " +
       // widget.getFromKeyFrame().getColor("background-color"));
 
-      g2.setColor(mWidget.getFromKeyFrame().getColor("background-color")); // mFade.getFromColor("fill"));
+      g2.setColor(((ModernWidget)mWidget).getFromKeyFrame().getColor("background-color")); // mFade.getFromColor("fill"));
       // //
       // Color.WHITE);
 
       g2.fillRoundRect(mWidget.getInsets().left + ModernCheckSwitch.SWITCH_ICON_OFFSET, y2,
           ModernCheckSwitch.SLIDER_WIDTH - ModernCheckSwitch.SWITCH_ICON_OFFSET_2, HEIGHT, HEIGHT, HEIGHT);
 
-      g2.setColor(mWidget.getFromKeyFrame().getColor("border-color"));
+      g2.setColor(((ModernWidget)mWidget).getFromKeyFrame().getColor("border-color"));
 
       g2.drawRoundRect(mWidget.getInsets().left + ModernCheckSwitch.SWITCH_ICON_OFFSET, y2,
           ModernCheckSwitch.SLIDER_WIDTH - ModernCheckSwitch.SWITCH_ICON_OFFSET_2, HEIGHT, HEIGHT, HEIGHT);
