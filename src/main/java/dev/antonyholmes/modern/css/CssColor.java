@@ -41,18 +41,20 @@ import org.w3c.dom.Element;
  * The class CSSColor represents a color with additional Props for use with HTML
  * like elements.
  */
-public class CssColor extends Color implements XmlRepresentation, JsonRepresentation {
+public class CssColor extends Color
+    implements XmlRepresentation, JsonRepresentation {
 
   /**
    * The constant serialVersionUID.
    */
   private static final long serialVersionUID = 1L;
-  
+
   public static final CssColor BLACK = CssColor.from(Color.BLACK);
   public static final CssColor WHITE = CssColor.from(Color.WHITE);
   public static final CssColor RED = CssColor.from(Color.RED);
   public static final CssColor GREEN = CssColor.from(Color.GREEN);
   public static final CssColor BLUE = CssColor.from(Color.BLUE);
+  public static final CssColor TRANS = CssColor.from(ColorUtils.TRANS_COLOR);
 
   public CssColor(Color c) {
     super(c.getRed(), c.getGreen(), c.getBlue(), c.getAlpha());
