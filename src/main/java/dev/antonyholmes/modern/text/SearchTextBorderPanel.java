@@ -38,7 +38,7 @@ import dev.antonyholmes.modern.BorderService;
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
 import dev.antonyholmes.modern.button.ModernButton;
-import dev.antonyholmes.modern.css.CSSWidget;
+import dev.antonyholmes.modern.tooltip.ModernToolTipWidget;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -46,7 +46,7 @@ import dev.antonyholmes.modern.css.CSSWidget;
  *
  * @author Antony Holmes
  */
-public class SearchTextBorderPanel extends CSSWidget implements TextProperty {
+public class SearchTextBorderPanel extends ModernToolTipWidget implements TextProperty {
 
   /**
    * The constant serialVersionUID.

@@ -34,7 +34,7 @@ import org.jebtk.core.event.ChangeListeners;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
-import dev.antonyholmes.modern.css.CSSWidget;
+import dev.antonyholmes.modern.tooltip.ModernToolTipWidget;
 
 /**
  * Basic features of a slider control without any ui elements.
@@ -42,7 +42,7 @@ import dev.antonyholmes.modern.css.CSSWidget;
  * @author Antony Holmes
  *
  */
-public abstract class Slider extends CSSWidget implements ChangeEventProducer {
+public abstract class Slider extends ModernToolTipWidget implements ChangeEventProducer {
 
   /**
    * The constant serialVersionUID.

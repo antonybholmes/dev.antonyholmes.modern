@@ -122,7 +122,7 @@ public abstract class CheckBox extends ModernTwoStateWidget {
 
     // Remove css
     // getDrawStates().clear();
-    setCSSMode(false);
+    //setCSSMode(false);
   }
 
   /*

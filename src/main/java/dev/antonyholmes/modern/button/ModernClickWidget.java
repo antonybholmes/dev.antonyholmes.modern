@@ -33,7 +33,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 import dev.antonyholmes.modern.FocusAdapter;
-import dev.antonyholmes.modern.css.CSSWidget;
+import dev.antonyholmes.modern.css2.CssWidget;
 import dev.antonyholmes.modern.event.HighlightEvent;
 import dev.antonyholmes.modern.event.HighlightEventProducer;
 import dev.antonyholmes.modern.event.HighlightListener;
@@ -51,15 +51,16 @@ import dev.antonyholmes.modern.event.ModernStateEventProducer;
 import dev.antonyholmes.modern.event.ModernStateListener;
 import dev.antonyholmes.modern.event.ModernStateListeners;
 import dev.antonyholmes.modern.theme.RenderMode;
+ 
 
 /**
  * Provides the foundation for all UI widgets but does not implement responses.
  * 
  * @author Antony Holmes
  */
-public abstract class ModernClickWidget extends CSSWidget
+public abstract class ModernClickWidget extends CssWidget
     implements ModernClickEventProducer, ModernStateEventProducer,
-    ModernSelectedEventProducer, HighlightEventProducer {
+    HighlightEventProducer {
 
   /**
    * The constant serialVersionUID.
@@ -81,8 +82,7 @@ public abstract class ModernClickWidget extends CSSWidget
    */
   private ModernStateListeners mStateListeners = new ModernStateListeners();
 
-  private ModernSelectedListeners mSelectedListeners = new ModernSelectedListeners();
-
+  
   private HighlightListeners mHighlightListeners = new HighlightListeners();
 
   /**
@@ -235,6 +235,15 @@ public abstract class ModernClickWidget extends CSSWidget
     mMessage = clickMessage;
   }
 
+  
+
+  /**
+   * Simulate a button click. Should be overridden.
+   */
+  public void doClick() {
+    fireClicked();
+  }
+  
   /**
    * Sets the selected.
    *
@@ -242,13 +251,6 @@ public abstract class ModernClickWidget extends CSSWidget
    */
   public void setSelected(boolean selected) {
     repaint();
-  }
-
-  /**
-   * Simulate a button click. Should be overridden.
-   */
-  public void doClick() {
-    fireClicked();
   }
 
   /**
@@ -352,20 +354,9 @@ public abstract class ModernClickWidget extends CSSWidget
     fireSelected(new ModernSelectedEvent(this));
   }
 
-  @Override
-  public void addSelectedListener(ModernSelectedListener l) {
-    mSelectedListeners.addSelectedListener(l);
-  }
+  
 
-  @Override
-  public void removeSelectedListener(ModernSelectedListener l) {
-    mSelectedListeners.removeSelectedListener(l);
-  }
-
-  @Override
-  public void fireSelected(ModernSelectedEvent event) {
-    mSelectedListeners.fireSelected(event);
-  }
+ 
 
   @Override
   public void addHighlightListener(HighlightListener l) {

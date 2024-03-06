@@ -44,15 +44,12 @@ public class AnimationTimer extends javax.swing.Timer {
         ((Timer) e.getSource()).stop();
         // mCounter = 0;
       } else {
-        // ++mCounter;
+         ++mCounter;
 
-        setCounter(mCounter + 1);
+        //setCounter(mCounter + 1);
       }
     }
-
-    public void reset() {
-      setCounter(0);
-    }
+ 
 
     public void setCounter(int counter) {
       mCounter = Mathematics.bound(counter, 0, mMaxIndex);

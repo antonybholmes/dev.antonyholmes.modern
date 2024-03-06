@@ -10,8 +10,8 @@ import dev.antonyholmes.modern.animation.WidgetAnimation;
 
 public class CheckSwitchAnimation extends WidgetAnimation {
 
-  private static final int HEIGHT = ModernCheckSwitch.SLIDER_HEIGHT; // ModernCheckSwitch.SLIDER_HEIGHT;
-  private ModernCheckSwitch mButton;
+  private static final int HEIGHT = ModernCheckSwitchButton.SLIDER_HEIGHT; // ModernCheckSwitchButton.SLIDER_HEIGHT;
+  private ModernCheckSwitchButton mButton;
   private Color mColor;
   // private FadeAnimation mFade;
 
@@ -29,7 +29,7 @@ public class CheckSwitchAnimation extends WidgetAnimation {
 
     mColor = color;
 
-    mButton = (ModernCheckSwitch) widget;
+    mButton = (ModernCheckSwitchButton) widget;
 
     // mFade = new FadeAnimation(widget).setFadeColor("fill", color1, color2);
   }
@@ -41,8 +41,8 @@ public class CheckSwitchAnimation extends WidgetAnimation {
     if (mButton.isSelected()) {
       g2.setColor(mColor); // mFade.getToColor("fill"));
 
-      g2.fillRoundRect(mWidget.getInsets().left + ModernCheckSwitch.SWITCH_ICON_OFFSET, y2,
-          ModernCheckSwitch.SLIDER_WIDTH - ModernCheckSwitch.SWITCH_ICON_OFFSET_2, HEIGHT, HEIGHT, HEIGHT);
+      g2.fillRoundRect(mWidget.getInsets().left + ModernCheckSwitchButton.SWITCH_ICON_OFFSET, y2,
+          ModernCheckSwitchButton.SLIDER_WIDTH - ModernCheckSwitchButton.SWITCH_ICON_OFFSET_2, HEIGHT, HEIGHT, HEIGHT);
 
     } else {
       // System.err.println("switch bg1 " +
@@ -53,20 +53,20 @@ public class CheckSwitchAnimation extends WidgetAnimation {
       // //
       // Color.WHITE);
 
-      g2.fillRoundRect(mWidget.getInsets().left + ModernCheckSwitch.SWITCH_ICON_OFFSET, y2,
-          ModernCheckSwitch.SLIDER_WIDTH - ModernCheckSwitch.SWITCH_ICON_OFFSET_2, HEIGHT, HEIGHT, HEIGHT);
+      g2.fillRoundRect(mWidget.getInsets().left + ModernCheckSwitchButton.SWITCH_ICON_OFFSET, y2,
+          ModernCheckSwitchButton.SLIDER_WIDTH - ModernCheckSwitchButton.SWITCH_ICON_OFFSET_2, HEIGHT, HEIGHT, HEIGHT);
 
       g2.setColor(((ModernWidget)mWidget).getFromKeyFrame().getColor("border-color"));
 
-      g2.drawRoundRect(mWidget.getInsets().left + ModernCheckSwitch.SWITCH_ICON_OFFSET, y2,
-          ModernCheckSwitch.SLIDER_WIDTH - ModernCheckSwitch.SWITCH_ICON_OFFSET_2, HEIGHT, HEIGHT, HEIGHT);
+      g2.drawRoundRect(mWidget.getInsets().left + ModernCheckSwitchButton.SWITCH_ICON_OFFSET, y2,
+          ModernCheckSwitchButton.SLIDER_WIDTH - ModernCheckSwitchButton.SWITCH_ICON_OFFSET_2, HEIGHT, HEIGHT, HEIGHT);
     }
 
     /*
      * 
      * g2.setColor(ModernWidget.LINE_COLOR);
-     * g2.drawRoundRect(ModernCheckSwitch.SLIDER_OFFSET, y2,
-     * ModernCheckSwitch.SLIDER_WIDTH - 1, HEIGHT - 1, HEIGHT, HEIGHT);
+     * g2.drawRoundRect(ModernCheckSwitchButton.SLIDER_OFFSET, y2,
+     * ModernCheckSwitchButton.SLIDER_WIDTH - 1, HEIGHT - 1, HEIGHT, HEIGHT);
      */
   }
 }

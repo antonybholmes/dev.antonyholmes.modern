@@ -14,7 +14,7 @@ public class RadioAnimation extends WidgetAnimation {
 
   public static final double RADIO_SCALE = SettingsService.getInstance().getDouble("theme.icons.radio-icon.scale");
 
-  public static int RADIO_SIZE = ModernCheckSwitch.SLIDER_HEIGHT - 2;
+  public static int RADIO_SIZE = ModernCheckSwitchButton.SLIDER_HEIGHT - 2;
   // private int w2;
 
   public RadioAnimation(ModernWidget widget) {

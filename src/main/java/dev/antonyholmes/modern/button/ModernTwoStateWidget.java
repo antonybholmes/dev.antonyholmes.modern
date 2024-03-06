@@ -147,7 +147,6 @@ public abstract class ModernTwoStateWidget extends ModernButtonWidget {
     if (selected != mSelected) {
       mSelected = selected;
 
-      repaint();
 
       fireStateChanged();
 
@@ -164,18 +163,10 @@ public abstract class ModernTwoStateWidget extends ModernButtonWidget {
    */
   @Override
   public void setSelected(boolean selected) {
-    toggleSelected(selected);
+    //toggleSelected(selected);
   }
 
-  /*
-   * (non-Javadoc)
-   * 
-   * @see org.abh.lib.ui.modern.ModernClickWidget#isSelected()
-   */
-  @Override
-  public boolean isSelected() {
-    return mSelected;
-  }
+  
 
   /*
    * (non-Javadoc)

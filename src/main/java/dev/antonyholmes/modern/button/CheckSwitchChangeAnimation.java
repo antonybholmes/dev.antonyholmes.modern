@@ -32,7 +32,7 @@ import dev.antonyholmes.modern.event.ModernStateListener;
  * @param <T>
  */
 public class CheckSwitchChangeAnimation extends TranslateXAnimation {
-  private ModernCheckSwitch mButton;
+  private ModernCheckSwitchButton mButton;
   // private Color mColor;
 
   // private FadeAnimation mFade;
@@ -46,7 +46,7 @@ public class CheckSwitchChangeAnimation extends TranslateXAnimation {
 
     // mColor = color;
 
-    mButton = (ModernCheckSwitch) widget;
+    mButton = (ModernCheckSwitchButton) widget;
 
     // mFade = new FadeAnimation(button).setFadeColor("fill", color1, color2);
 
@@ -70,12 +70,12 @@ public class CheckSwitchChangeAnimation extends TranslateXAnimation {
     if (mButton.isSelected()) {
       // Off to on
 
-      x1 = ModernCheckSwitch.SLIDER_OFFSET;
-      x2 = ModernCheckSwitch.SWITCH_ON_OFFSET;
+      x1 = ModernCheckSwitchButton.SLIDER_OFFSET;
+      x2 = ModernCheckSwitchButton.SWITCH_ON_OFFSET;
     } else {
       // On to Off
-      x1 = ModernCheckSwitch.SWITCH_ON_OFFSET;
-      x2 = ModernCheckSwitch.SLIDER_OFFSET;
+      x1 = ModernCheckSwitchButton.SWITCH_ON_OFFSET;
+      x2 = ModernCheckSwitchButton.SLIDER_OFFSET;
     }
 
     restart(x1, x2);
@@ -83,15 +83,15 @@ public class CheckSwitchChangeAnimation extends TranslateXAnimation {
 
   @Override
   public void drawTranslation(ModernWidget widget, Graphics2D g2, Props props) {
-    int s = ModernCheckSwitch.ORB_HEIGHT;
+    int s = ModernCheckSwitchButton.ORB_HEIGHT;
 
     int h = widget.getHeight();
     int y1 = (h - s) / 2;
 
     if (mButton.isSelected()) {
-      int w = s - ModernCheckSwitch.SWITCH_MARGIN_2X;
+      int w = s - ModernCheckSwitchButton.SWITCH_MARGIN_2X;
       g2.setColor(Color.WHITE);
-      g2.fillOval(ModernCheckSwitch.SWITCH_MARGIN, y1 + ModernCheckSwitch.SWITCH_MARGIN, w, w);
+      g2.fillOval(ModernCheckSwitchButton.SWITCH_MARGIN, y1 + ModernCheckSwitchButton.SWITCH_MARGIN, w, w);
 
     } else {
       g2.setColor(Color.WHITE);

@@ -500,6 +500,7 @@ public abstract class ModernWidget extends ModernComponent implements IdProperty
    */
   @Override
   public void drawBackgroundAA(Graphics2D g2) {
+    super.drawBackgroundAA(g2);
     drawAnimatedBackground(g2);
   }
 
@@ -556,15 +557,7 @@ public abstract class ModernWidget extends ModernComponent implements IdProperty
     drawBorder(g2, color, getRect());
   }
 
-  /**
-   * Returns true if widget is selected. This method should be overridden in
-   * widgets that have a selected response (such as a check box).
-   *
-   * @return true, if is selected
-   */
-  public boolean isSelected() {
-    return false;
-  }
+  
 
   //
   // Static methods

@@ -41,21 +41,32 @@ import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
+import java.util.Arrays;
+import java.util.List;
 
 import javax.swing.BorderFactory;
 import javax.swing.JComponent;
 import javax.swing.border.Border;
 
+import org.jebtk.core.collections.UniqueArrayList;
 import org.jebtk.core.event.ChangeEvent;
 import org.jebtk.core.event.ChangeListener;
 import org.jebtk.core.geom.IntRect;
 import org.jebtk.core.settings.SettingsService;
 
-import dev.antonyholmes.modern.css.CSSDrawUI;
+import dev.antonyholmes.modern.animation.AnimationProps;
 import dev.antonyholmes.modern.css.CSSKeyFrame;
 import dev.antonyholmes.modern.css.CSSKeyFrames;
-import dev.antonyholmes.modern.css.CSSPropsService;
 import dev.antonyholmes.modern.css.CSSProps;
+import dev.antonyholmes.modern.css.CSSPropsService;
+import dev.antonyholmes.modern.css2.CssClassService;
+import dev.antonyholmes.modern.css2.CssDraw;
+import dev.antonyholmes.modern.css2.CssProps;
+import dev.antonyholmes.modern.css2.CssRenderer;
+import dev.antonyholmes.modern.event.ModernSelectedEvent;
+import dev.antonyholmes.modern.event.ModernSelectedEventProducer;
+import dev.antonyholmes.modern.event.ModernSelectedListener;
+import dev.antonyholmes.modern.event.ModernSelectedListeners;
 import dev.antonyholmes.modern.graphics.AAMode;
 import dev.antonyholmes.modern.graphics.AAModes;
 import dev.antonyholmes.modern.graphics.ImageUtils;
@@ -63,7 +74,6 @@ import dev.antonyholmes.modern.scrollpane.ScrollEvent;
 import dev.antonyholmes.modern.scrollpane.ScrollEventProducer;
 import dev.antonyholmes.modern.scrollpane.ScrollListener;
 import dev.antonyholmes.modern.scrollpane.ScrollListeners;
-import dev.antonyholmes.modern.theme.DrawUI;
 import dev.antonyholmes.modern.theme.MaterialService;
 import dev.antonyholmes.modern.theme.ModernTheme;
 import dev.antonyholmes.modern.theme.ThemeService;
@@ -71,13 +81,15 @@ import dev.antonyholmes.modern.tooltip.ModernToolTipEvent;
 import dev.antonyholmes.modern.tooltip.ModernToolTipListener;
 import dev.antonyholmes.modern.tooltip.ToolTipService;
 
+
 /**
  * Standardized panel component.
  * 
  * @author Antony Holmes
  *
  */
-public class ModernComponent extends JComponent implements ScrollEventProducer {
+public class ModernComponent extends JComponent
+    implements ModernSelectedEventProducer, ScrollEventProducer {
 
   /**
    * The constant serialVersionUID.
@@ -97,42 +109,50 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * The constant BACKGROUND_COLOR.
    */
-  public static final Color BACKGROUND_COLOR = SettingsService.getInstance().getColor("theme.background");
+  public static final Color BACKGROUND_COLOR = SettingsService.getInstance()
+      .getColor("theme.background");
 
   /**
    * The constant OUTLINE_BASE_COLOR.
    */
-  public static final Color OUTLINE_BASE_COLOR = ThemeService.getInstance().getColors().getGray(1);
+  public static final Color OUTLINE_BASE_COLOR = ThemeService.getInstance()
+      .getColors().getGray(1);
 
   /**
    * The constant OUTLINE_COLOR.
    */
-  public static final Color OUTLINE_COLOR = ThemeService.getInstance().getColors().getGray(6);
+  public static final Color OUTLINE_COLOR = ThemeService.getInstance()
+      .getColors().getGray(6);
 
   /**
    * The constant LINE_COLOR.
    */
-  public static final Color LINE_COLOR = MaterialService.instance().getColor("line");
+  public static final Color LINE_COLOR = MaterialService.instance()
+      .getColor("line");
 
   /** The Constant LIGHT_LINE_COLOR. */
-  public static final Color LIGHT_LINE_COLOR = ThemeService.getInstance().getColors().getLightLineColor();
+  public static final Color LIGHT_LINE_COLOR = ThemeService.getInstance()
+      .getColors().getLightLineColor();
 
   /**
    * The constant DARK_LINE_COLOR.
    */
-  public static final Color DARK_LINE_COLOR = ThemeService.getInstance().getColors().getDarkLineColor();
+  public static final Color DARK_LINE_COLOR = ThemeService.getInstance()
+      .getColors().getDarkLineColor();
 
   /**
    * The constant PADDING.
    */
-  public static final int PADDING = SettingsService.getInstance().getInt("theme.widget.padding");
+  public static final int PADDING = SettingsService.getInstance()
+      .getInt("theme.widget.padding");
 
   public static final int SMALL_PADDING = PADDING / 2;
 
   /**
    * The constant OUTLINE_LINE_BORDER.
    */
-  public static final Border OUTLINE_LINE_BORDER = BorderService.getInstance().createLineBorder(OUTLINE_COLOR);
+  public static final Border OUTLINE_LINE_BORDER = BorderService.getInstance()
+      .createLineBorder(OUTLINE_COLOR);
 
   /**
    * The constant DOUBLE_PADDING.
@@ -152,23 +172,27 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * The constant BORDER.
    */
-  public static final Border BORDER = BorderService.getInstance().createBorder(PADDING);
+  public static final Border BORDER = BorderService.getInstance()
+      .createBorder(PADDING);
 
-    
   public static final Border EMPTY_BORDER = BorderFactory.createEmptyBorder();
   /**
    * The constant SMALL_BORDER.
    */
-  public static final Border SMALL_BORDER = BorderService.getInstance().createBorder(SMALL_PADDING);
+  public static final Border SMALL_BORDER = BorderService.getInstance()
+      .createBorder(SMALL_PADDING);
 
   /** The Constant DOUBLE_BORDER. */
-  public static final Border DOUBLE_BORDER = BorderService.getInstance().createBorder(DOUBLE_PADDING);
+  public static final Border DOUBLE_BORDER = BorderService.getInstance()
+      .createBorder(DOUBLE_PADDING);
 
   /** The Constant TRIPLE_BORDER. */
-  public static final Border TRIPLE_BORDER = BorderService.getInstance().createBorder(TRIPLE_PADDING);
+  public static final Border TRIPLE_BORDER = BorderService.getInstance()
+      .createBorder(TRIPLE_PADDING);
 
   /** The Constant QUAD_BORDER. */
-  public static final Border QUAD_BORDER = BorderService.getInstance().createBorder(QUAD_PADDING);
+  public static final Border QUAD_BORDER = BorderService.getInstance()
+      .createBorder(QUAD_PADDING);
 
   /** The Constant LARGE_BORDER. */
   public static final Border LARGE_BORDER = DOUBLE_BORDER;
@@ -176,50 +200,61 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * The constant TOP_BORDER.
    */
-  public static final Border TOP_BORDER = BorderService.getInstance().createTopBorder(PADDING);
+  public static final Border TOP_BORDER = BorderService.getInstance()
+      .createTopBorder(PADDING);
 
-  public static final Border TOP_DOUBLE_BORDER = BorderService.getInstance().createTopBorder(DOUBLE_PADDING);
+  public static final Border TOP_DOUBLE_BORDER = BorderService.getInstance()
+      .createTopBorder(DOUBLE_PADDING);
 
   /**
    * The constant LEFT_BORDER.
    */
-  public static final Border LEFT_BORDER = BorderService.getInstance().createLeftBorder(PADDING);
+  public static final Border LEFT_BORDER = BorderService.getInstance()
+      .createLeftBorder(PADDING);
 
   /**
    * The constant BOTTOM_BORDER.
    */
-  public static final Border BOTTOM_BORDER = BorderService.getInstance().createBottomBorder(PADDING);
+  public static final Border BOTTOM_BORDER = BorderService.getInstance()
+      .createBottomBorder(PADDING);
 
-  public static final Border DOUBLE_BOTTOM_BORDER = BorderService.getInstance().createBottomBorder(DOUBLE_PADDING);
+  public static final Border DOUBLE_BOTTOM_BORDER = BorderService.getInstance()
+      .createBottomBorder(DOUBLE_PADDING);
 
   /**
    * The constant RIGHT_BORDER.
    */
-  public static final Border RIGHT_BORDER = BorderService.getInstance().createRightBorder(PADDING);
+  public static final Border RIGHT_BORDER = BorderService.getInstance()
+      .createRightBorder(PADDING);
 
   /**
    * The constant TOP_BOTTOM_BORDER.
    */
-  public static final Border TOP_BOTTOM_BORDER = BorderService.getInstance().createTopBottomBorder(PADDING);
+  public static final Border TOP_BOTTOM_BORDER = BorderService.getInstance()
+      .createTopBottomBorder(PADDING);
 
-  public static final Border TOP_BOTTOM_DOUBLE_BORDER = BorderService.getInstance()
-      .createTopBottomBorder(DOUBLE_PADDING);
+  public static final Border TOP_BOTTOM_DOUBLE_BORDER = BorderService
+      .getInstance().createTopBottomBorder(DOUBLE_PADDING);
 
   /**
    * The constant LEFT_RIGHT_BORDER.
    */
-  public static final Border LEFT_RIGHT_BORDER = BorderService.getInstance().createLeftRightBorder(PADDING);
+  public static final Border LEFT_RIGHT_BORDER = BorderService.getInstance()
+      .createLeftRightBorder(PADDING);
 
   public static final ModernComponentAspectRatio NORMAL_RATIO = new ModernComponentAspectRatio();
 
   public static final ModernComponentAspectRatio SQUARE_RATIO = new ModernComponentAspectRatioSquare();
 
-  public static final DrawUI CSS_DRAW = new CSSDrawUI();
+  public static final CssDraw CSS_DRAW = CssRenderer.DEFAULT;
 
   /**
    * The member listeners.
    */
   protected ModernComponentListeners mListeners = new ModernComponentListeners();
+  
+  private ModernSelectedListeners mSelectedListeners = new ModernSelectedListeners();
+
 
   protected ScrollListeners mScrollListeners = new ScrollListeners();
 
@@ -236,8 +271,7 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
 
   private Component mFooter;
 
-  private CSSKeyFrames mKeyFrames = new CSSKeyFrames();
-
+ 
   protected AAModes mAAModes = new AAModes();
 
   protected boolean mRasterMode = false;
@@ -247,9 +281,16 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Represents current Props of the component
    */
-  private CSSProps mCSSProps = new CSSProps();
+  private List<String> mCssClassList = new UniqueArrayList<String>();
+  private String mCssClasses = "";
 
   private ModernComponentAspectRatio mRatio = NORMAL_RATIO;
+  
+  private AnimationProps mAnimationProps = new AnimationProps();
+
+  // CSS stuff to deprecate
+  private CSSKeyFrames mKeyFrames = new CSSKeyFrames();
+  private CSSProps mCSSProps = new CSSProps();
 
   /**
    * Controls whether to use default css renderer to draw widget.
@@ -351,7 +392,7 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Instantiates a new modern component.
    *
-   * @param c      the c
+   * @param c the c
    * @param border the border
    */
   public ModernComponent(Component c, Border border) {
@@ -363,8 +404,8 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Instantiates a new modern component.
    *
-   * @param c      the c
-   * @param color  the color
+   * @param c the c
+   * @param color the color
    * @param border the border
    */
   public ModernComponent(Component c, Color color, Border border) {
@@ -378,7 +419,7 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
    * Create a component containing a given component surrounded by a border of
    * width {@code border} pixels.
    *
-   * @param c      the c
+   * @param c the c
    * @param border the border
    */
   public ModernComponent(Component c, int border) {
@@ -409,22 +450,24 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
     // All components inherit the component class by default
     addStyleClass("component"); // StyleClassService.getInstance().getCompStyleClass());
 
-    getCSSProps().addChangeListener(new ChangeListener() {
+    CssClassService.getInstance().addChangeListener(new ChangeListener() {
       @Override
       public void changed(ChangeEvent e) {
         repaint();
       }
     });
-
-    // Respond to style changes
-    getKeyFrames().addChangeListener(new ChangeListener() {
-      @Override
-      public void changed(ChangeEvent e) {
-        repaint();
-      }
-    });
+    
+    
 
     super.addComponentListener(new ComponentEvents());
+    
+    // listen for when step changes during animation
+    mAnimationProps.addChangeListener(new ChangeListener() {
+      @Override
+      public void changed(ChangeEvent e) {
+        repaint();
+      }
+    });
 
     setOpaque(false);
 
@@ -439,6 +482,9 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
         repaint();
       }
     });
+    
+    
+   
   }
 
   public void setAspectRatio(ModernComponentAspectRatio ratio) {
@@ -452,17 +498,23 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
 
   @Override
   public Dimension getPreferredSize() {
-    return mRatio.getPreferredSize(super.getPreferredSize(), super.getMinimumSize(), super.getMaximumSize());
+    return mRatio.getPreferredSize(super.getPreferredSize(),
+        super.getMinimumSize(),
+        super.getMaximumSize());
   }
 
   @Override
   public Dimension getMinimumSize() {
-    return mRatio.getMinimumSize(super.getPreferredSize(), super.getMinimumSize(), super.getMaximumSize());
+    return mRatio.getMinimumSize(super.getPreferredSize(),
+        super.getMinimumSize(),
+        super.getMaximumSize());
   }
 
   @Override
   public Dimension getMaximumSize() {
-    return mRatio.getMaximumSize(super.getPreferredSize(), super.getMinimumSize(), super.getMaximumSize());
+    return mRatio.getMaximumSize(super.getPreferredSize(),
+        super.getMinimumSize(),
+        super.getMaximumSize());
   }
 
   public void setRasterMode(boolean on) {
@@ -500,7 +552,7 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Sets the internal dimension.
    *
-   * @param width  the width
+   * @param width the width
    * @param height the height
    */
   private void setInternalDimension(int width, int height) {
@@ -510,7 +562,7 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Sets the internal dimension.
    *
-   * @param width  the width
+   * @param width the width
    * @param height the height
    * @param insets the insets
    */
@@ -530,7 +582,8 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
       mPagePadding = 0;
     }
 
-    mInternalRect = new IntRect(x, y, width - mLinePadding, height - mPagePadding);
+    mInternalRect = new IntRect(x, y, width - mLinePadding,
+        height - mPagePadding);
 
     repaint();
   }
@@ -606,8 +659,10 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   }
 
   public Component bottomBorder(int padding) {
-    return border(
-        BorderService.getInstance().createBorder(getInsets().top, getInsets().left, padding, getInsets().right));
+    return border(BorderService.getInstance().createBorder(getInsets().top,
+        getInsets().left,
+        padding,
+        getInsets().right));
   }
 
   /**
@@ -617,8 +672,10 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
    * @return
    */
   public Component topBorder(int padding) {
-    return border(
-        BorderService.getInstance().createBorder(padding, getInsets().left, getInsets().bottom, getInsets().right));
+    return border(BorderService.getInstance().createBorder(padding,
+        getInsets().left,
+        getInsets().bottom,
+        getInsets().right));
   }
 
   /*
@@ -692,66 +749,44 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   public void fireScrollTo(IntRect r) {
     fireScrollTo(new ScrollEvent(this, r));
   }
-
-  public CSSProps getCSSProps() {
-    return mCSSProps;
+  
+  @Override
+  public void addSelectedListener(ModernSelectedListener l) {
+    mSelectedListeners.addSelectedListener(l);
   }
 
-  public CSSKeyFrames getKeyFrames() {
-    return mKeyFrames;
+  @Override
+  public void removeSelectedListener(ModernSelectedListener l) {
+    mSelectedListeners.removeSelectedListener(l);
   }
-
+  
+  @Override
+  public void fireSelected(ModernSelectedEvent event) {
+    mSelectedListeners.fireSelected(event);
+  }
+  
   /**
-   * Returns the first key frame in the animation series.
-   * 
-   * @return
+   * Returns true if widget is selected. This method should be overridden in
+   * widgets that have a selected response (such as a check box).
+   *
+   * @return true, if is selected
    */
-  public CSSKeyFrame getFromKeyFrame() {
-    return getKeyFrame(CSSKeyFrames.FROM);
+  public boolean isSelected() {
+    return false;
+  }
+  
+  public AnimationProps getAnimationProps() {
+    return mAnimationProps;
   }
 
-  /**
-   * Returns the last key frame in the animation series.
-   * 
-   * @return
-   */
-  public CSSKeyFrame getToKeyFrame() {
-    return getKeyFrame(CSSKeyFrames.TO);
-  }
-
-  public CSSKeyFrame getKeyFrame(int frame) {
-    return mKeyFrames.getKeyFrame(frame);
-  }
-
-  public CSSKeyFrame getKeyFrame() {
-    return getFromKeyFrame();
-  }
-
-  public ModernComponent addStyleClass(String name, String... names) {
-    // Add both from and to classes (assuming they exist).
-
-    addFromStyleClass(name, names);
-    addToStyleClass(name, names);
-
+  public ModernComponent addCssClass(String name, String... names) {
+    mCssClassList.add(name);
+    mCssClassList.addAll(Arrays.asList(names));
+    mCssClasses = String.join(" ", mCssClassList);
     return this;
   }
 
-  public ModernComponent addFromStyleClass(String name, String... names) {
-    // Update css props to current from style
-    addCSSProps(this, name, names);
-
-    return addStyleClass(CSSKeyFrames.FROM, name, names);
-  }
-
-  public ModernComponent addToStyleClass(String name, String... names) {
-    return addStyleClass(CSSKeyFrames.TO, name, names);
-  }
-
-  public ModernComponent addStyleClass(int frame, String name, String... names) {
-    updateStyleClasses(this, frame, name, names);
-
-    return this;
-  }
+ 
 
   /**
    * Gets the component.
@@ -840,8 +875,15 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
    * @param g2 the g2
    */
   public void drawBackgroundAA(Graphics2D g2) {
+    System.err.println("cssMode " + mCSSMode);
     if (mCSSMode) {
-      CSS_DRAW.draw(this, g2);
+      CssProps cls = CssClassService.getInstance().getCssClass(mCssClasses);
+      
+   
+      System.err.println("aha " +  mAnimationProps.getState() + " " + mCSSMode + " " + getInternalRect() + " " +this);
+      
+
+      CSS_DRAW.draw(g2, cls, mAnimationProps, this);
     }
   }
 
@@ -1018,11 +1060,104 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   public void setRight(Component c) {
     add(c, BorderLayout.LINE_END);
   }
+  
+  //
+  // old css stuff
+  //
+  
+  public CSSProps getCSSProps() {
+    return mCSSProps;
+  }
+
+  public CSSKeyFrames getKeyFrames() {
+    return mKeyFrames;
+  }
+
+  /**
+   * Returns the first key frame in the animation series.
+   * 
+   * @return
+   */
+  public CSSKeyFrame getFromKeyFrame() {
+    return getKeyFrame(CSSKeyFrames.FROM);
+  }
+
+  /**
+   * Returns the last key frame in the animation series.
+   * 
+   * @return
+   */
+  public CSSKeyFrame getToKeyFrame() {
+    return getKeyFrame(CSSKeyFrames.TO);
+  }
+
+  public CSSKeyFrame getKeyFrame(int frame) {
+    return mKeyFrames.getKeyFrame(frame);
+  }
+
+  public CSSKeyFrame getKeyFrame() {
+    return getFromKeyFrame();
+  }
+
+  public ModernComponent addStyleClass(String name, String... names) {
+    addCssClass(name, names);
+
+    //addFromStyleClass(name, names);
+    //addToStyleClass(name, names);
+
+    return this;
+  }
+
+  public ModernComponent addFromStyleClass(String name, String... names) {
+    // Update css props to current from style
+    addCSSProps(this, name, names);
+
+    return addStyleClass(CSSKeyFrames.FROM, name, names);
+  }
+
+  public ModernComponent addToStyleClass(String name, String... names) {
+    return addStyleClass(CSSKeyFrames.TO, name, names);
+  }
+
+  public ModernComponent addStyleClass(int frame, String name, String... names) {
+    updateStyleClasses(this, frame, name, names);
+
+    return this;
+  }
+  
+  public static void updateStyleClasses(ModernComponent  c, int frame, String name, String... names) {
+    CSSPropsService kf = CSSPropsService.getInstance();
+
+    if (kf.contains(frame, name)) {
+      c.getKeyFrames().getKeyFrame(frame).update(kf.getStyleClass(frame, name));
+    }
+
+    for (String n : names) {
+      if (kf.contains(frame, n)) {
+        c.getKeyFrames().getKeyFrame(frame).update(kf.getStyleClass(frame, n));
+      }
+    }
+  }
+  
+  public static void addCSSProps(ModernComponent c, String name, String... names) {
+    CSSPropsService kf = CSSPropsService.getInstance();
+
+    if (kf.contains(CSSKeyFrames.FROM, name)) {
+      c.getCSSProps().update(kf.getStyleClass(CSSKeyFrames.FROM, name));
+    }
+
+    for (String n : names) {
+      if (kf.contains(CSSKeyFrames.FROM, n)) {
+        c.getCSSProps().update(kf.getStyleClass(CSSKeyFrames.FROM, n));
+      }
+    }
+  }
+  
 
   /**
    * Draw outline.
    *
-   * @param g2   the g2
+   * @param g2 the g2
    * @param rect the rect
    */
   public static void drawOutline(Graphics2D g2, Rectangle rect) {
@@ -1032,7 +1167,7 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Draw outline.
    *
-   * @param g2   the g2
+   * @param g2 the g2
    * @param rect the rect
    */
   public static void drawOutline(Graphics2D g2, IntRect rect) {
@@ -1043,9 +1178,9 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
    * Draws a standard border of a specified color. This should be used by all
    * button like controls.
    *
-   * @param g2    the g2
+   * @param g2 the g2
    * @param color the color
-   * @param rect  the rect
+   * @param rect the rect
    */
   public static void drawBorder(Graphics2D g2, Color color, Rectangle rect) {
     drawRect(g2, color, rect);
@@ -1054,9 +1189,9 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Draw border.
    *
-   * @param g2    the g2
+   * @param g2 the g2
    * @param color the color
-   * @param rect  the rect
+   * @param rect the rect
    */
   public static void drawBorder(Graphics2D g2, Color color, IntRect rect) {
     drawRect(g2, color, rect);
@@ -1065,9 +1200,9 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Draw rect.
    *
-   * @param g2    the g2
+   * @param g2 the g2
    * @param color the color
-   * @param rect  the rect
+   * @param rect the rect
    */
   public static void drawRect(Graphics2D g2, Color color, Rectangle rect) {
     g2.setColor(color);
@@ -1079,9 +1214,9 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Draw rect.
    *
-   * @param g2    the g2
+   * @param g2 the g2
    * @param color the color
-   * @param rect  the rect
+   * @param rect the rect
    */
   public static void drawRect(Graphics2D g2, Color color, IntRect rect) {
     g2.setColor(color);
@@ -1093,40 +1228,57 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Draw double thick rect.
    *
-   * @param g2    the g2
+   * @param g2 the g2
    * @param color the color
-   * @param rect  the rect
+   * @param rect the rect
    */
-  public static void drawDoubleThickRect(Graphics2D g2, Color color, IntRect rect) {
+  public static void drawDoubleThickRect(Graphics2D g2,
+      Color color,
+      IntRect rect) {
     g2.setColor(color);
 
     g2.drawRect(rect.getX(), rect.getY(), rect.getW() - 1, rect.getH() - 1);
 
-    g2.drawRect(rect.getX() + 1, rect.getY() + 1, rect.getW() - 3, rect.getH() - 3);
+    g2.drawRect(rect.getX() + 1,
+        rect.getY() + 1,
+        rect.getW() - 3,
+        rect.getH() - 3);
   }
 
   /**
    * Draw rect double stroke.
    *
-   * @param g2    the g2
+   * @param g2 the g2
    * @param color the color
-   * @param rect  the rect
+   * @param rect the rect
    */
-  public static void drawRectDoubleStroke(Graphics2D g2, Color color, IntRect rect) {
-    drawRectDoubleStroke(g2, color, rect.getX(), rect.getY(), rect.getW() - 1, rect.getH() - 1);
+  public static void drawRectDoubleStroke(Graphics2D g2,
+      Color color,
+      IntRect rect) {
+    drawRectDoubleStroke(g2,
+        color,
+        rect.getX(),
+        rect.getY(),
+        rect.getW() - 1,
+        rect.getH() - 1);
   }
 
   /**
    * Draw rect double stroke.
    *
-   * @param g2    the g2
+   * @param g2 the g2
    * @param color the color
-   * @param x     the x
-   * @param y     the y
-   * @param w     the w
-   * @param h     the h
+   * @param x the x
+   * @param y the y
+   * @param w the w
+   * @param h the h
    */
-  public static void drawRectDoubleStroke(Graphics2D g2, Color color, int x, int y, int w, int h) {
+  public static void drawRectDoubleStroke(Graphics2D g2,
+      Color color,
+      int x,
+      int y,
+      int w,
+      int h) {
     g2.setColor(color);
     g2.setStroke(ModernTheme.DOUBLE_LINE_STROKE);
 
@@ -1145,7 +1297,7 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Fill in with the background color.
    *
-   * @param g2   the g2
+   * @param g2 the g2
    * @param rect the rect
    */
   public void fillBackground(Graphics2D g2, Rectangle rect) {
@@ -1155,7 +1307,7 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Fill background.
    *
-   * @param g2   the g2
+   * @param g2 the g2
    * @param rect the rect
    */
   public void fillBackground(Graphics2D g2, IntRect rect) {
@@ -1165,7 +1317,7 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Fill.
    *
-   * @param g2    the g2
+   * @param g2 the g2
    * @param color the color
    */
   public void fill(Graphics2D g2, Color color) {
@@ -1175,9 +1327,9 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Fill.
    *
-   * @param g2    the g2
+   * @param g2 the g2
    * @param color the color
-   * @param rect  the rect
+   * @param rect the rect
    */
   public static void fill(Graphics2D g2, Color color, Rectangle rect) {
     g2.setColor(color);
@@ -1192,9 +1344,9 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Gradient fill an area vertically.
    *
-   * @param g2    the g2
+   * @param g2 the g2
    * @param color the color
-   * @param rect  the rect
+   * @param rect the rect
    */
   public static void fill(Graphics2D g2, Color c1, Color c2, Rectangle rect) {
     UI.fillGradient(g2, c1, c2, rect.x, rect.y, rect.width, rect.height);
@@ -1209,13 +1361,19 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
    * @param rect
    */
   public static void fill(Graphics2D g2, Color c1, Color c2, IntRect rect) {
-    UI.fillGradient(g2, c1, c2, rect.getX(), rect.getY(), rect.getW(), rect.getH());
+    UI.fillGradient(g2,
+        c1,
+        c2,
+        rect.getX(),
+        rect.getY(),
+        rect.getW(),
+        rect.getH());
   }
 
   /**
    * Fill in the component in the given color up to a given width.
    *
-   * @param g2    the g 2
+   * @param g2 the g 2
    * @param color the color
    * @param width the width
    */
@@ -1226,12 +1384,11 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
   /**
    * Fill.
    *
-   * @param g2    the g2
+   * @param g2 the g2
    * @param color the color
-   * @param rect  the rect
+   * @param rect the rect
    */
   public static void fill(Graphics2D g2, Color color, IntRect rect) {
-
     g2.setColor(color);
 
     g2.fillRect(rect.getX(), rect.getY(), rect.getW(), rect.getH());
@@ -1305,54 +1462,14 @@ public class ModernComponent extends JComponent implements ScrollEventProducer {
     return new ModernToolTipEvent(this, getToolTipDest(), tooltip, p);
   }
 
-  public ModernToolTipEvent createToolTipEvent(Component tooltip, int x, int y) {
+  public ModernToolTipEvent createToolTipEvent(Component tooltip,
+      int x,
+      int y) {
     return createToolTipEvent(tooltip, new Point(x, y));
   }
 
-  public ModernToolTipEvent createToolTipEvent(Component tooltip, MouseEvent e) {
+  public ModernToolTipEvent createToolTipEvent(Component tooltip,
+      MouseEvent e) {
     return createToolTipEvent(tooltip, e.getX(), e.getY());
-  }
-
-  /**
-   * Add existing classes from the store to a given component.
-   * 
-   * @param c
-   * @param frame
-   * @param name
-   * @param names
-   */
-  public static void updateStyleClasses(ModernComponent c, int frame, String name, String... names) {
-    CSSPropsService kf = CSSPropsService.getInstance();
-
-    if (kf.contains(frame, name)) {
-      c.getKeyFrames().getKeyFrame(frame).update(kf.getStyleClass(frame, name));
-    }
-
-    for (String n : names) {
-      if (kf.contains(frame, n)) {
-        c.getKeyFrames().getKeyFrame(frame).update(kf.getStyleClass(frame, n));
-      }
-    }
-  }
-
-  /**
-   * Add CSS Props to a component.
-   * 
-   * @param c
-   * @param name
-   * @param names
-   */
-  public static void addCSSProps(ModernComponent c, String name, String... names) {
-    CSSPropsService kf = CSSPropsService.getInstance();
-
-    if (kf.contains(CSSKeyFrames.FROM, name)) {
-      c.getCSSProps().update(kf.getStyleClass(CSSKeyFrames.FROM, name));
-    }
-
-    for (String n : names) {
-      if (kf.contains(CSSKeyFrames.FROM, n)) {
-        c.getCSSProps().update(kf.getStyleClass(CSSKeyFrames.FROM, n));
-      }
-    }
   }
 }

@@ -7,7 +7,7 @@ import java.awt.LayoutManager;
 
 import dev.antonyholmes.modern.ModernWidget;
 import dev.antonyholmes.modern.UI;
-import dev.antonyholmes.modern.css.CSSWidget;
+import dev.antonyholmes.modern.tooltip.ModernToolTipWidget;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -16,7 +16,7 @@ import dev.antonyholmes.modern.css.CSSWidget;
  * @author Antony Holmes
  *
  */
-public class ModernRoundedBorderPanel extends CSSWidget {
+public class ModernRoundedBorderPanel extends ModernToolTipWidget {
 
   /**
    * The constant serialVersionUID.

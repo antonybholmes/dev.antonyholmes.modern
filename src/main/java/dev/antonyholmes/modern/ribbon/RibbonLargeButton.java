@@ -189,7 +189,7 @@ public class RibbonLargeButton extends ModernButton implements RibbonModePropert
 
     setSize(RibbonSize.COMPACT);
 
-    addToStyleClass("ribbon-button");
+    addStyleClass("ribbon-button");
     // setAnimations("button-fill"); // new
     // RibbonButtonHighlightAnimation(this));
   }
